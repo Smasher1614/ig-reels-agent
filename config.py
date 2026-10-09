@@ -104,8 +104,9 @@ DEITIES = {
     },
     "khatushyam": {
         "name": "खाटू श्याम जी", "jaikara": "जय श्री श्याम",
-        "mantras": ["जय श्री श्याम", "हारे का सहारा", "श्याम बाबा की जय"],
-        "keywords": ["khatu", "baba shyam", "shyam baba", "sanware", "sawariya", "khatushyam", "खाटू", "श्याम बाबा"],
+        "mantras": ["जय श्री श्याम", "हारे का सहारा बाबा श्याम हमारा", "श्याम बाबा की जय", "जय खाटू श्याम", "लखदातार की जय"],
+        "keywords": ["khatu", "baba shyam", "shyam baba", "sanware", "sawariya", "khatushyam", "hare ka sahara", "haare ka sahara",
+                     "shyam dhani", "lakhdatar", "barbarik", "खाटू", "श्याम बाबा", "हारे का सहारा"],
         "hashtags": ["#khatushyam", "#jaishreeshyam", "#shyambaba"],
         "theme": {"glow": "#ffb347", "bg": "#5c1d4a", "particles": ["#ffd27a", "#ffb04a", "#fff1c9"]},
     },

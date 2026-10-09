@@ -98,7 +98,8 @@ class TextLayer:
 
     def __init__(self, text: str, font_path: str, max_size: int, min_size: int,
                  center_y: int, fill_top=(255, 236, 170), fill_bottom=(240, 170, 60),
-                 glow=(255, 150, 40), glow_strength=0.85, max_width=940):
+                 glow=(255, 150, 40), glow_strength=0.85, max_width=940,
+                 two_line_max: int | None = None, two_line_shift: int = 0):
         text = " ".join(text.split())
         words = text.split(" ")
         size, lines, font = max_size, [text], _font(font_path, max_size)
@@ -113,8 +114,12 @@ class TextLayer:
                     if best is None or m < best[0]:
                         best = (m, [a, b])
                 lines = best[1]
+            if len(lines) > 1 and two_line_max and size > two_line_max:
+                continue  # do line wala text thoda chhota (upar jagah kam hai)
             if max(_text_w(font, ln) for ln in lines) <= max_width:
                 break
+        if len(lines) > 1:
+            center_y += two_line_shift
 
         line_h = int(size * 1.32)
         widest = max(_text_w(font, ln) for ln in lines)
@@ -131,6 +136,9 @@ class TextLayer:
         outline = np.asarray(mask.filter(ImageFilter.MaxFilter(outline_px)), dtype=np.float32) / 255.0
         glow_m = np.asarray(mask.filter(ImageFilter.GaussianBlur(max(6, size * 0.2))), dtype=np.float32) / 255.0
         glow_m = np.clip(glow_m * 1.6, 0, 1) * glow_strength
+        # text ke peeche halki parchhai — chamkili/safed photo pe bhi akshar saaf padhe jaayein
+        shade = mask.filter(ImageFilter.MaxFilter(max(3, (size // 6) | 1))).filter(ImageFilter.GaussianBlur(max(8, size * 0.45)))
+        self.shade = np.clip(np.asarray(shade, dtype=np.float32) / 255.0 * 1.4, 0, 1) * 0.6
 
         grad = np.linspace(0, 1, th, dtype=np.float32)[:, None, None]
         fill = np.array(fill_top, np.float32) * (1 - grad) + np.array(fill_bottom, np.float32) * grad
@@ -153,6 +161,8 @@ class TextLayer:
         self.x = (W - tw) // 2
         self.y = int(center_y - th / 2)
         self.w, self.h = tw, th
+        self.inner_top = self.y + pad              # asli akshar yahan se...
+        self.inner_bottom = self.y + th - pad      # ...yahan tak
         self.size = size
         self.lines = lines
 
@@ -165,6 +175,8 @@ class TextLayer:
         a = self.alpha[sy:sy + (y1 - y0), sx:sx + (x1 - x0)] * strength
         p = self.premult[sy:sy + (y1 - y0), sx:sx + (x1 - x0)] * strength
         reg = frame[y0:y1, x0:x1]
+        sh = self.shade[sy:sy + (y1 - y0), sx:sx + (x1 - x0)] * strength
+        reg *= (1 - sh)[..., None]
         reg *= (1 - a)[..., None]
         reg += p
 
@@ -317,6 +329,11 @@ class Reel:
         self.kb = None
         self.card = None
         self.mandala = None
+        self.top = TextLayer(top_text, FONT_TITLE, 112, 64, TOP_TEXT_Y, glow=tuple(self.glow_col),
+                             two_line_max=88, two_line_shift=18) if top_text else None
+        self.bottom = TextLayer(bottom_text, FONT_BODY, 56, 38, BOTTOM_TEXT_Y,
+                                fill_top=(255, 246, 225), fill_bottom=(255, 214, 150),
+                                glow=(0, 0, 0), glow_strength=0.9, max_width=900) if bottom_text else None
 
         if photo:
             img = ImageOps.exif_transpose(Image.open(photo)).convert("RGB")
@@ -330,8 +347,12 @@ class Reel:
                 self.mode = "card"
                 cw = 960
                 ch = int(round(cw * ih / iw))
-                ch = max(540, min(CARD_MAX_H, ch))
-                self.card_box = (60, int(CARD_CENTER_Y - ch / 2), cw, ch)
+                # card upar-neeche ke text se takraye nahi
+                lim_top = (self.top.inner_bottom + 34) if self.top else 330
+                lim_bot = (self.bottom.inner_top - 34) if self.bottom else 1500
+                ch = max(540, min(CARD_MAX_H, ch, lim_bot - lim_top))
+                cy = min(max(CARD_CENTER_Y, lim_top + ch / 2), lim_bot - ch / 2)
+                self.card_box = (60, int(cy - ch / 2), cw, ch)
                 self.kb = KenBurns(img, cw, ch, self.rng, zoom=0.07)
                 self.card_mask = np.asarray(_rounded_mask(cw, ch, 34), np.float32)[..., None] / 255.0
                 bg = _cover(img, W // 4, H // 4).filter(ImageFilter.GaussianBlur(10)).resize((W, H), Image.BILINEAR)
@@ -351,7 +372,7 @@ class Reel:
                 self.border_add = (b[..., None] * np.array([235, 190, 105], np.float32)
                                    + bglow[..., None] * self.glow_col * 0.9)
                 self.border_mul = 1 - b[..., None] * 0.9
-                glow_y = CARD_CENTER_Y - ch / 4
+                glow_y = cy - ch / 4
         if self.mode == "mantra-art":
             bgc = hex_rgb(theme.get("bg", "#7a1d0e"))
             r = _radial(W / 2, CARD_CENTER_Y, W * 0.75, H * 0.55)
@@ -367,10 +388,6 @@ class Reel:
         self.glow = _radial(W / 2, glow_y, W * 0.55, H * 0.30)[..., None] * self.glow_col
         self.glow_period = self.rng.uniform(3.5, 5.5)
         self.particles = Particles(self.rng, pcols, count=self.rng.randint(55, 85))
-        self.top = TextLayer(top_text, FONT_TITLE, 112, 64, TOP_TEXT_Y, glow=tuple(self.glow_col)) if top_text else None
-        self.bottom = TextLayer(bottom_text, FONT_BODY, 56, 38, BOTTOM_TEXT_Y,
-                                fill_top=(255, 246, 225), fill_bottom=(255, 214, 150),
-                                glow=(0, 0, 0), glow_strength=0.9, max_width=900) if bottom_text else None
 
     # -------------------------------------------------------------- one frame
     def frame(self, t: float) -> np.ndarray:
