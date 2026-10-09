@@ -64,11 +64,26 @@ DAILY_SUMMARY_AT = "22:45"    # raat ko din ka hisaab (kitni post hui). "" = ban
 # ---------------------------------------------------------------------
 DEITIES = {
     "shiv": {
-        "name": "भगवान शिव", "jaikara": "हर हर महादेव",
-        "mantras": ["ॐ नमः शिवाय", "हर हर महादेव", "बम बम भोले", "जय भोलेनाथ"],
-        "keywords": ["shiv", "shiva", "shankar", "mahadev", "bhole", "bholenath", "shambhu", "rudra", "neelkanth", "शिव", "महादेव", "भोले"],
-        "hashtags": ["#mahadev", "#harharmahadev", "#shiv"],
-        "theme": {"glow": "#7fb2ff", "bg": "#1f2a5c", "particles": ["#cfe2ff", "#ffd27a", "#ffffff"]},
+        "name": "भगवान शिव", "jaikara": "ॐ नमः शिवाय",
+        "mantras": ["ॐ नमः शिवाय", "शिवोहम्", "शिव शम्भो", "ॐ महादेवाय नमः", "हर हर महादेव"],
+        "keywords": ["shiv", "shiva", "shankar", "mahadev", "bhole", "bholenath", "shambhu", "rudra", "neelkanth", "shivoham",
+                     "kailash", "शिव", "महादेव", "भोले", "शिवोहम"],
+        "hashtags": ["#mahadev", "#omnamahshivay", "#shiv", "#shivmeditation"],
+        "theme": {"glow": "#7fb2ff", "bg": "#1f2a5c", "particles": ["#cfe2ff", "#ffd27a", "#ffffff"], "calm": True},
+        # Shiv ji ke bhajan ekdum shaant/dhyaan wale hain
+        "bottom_lines": [
+            "आँखें बंद करें और बस सुनें",
+            "रोज़ भक्ति के लिए फ़ॉलो करें",
+            "कमेंट में लिखें — ॐ नमः शिवाय",
+            "मन को शांति दे — अपनों को भेजें",
+        ],
+        "caption_note": ("Ye bhajan ekdum shaant, dhyaan (meditation) wala hai. Caption bhi shaant, sukoon aur dhyaan ka ho — "
+                         "'Bam Bam', josh ya chillane wala tone NAHI. Headphone lagake, aankhein band karke sunne ka bhaav ho."),
+        "templates": [
+            "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 {song}",
+            "शिव में ही शांति है 🌙\n🎵 {song}\nकमेंट में लिखें: ॐ नमः शिवाय",
+            "आज {day} — कुछ पल महादेव के साथ 🕉️\n🎵 {song}\nमन शांत हो तो अपनों को भी भेजें 🙏",
+        ],
     },
     "premanand": {
         "name": "पूज्य श्री प्रेमानंद जी महाराज", "jaikara": "राधा राधा",

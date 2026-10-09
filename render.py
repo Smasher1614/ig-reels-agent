@@ -185,7 +185,7 @@ class TextLayer:
 class Particles:
     """Upar uthte chamakte kan (diye ki chingari jaise)."""
 
-    def __init__(self, rng: random.Random, colors, count=70, strength=1.0):
+    def __init__(self, rng: random.Random, colors, count=70, strength=1.0, speed_mult=1.0):
         self.sprites = {}
         for r in (2, 3, 4, 6, 9):
             s = r * 6 + 1
@@ -199,7 +199,7 @@ class Particles:
         for _ in range(count):
             self.p.append(dict(
                 x0=rng.uniform(0, W), y0=rng.uniform(0, H + 80),
-                speed=rng.uniform(35, 120), amp=rng.uniform(8, 42),
+                speed=rng.uniform(35, 120) * speed_mult, amp=rng.uniform(8, 42),
                 freq=rng.uniform(0.08, 0.32), tw=rng.uniform(0.5, 1.7),
                 ph=rng.uniform(0, 6.283), ph2=rng.uniform(0, 6.283),
                 inten=rng.uniform(0.35, 1.0) * strength,
@@ -326,6 +326,9 @@ class Reel:
         pcols = theme.get("particles", ["#ffd27a", "#ffb04a", "#fff1c9"])
         self.vig = _vignette()
         self.mode = "mantra-art"
+        # "calm" = shaant/dhyaan wale bhajan: dheema zoom, kam aur dheeme kan, lambi saans wali roshni
+        calm = bool(theme.get("calm"))
+        self.calm = calm
         self.kb = None
         self.card = None
         self.mandala = None
@@ -340,7 +343,7 @@ class Reel:
             iw, ih = img.size
             if iw / ih <= 0.72:
                 self.mode = "full"
-                self.kb = KenBurns(img, W, H, self.rng, zoom=0.13)
+                self.kb = KenBurns(img, W, H, self.rng, zoom=0.08 if calm else 0.13)
                 self.static = None
                 glow_y = 700
             else:
@@ -353,7 +356,7 @@ class Reel:
                 ch = max(540, min(CARD_MAX_H, ch, lim_bot - lim_top))
                 cy = min(max(CARD_CENTER_Y, lim_top + ch / 2), lim_bot - ch / 2)
                 self.card_box = (60, int(cy - ch / 2), cw, ch)
-                self.kb = KenBurns(img, cw, ch, self.rng, zoom=0.07)
+                self.kb = KenBurns(img, cw, ch, self.rng, zoom=0.05 if calm else 0.07)
                 self.card_mask = np.asarray(_rounded_mask(cw, ch, 34), np.float32)[..., None] / 255.0
                 bg = _cover(img, W // 4, H // 4).filter(ImageFilter.GaussianBlur(10)).resize((W, H), Image.BILINEAR)
                 bg = np.asarray(bg, np.float32) * 0.42
@@ -382,12 +385,13 @@ class Reel:
             self.mandala = _mandala(1040, self.rng)
             self.om = TextLayer("ॐ", FONT_TITLE, 520, 300, CARD_CENTER_Y - 10, glow=tuple(self.glow_col),
                                 glow_strength=1.0, max_width=1000)
-            self.mandala_speed = self.rng.choice([-1, 1]) * self.rng.uniform(4, 8)  # degree/sec
+            self.mandala_speed = self.rng.choice([-1, 1]) * self.rng.uniform(4, 8) * (0.5 if calm else 1.0)  # degree/sec
             glow_y = CARD_CENTER_Y
 
         self.glow = _radial(W / 2, glow_y, W * 0.55, H * 0.30)[..., None] * self.glow_col
-        self.glow_period = self.rng.uniform(3.5, 5.5)
-        self.particles = Particles(self.rng, pcols, count=self.rng.randint(55, 85))
+        self.glow_period = self.rng.uniform(6.0, 8.0) if calm else self.rng.uniform(3.5, 5.5)
+        self.particles = Particles(self.rng, pcols, count=self.rng.randint(28, 42) if calm else self.rng.randint(55, 85),
+                                   strength=0.8 if calm else 1.0, speed_mult=0.45 if calm else 1.0)
 
     # -------------------------------------------------------------- one frame
     def frame(self, t: float) -> np.ndarray:
@@ -421,9 +425,9 @@ class Reel:
         f *= self.vig[..., None]
 
         if self.top:
-            self.top.composite(f, _ease((t - 0.3) / 1.0))
+            self.top.composite(f, _ease((t - 0.3) / (1.8 if self.calm else 1.0)))
         if self.bottom:
-            self.bottom.composite(f, _ease((t - 1.0) / 1.0))
+            self.bottom.composite(f, _ease((t - (1.6 if self.calm else 1.0)) / (1.8 if self.calm else 1.0)))
 
         fade = min(1.0, t / 0.6, (self.seconds - t) / 0.8)
         if fade < 1.0:

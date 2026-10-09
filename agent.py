@@ -294,7 +294,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     if photos and rng.random() >= god.get("mantra_art_share", config.MANTRA_ART_SHARE):
         photo = lru_pick(photos, lambda p: "photo:" + os.path.relpath(p, BASE_DIR), st, rng)
     mantra = lru_pick(god["mantras"], lambda m: f"mantra:{deity}:{m}", st, rng)
-    bottom = lru_pick(config.BOTTOM_LINES, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
+    bottom = lru_pick(god.get("bottom_lines") or config.BOTTOM_LINES, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
     return {
         "slot": slot_key, "song": song, "deity": deity, "photo": photo,
         "mantra": mantra, "bottom": bottom, "seed": _seed(slot_key, "video", st["counter"]),
@@ -310,8 +310,9 @@ def mark_used(st: dict, plan: dict) -> None:
     if plan["photo"]:
         lu["photo:" + os.path.relpath(plan["photo"], BASE_DIR)] = c
     lu[f"mantra:{plan['deity']}:{plan['mantra']}"] = c
-    for b in config.BOTTOM_LINES:
-        if b.format(jaikara=config.DEITIES[plan["deity"]]["jaikara"]) == plan["bottom"]:
+    god = config.DEITIES[plan["deity"]]
+    for b in god.get("bottom_lines") or config.BOTTOM_LINES:
+        if b.format(jaikara=god["jaikara"]) == plan["bottom"]:
             lu["bottom:" + b] = c
 
 
