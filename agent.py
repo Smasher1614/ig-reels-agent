@@ -42,7 +42,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(BASE_DIR, "state.json")
 SONGS_FILE = os.path.join(BASE_DIR, "songs.json")
 MUSIC_DIR = os.path.join(BASE_DIR, "music")
-AUDIO_EXTS = (".mp3", ".m4a", ".wav", ".aac", ".ogg")
+AUDIO_EXTS = (".mp3", ".m4a", ".wav", ".aac", ".ogg",          # gaane ki audio file
+              ".mp4", ".mov", ".webm", ".mkv", ".m4v")         # ya video (jaise YouTube Studio se download) — awaaz nikaal li jaati hai
 PHOTOS_DIR = os.path.join(BASE_DIR, "photos")
 OUT_DIR = os.path.join(BASE_DIR, "out")
 PREVIEW_DIR = os.path.join(BASE_DIR, "preview")

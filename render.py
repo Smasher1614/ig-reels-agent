@@ -437,7 +437,7 @@ def render_reel(out_path: str, photo: str | None, top_text: str, bottom_text: st
         cmd += ["-ss", f"{audio_start:.2f}", "-t", f"{seconds:.2f}", "-i", audio_mp3]
     else:
         cmd += ["-f", "lavfi", "-t", f"{seconds:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
-    cmd += ["-map", "0:v", "-map", "1:a",
+    cmd += ["-map", "0:v", "-map", "1:a:0",
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
             "-profile:v", "high", "-g", str(fps * 2),
             "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2"]
@@ -475,7 +475,7 @@ def find_hook_starts(path: str, seconds: float, top: int = 3) -> list[float]:
     if key in _HOOK_CACHE:
         return _HOOK_CACHE[key]
     sr = 4000
-    raw = subprocess.run([find_ffmpeg(), "-v", "error", "-i", path, "-ac", "1", "-ar", str(sr),
+    raw = subprocess.run([find_ffmpeg(), "-v", "error", "-i", path, "-vn", "-ac", "1", "-ar", str(sr),
                           "-f", "s16le", "-"], capture_output=True, check=True).stdout
     x = np.frombuffer(raw, np.int16).astype(np.float32)
     n, w = len(x) // sr, int(round(seconds))

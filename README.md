@@ -93,6 +93,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 `music/` folder mein MP3 upload karo. Bhagwan ke hisaab se folder bana sakte ho — `music/shiv/`, `music/krishna/` … (GitHub pe *Add file → Upload files* → naam mein `shiv/` likh ke folder ban jaata hai)
 
 - **File ka naam = gaane ka naam** (caption mein yahi aayega), jaise `Om Namah Shivay Dhun.mp3`
+- MP3 nahi hai? **Video file bhi chalegi** (`.mp4`, `.webm`, `.mov`) — jaise YouTube Studio → Content → apni video ke ⋮ → *Download*. Agent video se awaaz khud nikaal leta hai
 - `songs.json` chhedne ki zarurat **nahi** — agent music/ ki har MP3 khud utha leta hai
 - Folder ke bina daali to agent naam se bhagwan pehchaanta hai (Shiv/Mahadev/Bhole → shiv, Radhe/Shyam → krishna …)
 - Gaane ka **sabse jandaar 30 sec** agent khud chunta hai. Kisi gaane ka start khud fix karna ho to `songs.json` mein likho:
