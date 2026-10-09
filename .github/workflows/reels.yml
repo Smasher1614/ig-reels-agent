@@ -1,0 +1,110 @@
+name: IG Reels Agent
+
+on:
+  schedule:
+    - cron: "*/20 * * * *"        # har 20 min check — slot due ho tabhi reel banti hai
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Kya karna hai?"
+        type: choice
+        default: check
+        options: [check, preview, now, find-songs, schedule, run]
+      query:
+        description: "find-songs: gaane ya artist ka naam"
+        required: false
+        default: ""
+      save:
+        description: "find-songs: mile hue (tumhare) gaane songs.json mein jodo?"
+        type: boolean
+        default: false
+      count:
+        description: "preview: kitni reels banani hain"
+        required: false
+        default: "3"
+
+concurrency:
+  group: ig-reels-agent
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GH_PAT: ${{ secrets.GH_PAT }}                 # token apne aap naya karne ke liye
+      FB_APP_ID: ${{ secrets.FB_APP_ID }}
+      FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhi kuch karna hai?
+        id: due
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            python agent.py --due
+          else
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install (ffmpeg + Hindi text support)
+        if: steps.due.outputs.due == 'true'
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libraqm0 libfribidi0 > /dev/null
+          pip install -q -r requirements.txt
+
+      - name: Agent chalao
+        if: steps.due.outputs.due == 'true'
+        env:
+          MODE: ${{ github.event.inputs.mode || 'run' }}
+          QUERY: ${{ github.event.inputs.query }}
+          SAVE: ${{ github.event.inputs.save }}
+          COUNT: ${{ github.event.inputs.count || '3' }}
+        run: |
+          case "$MODE" in
+            run)        python agent.py ;;
+            now)        python agent.py --now ;;
+            check)      python agent.py --check ;;
+            schedule)   python agent.py --schedule ;;
+            preview)    python agent.py --preview "$COUNT" ;;
+            find-songs)
+              if [ "$SAVE" = "true" ]; then python agent.py --find-songs "$QUERY" --save
+              else python agent.py --find-songs "$QUERY"; fi ;;
+            *) echo "anjaan mode: $MODE"; exit 1 ;;
+          esac
+
+      - name: Preview videos (Artifacts se download karo)
+        if: always() && github.event.inputs.mode == 'preview'
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-reels
+          path: preview/
+          retention-days: 7
+
+      - name: Yaaddasht (state) save karo
+        if: always() && steps.due.outputs.due == 'true'
+        run: |
+          git config user.name "ig-reels-bot"
+          git config user.email "ig-reels-bot@users.noreply.github.com"
+          [ -f state.json ] && git add state.json
+          [ -f songs.json ] && git add songs.json
+          if git diff --cached --quiet; then echo "kuch naya nahi"; exit 0; fi
+          git commit -q -m "agent: state update [skip ci]"
+          for i in 1 2 3; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" && git push -q && exit 0
+            sleep 5
+          done
+          echo "state push nahi hua" && exit 1

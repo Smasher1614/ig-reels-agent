@@ -1,0 +1,13 @@
+{
+ "_help": "Zyada tar zarurat NAHI: music/ (ya music/<bhagwan>/) mein daali har MP3 apne aap gaana ban jaati hai. Yahan sirf tab likho jab kisi gaane ka start fix karna ho (mp3_start = second) ya use band karna ho (enabled false). deity = photos/ ka folder naam. audio_id sirf Facebook Login + library mode mein.",
+ "songs": [
+  {
+   "title": "EXAMPLE — Om Namah Shivay (isse hata dena)",
+   "deity": "shiv",
+   "audio_id": "",
+   "mp3": "",
+   "mp3_start": 0,
+   "enabled": false
+  }
+ ]
+}

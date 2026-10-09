@@ -1,0 +1,6 @@
+.env
+out/
+preview/
+__pycache__/
+*.pyc
+*.tmp
