@@ -70,6 +70,24 @@ DEITIES = {
         "hashtags": ["#mahadev", "#harharmahadev", "#shiv"],
         "theme": {"glow": "#7fb2ff", "bg": "#1f2a5c", "particles": ["#cfe2ff", "#ffd27a", "#ffffff"]},
     },
+    "premanand": {
+        "name": "पूज्य श्री प्रेमानंद जी महाराज", "jaikara": "राधा राधा",
+        "mantras": ["राधा राधा", "श्री राधा", "जय जय श्री राधे", "राधा नाम जप"],
+        # "Radha Naam Jap" bhajan isi section mein aata hai (naam mein "naam jap" ho to)
+        "keywords": ["premanand", "naam jap", "naam jaap", "naamjap", "प्रेमानंद", "नाम जप"],
+        "hashtags": ["#premanandjimaharaj", "#radharadha", "#vrindavan"],
+        "theme": {"glow": "#ffc83d", "bg": "#6b4a00", "particles": ["#ffe28a", "#ffd27a", "#fff1c9"]},
+        "mantra_art_share": 0,    # har reel mein Maharaj ji ki photo (bina photo wali mandala reel nahi)
+        # Caption likhte waqt Claude ke liye niyam (asli sant hain — unke naam se jhootha quote nahi)
+        "caption_note": ("Ye reel Vrindavan ke sant Pujya Shri Premanand Ji Maharaj ki tasveeron par hai, bhajan 'Radha Naam Jap' hai. "
+                         "Aadar se 'Pujya Maharaj Ji' likho. Unke naam se koi vachan/quote MAT likho (unhone kuch kaha aisa mat dikhao), "
+                         "aur aisa mat likho ki ye page unka official page hai. Radha naam jap ki mahima aur bhakti par likho."),
+        "templates": [
+            "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 {song}\nकमेंट में लिखें: राधा राधा",
+            "हर साँस में राधा नाम 🙏\n🎵 {song}\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
+            "आज {day} है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 {song}\nअपनों को भेजें 🙏",
+        ],
+    },
     "radha": {
         "name": "श्री राधा रानी", "jaikara": "राधे राधे",
         "mantras": ["राधे राधे", "जय श्री राधे", "श्री राधा रानी की जय", "राधे कृष्ण", "बरसाने वाली राधे"],

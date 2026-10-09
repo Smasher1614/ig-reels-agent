@@ -81,7 +81,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 
 `photos/` mein har bhagwan ka folder hai:
 
-`radha` · `shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
+`premanand` · `radha` · `shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
 
 - GitHub pe folder kholo (jaise `photos/shiv`) → *Add file → Upload files*
 - **Lambi (9:16 / portrait) photo sabse achhi** — full screen dikhti hai
@@ -93,6 +93,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 `music/` folder mein MP3 upload karo. Bhagwan ke hisaab se folder bana sakte ho — `music/shiv/`, `music/krishna/` … (GitHub pe *Add file → Upload files* → naam mein `shiv/` likh ke folder ban jaata hai)
 
 - **File ka naam = gaane ka naam** (caption mein yahi aayega), jaise `Om Namah Shivay Dhun.mp3`
+- **Premanand Ji Maharaj** wali reels ke liye bhajan ka naam `Radha Naam Jap.mp3` rakho — naam mein "naam jap" hai to wo apne aap Maharaj ji ki photos ke saath lagega
 - MP3 nahi hai? **Video file bhi chalegi** (`.mp4`, `.webm`, `.mov`) — jaise YouTube Studio → Content → apni video ke ⋮ → *Download*. Agent video se awaaz khud nikaal leta hai
 - `songs.json` chhedne ki zarurat **nahi** — agent music/ ki har MP3 khud utha leta hai
 - Folder ke bina daali to agent naam se bhagwan pehchaanta hai (Shiv/Mahadev/Bhole → shiv, Radhe/Shyam → krishna …)

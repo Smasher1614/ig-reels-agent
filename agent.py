@@ -51,7 +51,7 @@ TZ = ZoneInfo(config.TIMEZONE)
 HINDI_DAYS = ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार"]
 
 # keyword se bhagwan pehchaanne ka kram (specific pehle, general baad mein)
-DEITY_MATCH_ORDER = ["khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "radha", "ram", "krishna",
+DEITY_MATCH_ORDER = ["premanand", "khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "radha", "ram", "krishna",
                      "shiv", "vishnu", "durga", "general"]
 
 
@@ -291,7 +291,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
 
     photos = photos_for(deity)
     photo = None
-    if photos and rng.random() >= config.MANTRA_ART_SHARE:
+    if photos and rng.random() >= god.get("mantra_art_share", config.MANTRA_ART_SHARE):
         photo = lru_pick(photos, lambda p: "photo:" + os.path.relpath(p, BASE_DIR), st, rng)
     mantra = lru_pick(god["mantras"], lambda m: f"mantra:{deity}:{m}", st, rng)
     bottom = lru_pick(config.BOTTOM_LINES, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
@@ -369,7 +369,7 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
     prev = "\n---\n".join(recent[-5:]) or "(abhi koi nahi)"
     user = (
         f"Is reel ka caption likho.\n"
-        f"Bhagwan: {god['name']} | Jaikara: {god['jaikara']}\n"
+        f"Vishay (bhagwan/sant): {god['name']} | Jaikara: {god['jaikara']}\n"
         f"Gaana: {plan['song']['title']}\n"
         f"Din: {HINDI_DAYS[plan['weekday']]}\n"
         f"Video pe likha mantra: {plan['mantra']}\n\n"
@@ -380,7 +380,8 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
         f"- Ek line comment ke liye bulaye (jaise jaikara likhne ko)\n"
         f"- 1-3 emoji theek hain; hashtag BILKUL nahi\n"
         f"- Koi chamatkar/paisa/bimari theek hone ka vaada nahi, 'share nahi kiya to...' jaisi dhamki nahi\n"
-        f"- Pichhle captions se alag ho:\n{prev}\n\n"
+        + (f"- Is vishay ka khaas niyam: {god['caption_note']}\n" if god.get("caption_note") else "")
+        + f"- Pichhle captions se alag ho:\n{prev}\n\n"
         f"Sirf caption likho, aur kuch nahi."
     )
     try:
@@ -409,7 +410,7 @@ def make_caption(plan: dict, st: dict) -> str:
     if not text:
         fields = dict(jaikara=god["jaikara"], name=god["name"], song=plan["song"]["title"],
                       day=HINDI_DAYS[plan["weekday"]], jaikara_en=god["jaikara"])
-        pool = TEMPLATES if config.CAPTION_STYLE == "hindi" else TEMPLATES_HINGLISH
+        pool = god.get("templates") or (TEMPLATES if config.CAPTION_STYLE == "hindi" else TEMPLATES_HINGLISH)
         recent = set(st["captions"][-3:])
         options = [t.format(**fields) for t in pool]
         fresh = [o for o in options if o not in recent] or options
