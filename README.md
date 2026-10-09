@@ -81,7 +81,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 
 `photos/` mein har bhagwan ka folder hai:
 
-`shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
+`radha` · `shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
 
 - GitHub pe folder kholo (jaise `photos/shiv`) → *Add file → Upload files*
 - **Lambi (9:16 / portrait) photo sabse achhi** — full screen dikhti hai

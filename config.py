@@ -70,10 +70,17 @@ DEITIES = {
         "hashtags": ["#mahadev", "#harharmahadev", "#shiv"],
         "theme": {"glow": "#7fb2ff", "bg": "#1f2a5c", "particles": ["#cfe2ff", "#ffd27a", "#ffffff"]},
     },
+    "radha": {
+        "name": "श्री राधा रानी", "jaikara": "राधे राधे",
+        "mantras": ["राधे राधे", "जय श्री राधे", "श्री राधा रानी की जय", "राधे कृष्ण", "बरसाने वाली राधे"],
+        "keywords": ["radha", "radhe", "radharani", "radhika", "kishori", "barsana", "shriji", "राधा", "राधे", "किशोरी"],
+        "hashtags": ["#radherani", "#radheradhe", "#radhakrishna"],
+        "theme": {"glow": "#ff8fc8", "bg": "#5c1a3e", "particles": ["#ffd27a", "#ffb3d9", "#fff1c9"]},
+    },
     "krishna": {
-        "name": "श्री कृष्ण", "jaikara": "राधे राधे",
-        "mantras": ["राधे राधे", "जय श्री कृष्ण", "हरे कृष्ण हरे कृष्ण", "ॐ नमो भगवते वासुदेवाय"],
-        "keywords": ["krishna", "krishn", "radhe", "radha", "shyam", "govind", "gopal", "kanha", "kanhaiya", "murli", "banke", "कृष्ण", "राधे", "श्याम"],
+        "name": "श्री कृष्ण", "jaikara": "जय श्री कृष्ण",
+        "mantras": ["जय श्री कृष्ण", "हरे कृष्ण हरे कृष्ण", "ॐ नमो भगवते वासुदेवाय", "गोविंद बोलो हरि गोपाल बोलो"],
+        "keywords": ["krishna", "krishn", "shyam", "govind", "gopal", "kanha", "kanhaiya", "murli", "banke", "कृष्ण", "श्याम"],
         "hashtags": ["#radheradhe", "#krishna", "#harekrishna"],
         "theme": {"glow": "#ffb85c", "bg": "#0f4b5c", "particles": ["#ffd27a", "#9fe8e0", "#fff1c9"]},
     },
@@ -142,11 +149,14 @@ DEITIES = {
     },
 }
 
+# Kisi bhagwan ka photo folder khaali ho to pehle in folders se photo lo (phir general)
+PHOTO_FALLBACK = {"krishna": ["radha"], "radha": ["krishna"], "khatushyam": ["krishna", "radha"]}
+
 # Hafte ke din ka bhagwan (0=Somvar ... 6=Ravivar). Us din ~40% reels inhi ki hongi.
 DAY_DEITY = {
     0: ["shiv"],
     1: ["hanuman"],
-    2: ["ganesh", "krishna"],
+    2: ["ganesh", "krishna", "radha"],
     3: ["vishnu", "sai", "krishna"],
     4: ["durga", "lakshmi", "khatushyam"],
     5: ["hanuman", "shiv"],

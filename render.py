@@ -38,7 +38,7 @@ HAS_RAQM = features.check_feature("raqm")
 # Text ki jagah (Instagram ka UI upar ~150px aur neeche ~400px dhak leta hai)
 TOP_TEXT_Y = 270      # upar wale mantra ka center
 BOTTOM_TEXT_Y = 1455  # neeche wali line ka center
-CARD_CENTER_Y = 930   # landscape/square photo ke frame ka center
+CARD_CENTER_Y = 905   # landscape/square photo ke frame ka center
 CARD_MAX_H = 1000
 
 

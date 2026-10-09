@@ -51,7 +51,7 @@ TZ = ZoneInfo(config.TIMEZONE)
 HINDI_DAYS = ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार"]
 
 # keyword se bhagwan pehchaanne ka kram (specific pehle, general baad mein)
-DEITY_MATCH_ORDER = ["khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "ram", "krishna",
+DEITY_MATCH_ORDER = ["khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "radha", "ram", "krishna",
                      "shiv", "vishnu", "durga", "general"]
 
 
@@ -269,8 +269,10 @@ def lru_pick(items: list, keyfn, st: dict, rng: random.Random):
 def photos_for(deity: str) -> list[str]:
     from render import list_photos
     ph = list_photos(os.path.join(PHOTOS_DIR, deity))
-    if not ph and deity != "general":
-        ph = list_photos(os.path.join(PHOTOS_DIR, "general"))
+    for alt in getattr(config, "PHOTO_FALLBACK", {}).get(deity, []) + ["general"]:
+        if ph or alt == deity:
+            break
+        ph = list_photos(os.path.join(PHOTOS_DIR, alt))
     return ph
 
 
