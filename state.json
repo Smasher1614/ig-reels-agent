@@ -23,6 +23,18 @@
    "media_id": "18116038829009021",
    "permalink": "https://www.instagram.com/reel/Deb3dldFKGs/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-13#6",
+   "at": "2026-10-13T19:47:49+05:30",
+   "song": "Pahli Chai Shiv Ka Naam",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-12.jpg",
+   "mantra": "शिव शम्भो",
+   "audio": "mp3",
+   "media_id": "17948168361068326",
+   "permalink": "https://www.instagram.com/reel/DecAOQek4ez/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -52,12 +64,17 @@
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 2
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 2,
+  "song:Pahli Chai Shiv Ka Naam": 3,
+  "photo:photos/shiv/shiv-12.jpg": 3,
+  "mantra:shiv:शिव शम्भो": 3,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 3
  },
- "counter": 2,
+ "counter": 3,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
