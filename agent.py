@@ -53,7 +53,7 @@ TZ = ZoneInfo(config.TIMEZONE)
 HINDI_DAYS = ["सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार", "रविवार"]
 
 # keyword se bhagwan pehchaanne ka kram (specific pehle, general baad mein)
-DEITY_MATCH_ORDER = ["premanand", "khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "radha", "ram", "krishna",
+DEITY_MATCH_ORDER = ["premanand", "sanwariya", "khatushyam", "hanuman", "ganesh", "lakshmi", "sai", "radha", "ram", "krishna",
                      "shiv", "vishnu", "durga", "general"]
 
 
@@ -294,8 +294,15 @@ def photos_for(deity: str) -> list[str]:
     return ph
 
 
+def has_visual(deity: str) -> bool:
+    return bool(photos_for(deity)) or bool(config.DEITIES.get(deity, {}).get("allow_no_photo"))
+
+
 def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict]) -> dict:
     rng = random.Random(_seed(slot_key, st["counter"]))
+    # jis section ki ek bhi photo nahi (na fallback), uske gaane photos aane tak rukenge
+    with_pics = [s for s in songs if has_visual(s["deity"])]
+    songs = with_pics or songs
     day_gods = config.DAY_DEITY.get(now.weekday(), [])
     # pichhli kuch reels wale gaane abhi dobara nahi (agar aur gaane hain)
     k = min(4, max(0, len(songs) - 1))
@@ -964,6 +971,9 @@ def cmd_check() -> int:
         by_god[s["deity"]] = by_god.get(s["deity"], 0) + 1
     if by_god:
         print("   " + ", ".join(f"{g}={c}" for g, c in by_god.items()))
+        waiting = [g for g in by_god if not has_visual(g)]
+        if waiting:
+            print(f"   ⏸ photos ka intezaar (inke gaane abhi post nahi honge): {', '.join(waiting)}")
     print(f"• Login: {config.LOGIN_TYPE} | Audio: {config.AUDIO_MODE}")
     try:
         check_mode()

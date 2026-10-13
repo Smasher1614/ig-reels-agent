@@ -81,7 +81,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 
 `photos/` mein har bhagwan ka folder hai:
 
-`premanand` · `radha` · `shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
+`premanand` · `radha` · `sanwariya` · `shiv` · `krishna` · `khatushyam` · `ram` · `hanuman` · `ganesh` · `durga` · `vishnu` · `lakshmi` · `sai` · `general`
 
 - GitHub pe folder kholo (jaise `photos/shiv`) → *Add file → Upload files*
 - **Lambi (9:16 / portrait) photo sabse achhi** — full screen dikhti hai
@@ -94,6 +94,7 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 
 - **File ka naam = gaane ka naam** (caption mein yahi aayega), jaise `Om Namah Shivay Dhun.mp3`
 - **Gaane ka mood:** Shiv section default *calm* hai (dheemi video, shaant caption). Kisi gaane mein dhol/kanwar wala josh ho to `songs.json` mein us gaane pe `"mood": "josh"` likho — uske liye *हर हर महादेव* wale mantra, tez video aur joshila caption lagega
+- Jis section ki ek bhi photo nahi, uske gaane tab tak **rukte hain** jab tak photos na aa jayein (`check` mein ⏸ dikhega)
 - **Premanand Ji Maharaj** wali reels ke liye bhajan ka naam `Radha Naam Jap.mp3` rakho — naam mein "naam jap" hai to wo apne aap Maharaj ji ki photos ke saath lagega
 - MP3 nahi hai? **Video file bhi chalegi** (`.mp4`, `.webm`, `.mov`) — jaise YouTube Studio → Content → apni video ke ⋮ → *Download*. Agent video se awaaz khud nikaal leta hai
 - `songs.json` chhedne ki zarurat **nahi** — agent music/ ki har MP3 khud utha leta hai

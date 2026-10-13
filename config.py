@@ -126,6 +126,16 @@ DEITIES = {
             "आज {day} है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 {song}\nअपनों को भेजें 🙏",
         ],
     },
+    "sanwariya": {
+        "name": "श्री सांवलिया सेठ", "jaikara": "जय श्री सांवलिया सेठ",
+        "mantras": ["जय श्री सांवलिया सेठ", "सांवरिया सेठ की जय", "मेरे सांवरिया", "जय श्री कृष्ण"],
+        "keywords": ["sanwariya", "sanwriya", "sanwaliya", "sawariya", "saawariya", "sanware", "mandaphia",
+                     "सांवलिया", "सांवरिया", "साँवरिया"],
+        "hashtags": ["#sanwariyaseth", "#sanwaliyaseth", "#jaishrikrishna"],
+        "theme": {"glow": "#ffcf5c", "bg": "#1f2f6b", "particles": ["#ffe28a", "#ffd27a", "#cfe2ff"]},
+        "caption_note": ("Ye bhajan Shri Sanwaliya Seth ji (Mandaphia, Chittorgarh — Shri Krishna ka roop) ke hain. "
+                         "Bharose, apnapan aur bhakti ka bhaav ho. Dhan/business badhne ya mannat poori hone ka vaada MAT karo."),
+    },
     "radha": {
         "name": "श्री राधा रानी", "jaikara": "राधे राधे",
         "mantras": ["राधे राधे", "जय श्री राधे", "श्री राधा रानी की जय", "राधे कृष्ण", "बरसाने वाली राधे"],
@@ -143,7 +153,7 @@ DEITIES = {
     "khatushyam": {
         "name": "खाटू श्याम जी", "jaikara": "जय श्री श्याम",
         "mantras": ["जय श्री श्याम", "हारे का सहारा बाबा श्याम हमारा", "श्याम बाबा की जय", "जय खाटू श्याम", "लखदातार की जय"],
-        "keywords": ["khatu", "baba shyam", "shyam baba", "sanware", "sawariya", "khatushyam", "hare ka sahara", "haare ka sahara",
+        "keywords": ["khatu", "baba shyam", "shyam baba", "khatushyam", "hare ka sahara", "haare ka sahara",
                      "shyam dhani", "lakhdatar", "barbarik", "खाटू", "श्याम बाबा", "हारे का सहारा"],
         "hashtags": ["#khatushyam", "#jaishreeshyam", "#shyambaba"],
         "theme": {"glow": "#ffb347", "bg": "#5c1d4a", "particles": ["#ffd27a", "#ffb04a", "#fff1c9"]},
@@ -213,7 +223,7 @@ PHOTO_FALLBACK = {"krishna": ["radha"], "radha": ["krishna"], "khatushyam": ["kr
 DAY_DEITY = {
     0: ["shiv"],
     1: ["hanuman"],
-    2: ["ganesh", "krishna", "radha"],
+    2: ["ganesh", "krishna", "radha", "sanwariya"],
     3: ["vishnu", "sai", "krishna"],
     4: ["durga", "lakshmi", "khatushyam"],
     5: ["hanuman", "shiv"],
