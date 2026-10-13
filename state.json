@@ -59,6 +59,18 @@
    "media_id": "18135431629630997",
    "permalink": "https://www.instagram.com/reel/DecKlApglEZ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-13#9",
+   "at": "2026-10-13T22:18:34+05:30",
+   "song": "Kon Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-05.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18142910176538340",
+   "permalink": "https://www.instagram.com/reel/DecRe5uk5mD/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -99,15 +111,20 @@
   "bottom:कमेंट में लिखें — {jaikara}": 4,
   "song:Thodi Der Sanwariya": 5,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 5
+  "mantra:sanwariya:सांवरिया सेठ की जय": 5,
+  "song:Kon Aaya": 6,
+  "photo:photos/shiv/shiv-05.jpg": 6,
+  "mantra:shiv:हर हर महादेव": 6,
+  "bottom:भोले के भक्तों को भेजें": 6
  },
- "counter": 5,
+ "counter": 6,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
