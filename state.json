@@ -35,6 +35,18 @@
    "media_id": "17948168361068326",
    "permalink": "https://www.instagram.com/reel/DecAOQek4ez/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-13#7",
+   "at": "2026-10-13T20:33:40+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-10.jpg",
+   "mantra": "जय खाटू श्याम",
+   "audio": "mp3",
+   "media_id": "17972645532150901",
+   "permalink": "https://www.instagram.com/reel/DecFbthjlXm/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -68,13 +80,18 @@
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 3
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 3,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 4,
+  "photo:photos/khatushyam/khatushyam-10.jpg": 4,
+  "mantra:khatushyam:जय खाटू श्याम": 4,
+  "bottom:कमेंट में लिखें — {jaikara}": 4
  },
- "counter": 3,
+ "counter": 4,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
