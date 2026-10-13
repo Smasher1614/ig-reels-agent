@@ -1,5 +1,18 @@
 {
- "posted": [],
+ "posted": [
+  {
+   "slot": "2026-10-13#4",
+   "at": "2026-10-13T15:33:05+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-19.jpg",
+   "mantra": "राधा राधा",
+   "audio": "mp3",
+   "media_id": "18166782685482809",
+   "permalink": "https://www.instagram.com/reel/DebjFU8k8y8/",
+   "host": "release"
+  }
+ ],
  "skipped": [
   "2026-10-12#0",
   "2026-10-12#1",
@@ -19,9 +32,16 @@
  "attempts": {
   "2026-10-13#3": 2
  },
- "last_used": {},
- "counter": 0,
- "captions": [],
+ "last_used": {
+  "song:Radha Naam Jap": 1,
+  "photo:photos/premanand/premanand-19.jpg": 1,
+  "mantra:premanand:राधा राधा": 1,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 1
+ },
+ "counter": 1,
+ "captions": [
+  "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+ ],
  "errors": [
   {
    "slot": "2026-10-13#3",
@@ -38,5 +58,6 @@
  "song_fail": {},
  "token_seen": {
   "dc7276516fe4ec2e": "2026-10-13T11:29:37+05:30"
- }
+ },
+ "host_ok": "release"
 }
