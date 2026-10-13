@@ -459,7 +459,7 @@ def render_reel(out_path: str, photo: str | None, top_text: str, bottom_text: st
     else:
         cmd += ["-f", "lavfi", "-t", f"{seconds:.2f}", "-i", "anullsrc=r=44100:cl=stereo"]
     cmd += ["-map", "0:v", "-map", "1:a:0",
-            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p",
+            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-maxrate", "6M", "-bufsize", "12M", "-pix_fmt", "yuv420p",
             "-profile:v", "high", "-g", str(fps * 2),
             "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-ac", "2"]
     if audio_mp3:
