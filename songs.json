@@ -70,11 +70,20 @@
    "mp3": "music/premanand/Radha Naam Jap.mp3",
    "mp3_start": "auto",
    "mp3_range": [
-    0,
-    861
+    [
+     20,
+     200
+    ],
+    [
+     255,
+     410
+    ],
+    [
+     545,
+     660
+    ]
    ],
-   "enabled": false,
-   "_note": "14 min video ki audio — kuch hisson mein do audio mix. Saaf hissa confirm hone tak band."
+   "_note": "14 min video ki audio. 11:20-12:10 aur 13:15-13:40 wale tez hisson mein do audio mix lag rahe the, aur 3:28-4:12 / 6:56-8:54 alag (mono) hisse hain — isliye sirf in 3 saaf hisson se 30 sec uthate hain."
   }
  ]
 }

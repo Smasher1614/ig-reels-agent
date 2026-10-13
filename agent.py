@@ -772,9 +772,17 @@ def audio_start_for(song: dict, seed: int) -> float:
     if isinstance(v, (int, float)) or (isinstance(v, str) and v.replace(".", "", 1).isdigit()):
         return float(v)
     from render import find_hook_starts
-    rng_ = song.get("mp3_range")  # [start_sec, end_sec] — sirf is hisse se (jaise lambi video ka saaf hissa)
-    lo, hi = (float(rng_[0]), float(rng_[1])) if isinstance(rng_, (list, tuple)) and len(rng_) == 2 else (None, None)
-    starts = find_hook_starts(song["mp3_path"], float(config.REEL_SECONDS), lo_s=lo, hi_s=hi)
+    # "mp3_range": [start, end] ya kai hisse [[s1, e1], [s2, e2]] — sirf in saaf hisson se (lambi video wali audio)
+    rng_ = song.get("mp3_range")
+    if isinstance(rng_, (list, tuple)) and rng_ and all(isinstance(r, (list, tuple)) and len(r) == 2 for r in rng_):
+        ranges = [(float(a), float(b)) for a, b in rng_]
+    elif isinstance(rng_, (list, tuple)) and len(rng_) == 2:
+        ranges = [(float(rng_[0]), float(rng_[1]))]
+    else:
+        ranges = [(None, None)]
+    starts = []
+    for lo, hi in ranges:
+        starts += find_hook_starts(song["mp3_path"], float(config.REEL_SECONDS), lo_s=lo, hi_s=hi)
     return random.Random(seed).choice(starts) if starts else 0.0
 
 
