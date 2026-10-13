@@ -221,6 +221,10 @@ DAY_DEITY = {
 }
 DAY_DEITY_SHARE = 0.40
 
+# Kis section ki reels kitni baar (1.0 = normal, 2.0 = dugni, 0 = band). Khaali = sab barabar niyam se.
+# Jaise Maharaj ji ki reels zyada chahiye: {"premanand": 2.0}
+SECTION_WEIGHT = {}
+
 # ---------------------------------------------------------------------
 # Advanced (chhedne ki zarurat nahi)
 # ---------------------------------------------------------------------

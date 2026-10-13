@@ -26,9 +26,11 @@ from __future__ import annotations
 
 import argparse
 import base64
+import collections
 import datetime as dt
 import hashlib
 import json
+import math
 import os
 import random
 import re
@@ -299,9 +301,21 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     k = min(4, max(0, len(songs) - 1))
     recent = {p["song"] for p in st["posted"][-k:]} if k else set()
     fresh = [s for s in songs if s["title"] not in recent] or songs
-    day_songs = [s for s in fresh if s["deity"] in day_gods]
-    pool = day_songs if day_songs and rng.random() < config.DAY_DEITY_SHARE else fresh
-    song = lru_pick(pool, lambda s: "song:" + s["title"], st, rng)
+    # pehle section (bhagwan) chuno, phir uska gaana — taaki 17 Shiv gaane baaki sab ko na dabaa dein.
+    # weight = gaano ki ginti ka square-root (jyada gaane = thoda zyada mauka) × SECTION_WEIGHT
+    total = collections.Counter(s["deity"] for s in songs)
+    groups: dict[str, list] = {}
+    for s in fresh:
+        groups.setdefault(s["deity"], []).append(s)
+    cands = list(groups)
+    todays = [d for d in cands if d in day_gods]
+    if todays and rng.random() < config.DAY_DEITY_SHARE:
+        cands = todays
+    last = st["posted"][-1]["deity"] if st["posted"] else None
+    weights = [math.sqrt(total[d]) * float(getattr(config, "SECTION_WEIGHT", {}).get(d, 1.0))
+               * (0.5 if d == last and len(cands) > 1 else 1.0) for d in cands]
+    deity_pick = rng.choices(cands, weights=weights)[0] if sum(weights) > 0 else rng.choice(cands)
+    song = lru_pick(groups[deity_pick], lambda s: "song:" + s["title"], st, rng)
     deity = song["deity"]
     god = god_for(deity, song)
 
@@ -310,7 +324,10 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     if photos and rng.random() >= god.get("mantra_art_share", config.MANTRA_ART_SHARE):
         photo = lru_pick(photos, lambda p: "photo:" + os.path.relpath(p, BASE_DIR), st, rng)
     mantra = lru_pick(god["mantras"], lambda m: f"mantra:{deity}:{m}", st, rng)
-    bottom = lru_pick(god.get("bottom_lines") or config.BOTTOM_LINES, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
+    lines = god.get("bottom_lines") or config.BOTTOM_LINES
+    if config.AUDIO_MODE != "library":  # MP3 wali reel pe "Original audio" hota hai — tap karke poora gaana nahi milta
+        lines = [b for b in lines if "ऑडियो पर टैप" not in b] or lines
+    bottom = lru_pick(lines, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
     return {
         "slot": slot_key, "song": song, "deity": deity, "god": god, "photo": photo,
         "mantra": mantra, "bottom": bottom, "seed": _seed(slot_key, "video", st["counter"]),
