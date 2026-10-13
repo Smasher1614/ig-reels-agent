@@ -11,6 +11,18 @@
    "media_id": "18166782685482809",
    "permalink": "https://www.instagram.com/reel/DebjFU8k8y8/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-13#5",
+   "at": "2026-10-13T18:31:09+05:30",
+   "song": "Radha",
+   "deity": "radha",
+   "photo": "photos/radha/radha-10.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18116038829009021",
+   "permalink": "https://www.instagram.com/reel/Deb3dldFKGs/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -36,11 +48,16 @@
   "song:Radha Naam Jap": 1,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 1
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 1,
+  "song:Radha": 2,
+  "photo:photos/radha/radha-10.jpg": 2,
+  "mantra:radha:राधे कृष्ण": 2,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 2
  },
- "counter": 1,
+ "counter": 2,
  "captions": [
-  "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
