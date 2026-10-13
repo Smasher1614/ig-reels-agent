@@ -586,15 +586,24 @@ class Instagram:
     def audio_info(self, audio_id: str) -> dict:
         return self.get(audio_id, user_id=self.ig_id)
 
-    def create_reel(self, caption: str, audio_id: str | None = None) -> tuple[str, str]:
-        data = dict(media_type="REELS", upload_type="resumable", caption=caption,
+    def create_reel(self, caption: str, audio_id: str | None = None,
+                    video_url: str | None = None) -> tuple[str, str | None]:
+        """Reel container banao. video_url do to Instagram us link se video khud download karta hai
+        (Instagram Login mein yahi ek tareeka hai); warna resumable upload (sirf Facebook Login)."""
+        data = dict(media_type="REELS", caption=caption,
                     share_to_feed="true" if config.SHARE_TO_FEED else "false",
                     thumb_offset=str(config.THUMB_OFFSET_MS))
+        if video_url:
+            data["video_url"] = video_url
+        else:
+            data["upload_type"] = "resumable"
         if audio_id:
             # video ki apni (khamosh) awaaz 0, gaana poori awaaz mein
             data["audio_configuration"] = json.dumps({"audio_id": str(audio_id), "audio_volume": 100, "video_volume": 0})
         d = self.post(f"{self.ig_id}/media", **data)
         cid = d["id"]
+        if video_url:
+            return cid, None
         uri = d.get("uri") or f"https://rupload.facebook.com/ig-api-upload/{self.v}/{cid}"
         return cid, uri
 
@@ -786,7 +795,139 @@ def audio_start_for(song: dict, seed: int) -> float:
     return random.Random(seed).choice(starts) if starts else 0.0
 
 
-NOT_SONG_ERRORS = {1, 2, 4, 9, 10, 17, 190, 200, 341}
+NOT_SONG_ERRORS = {-1, 1, 2, 4, 9, 10, 17, 190, 200, 341}   # -1 = upload/processing ki galti
+
+
+# ===================================================================== video ko public link pe rakhna
+# Instagram Login mein video seedha upload nahi hota — Instagram ek public link se khud download karta hai.
+# Isliye GitHub pe hi thodi der ke liye rakhte hain (post hote hi hata dete hain).
+MEDIA_TAG = "reels-media"        # GitHub Release jisme video asset rakhte hain
+MEDIA_BRANCH = "reels-media"     # backup: alag branch, raw.githubusercontent.com link
+
+
+def _github():
+    tok, repo = env("GITHUB_TOKEN"), env("GITHUB_REPOSITORY")
+    if not (tok and repo):
+        raise SetupError("GITHUB_TOKEN/GITHUB_REPOSITORY nahi mile — video link sirf GitHub Actions mein banta hai.")
+    import requests
+    h = {"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json",
+         "X-GitHub-Api-Version": "2022-11-28"}
+    return requests, repo, h
+
+
+def host_release(path: str):
+    """Video ko GitHub Release asset banao → public download link."""
+    rq, repo, h = _github()
+    api = f"https://api.github.com/repos/{repo}"
+    r = rq.get(f"{api}/releases/tags/{MEDIA_TAG}", headers=h, timeout=30)
+    if r.status_code == 404:
+        r = rq.post(f"{api}/releases", headers=h, timeout=30, json={
+            "tag_name": MEDIA_TAG, "name": "Reels media (agent — temporary)", "prerelease": True,
+            "make_latest": "false",
+            "body": "Agent har reel ki video yahan kuch minute ke liye rakhta hai taaki Instagram use download "
+                    "kar sake. Post hote hi file hat jaati hai. Ise delete mat karna."})
+    if r.status_code >= 400:
+        raise RuntimeError(f"release nahi bana: HTTP {r.status_code} {r.text[:200]}")
+    rel = r.json()
+    for a in rel.get("assets") or []:          # pichhli adhuri files saaf
+        rq.delete(f"{api}/releases/assets/{a['id']}", headers=h, timeout=30)
+    name = os.path.basename(path)
+    with open(path, "rb") as fh:
+        blob = fh.read()
+    up = rq.post(f"https://uploads.github.com/repos/{repo}/releases/{rel['id']}/assets", params={"name": name},
+                 headers={**h, "Content-Type": "video/mp4"}, data=blob, timeout=300)
+    if up.status_code >= 400:
+        raise RuntimeError(f"release upload fail: HTTP {up.status_code} {up.text[:200]}")
+    asset = up.json()
+
+    def cleanup():
+        try:
+            rq.delete(f"{api}/releases/assets/{asset['id']}", headers=h, timeout=30)
+        except Exception:  # noqa: BLE001
+            pass
+    return asset["browser_download_url"], cleanup
+
+
+def host_branch(path: str):
+    """Backup: video ko ek alag branch pe push karo → raw.githubusercontent.com ka seedha link."""
+    import subprocess
+    import urllib.parse
+    import requests
+    repo = env("GITHUB_REPOSITORY")
+    if not repo:
+        raise SetupError("GITHUB_REPOSITORY nahi mila")
+    name = os.path.basename(path)
+    base = BASE_DIR
+
+    def git(*a, inp=None):
+        return subprocess.run(["git", "-C", base, *a], input=inp, capture_output=True, text=True,
+                              check=True).stdout.strip()
+    blob = git("hash-object", "-w", path)
+    tree = git("mktree", inp=f"100644 blob {blob}\t{name}\n")
+    commit = git("-c", "user.name=ig-reels-bot", "-c", "user.email=ig-reels-bot@users.noreply.github.com",
+                 "commit-tree", tree, "-m", "reel video (temporary)")
+    git("push", "--force", "origin", f"{commit}:refs/heads/{MEDIA_BRANCH}")
+    url = f"https://raw.githubusercontent.com/{repo}/{MEDIA_BRANCH}/{urllib.parse.quote(name)}"
+    for _ in range(12):  # raw link chalu hone tak ruko
+        try:
+            if requests.head(url, timeout=20, allow_redirects=True).status_code == 200:
+                break
+        except requests.RequestException:
+            pass
+        time.sleep(5)
+
+    def cleanup():
+        subprocess.run(["git", "-C", base, "push", "origin", f":refs/heads/{MEDIA_BRANCH}"],
+                       capture_output=True, text=True)
+    return url, cleanup
+
+
+HOSTS = {"release": host_release, "branch": host_branch}
+ACCOUNT_ERRORS = {4, 9, 10, 17, 32, 190, 200, 341, 613}   # in pe doosra link try karna bekaar
+
+
+def make_container(ig: "Instagram", st: dict, path: str, caption: str, audio_id: str | None):
+    """Container banao aur Instagram ke process karne tak ruko. Return: (container_id, cleanup, host)."""
+    if config.LOGIN_TYPE != "instagram":
+        cid, uri = ig.create_reel(caption, audio_id)
+        try:
+            ig.upload(uri, path)
+            ig.wait_ready(cid)
+        except IGError as e:
+            e.code = e.code or -1
+            raise
+        return cid, (lambda: None), "resumable"
+    order = sorted(HOSTS, key=lambda h: h != st.get("host_ok"))   # jo pichhli baar chala wo pehle
+    last = None
+    for host in order:
+        try:
+            url, cleanup = HOSTS[host](path)
+        except Exception as e:  # noqa: BLE001
+            log(f"   video link ({host}) nahi bana: {e}")
+            last = IGError(f"video link nahi bana ({host}): {e}", -1)
+            continue
+        log(f"   video link ({host}): {url}")
+        try:
+            cid, _ = ig.create_reel(caption, audio_id, video_url=url)
+        except IGError as e:
+            cleanup()
+            if e.code in ACCOUNT_ERRORS:     # token/limit ki dikkat — doosra link bhi nahi chalega
+                raise
+            log(f"   Instagram ne {host} link nahi maana: {e}")
+            e.code = e.code or -1
+            last = e
+            continue
+        try:
+            ig.wait_ready(cid)
+        except IGError as e:   # Instagram is link se video nahi utha paya — doosra tareeka try karo
+            cleanup()
+            log(f"   Instagram ne {host} link se video nahi liya: {e}")
+            e.code = e.code or -1
+            last = e
+            continue
+        st["host_ok"] = host
+        return cid, cleanup, host
+    raise last or IGError("video link nahi bana", -1)
 
 
 def song_problem(e: IGError) -> bool:
@@ -831,7 +972,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
 
         audio_used = "library" if use_library else "mp3"
         try:
-            cid, uri = ig.create_reel(caption, song.get("audio_id") if use_library else None)
+            cid, cleanup, host = make_container(ig, st, path, caption, song.get("audio_id") if use_library else None)
         except IGError as e:
             if not (use_library and song_problem(e)):
                 raise
@@ -840,7 +981,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
             if config.FALLBACK_TO_MP3 and song["mp3_path"]:
                 log(f"   gaana attach nahi hua ({e}) — MP3 wali reel bana raha hoon")
                 render_for(plan, path, with_mp3=True)
-                cid, uri = ig.create_reel(caption, None)
+                cid, cleanup, host = make_container(ig, st, path, caption, None)
                 audio_used = "mp3"
             else:
                 log(f"   '{song['title']}' attach nahi hua ({e}) — doosra gaana try kar raha hoon")
@@ -848,9 +989,10 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
                     telegram(f"⚠ Gaana '{song['title']}' (audio_id {aid}) Instagram pe attach nahi ho raha — "
                              f"ab ye skip hoga. songs.json mein audio_id check karo ya MP3 jodo.")
                 continue
-        ig.upload(uri, path)
-        ig.wait_ready(cid)
-        media_id = ig.publish(cid)
+        try:
+            media_id = ig.publish(cid)
+        finally:
+            cleanup()
         link = ig.permalink(media_id)
         log(f"   ✅ post ho gayi: {link or media_id}")
         if use_library and audio_used == "library":
@@ -863,6 +1005,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
             "song": song["title"], "deity": plan["deity"],
             "photo": os.path.relpath(plan["photo"], BASE_DIR) if plan["photo"] else None,
             "mantra": plan["mantra"], "audio": audio_used, "media_id": media_id, "permalink": link,
+            "host": host,
         })
         try:
             os.remove(path)

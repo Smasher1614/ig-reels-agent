@@ -42,6 +42,7 @@ jobs:
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
       TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       GH_PAT: ${{ secrets.GH_PAT }}                 # token apne aap naya karne ke liye
+      GITHUB_TOKEN: ${{ github.token }}             # video ka temporary public link (Release) banane ke liye
       FB_APP_ID: ${{ secrets.FB_APP_ID }}
       FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
     steps:
