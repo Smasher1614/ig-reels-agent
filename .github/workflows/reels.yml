@@ -2,7 +2,8 @@ name: IG Reels Agent
 
 on:
   schedule:
-    - cron: "*/20 * * * *"        # har 20 min check — slot due ho tabhi reel banti hai
+    - cron: "*/20 * * * *"        # backup — GitHub ise kabhi-kabhi ghanto late chalata hai
+                                  # isliye asli "ghadi" cron-job.org hai (README: "Time pe post")
   workflow_dispatch:
     inputs:
       mode:
@@ -53,7 +54,8 @@ jobs:
       - name: Abhi kuch karna hai?
         id: due
         run: |
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          # schedule ya cron-job.org wala "run" — pehle sasta check, kuch due ho tabhi aage
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.mode }}" = "run" ]; then
             python agent.py --due
           else
             echo "due=true" >> "$GITHUB_OUTPUT"

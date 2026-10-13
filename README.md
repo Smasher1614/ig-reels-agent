@@ -118,6 +118,33 @@ GitHub → profile photo → **Settings → Developer settings → Personal acce
 | `now` | **abhi 1 reel post** — Instagram pe dekho awaaz theek hai, mute to nahi hui |
 | `schedule` | aaj ke slots aur kaunse post hue |
 
+### Step 7.5 — ⏰ Time pe post (zaruri)
+
+GitHub ka apna schedule bharosemand nahi — "har 20 min" bolo to bhi wo din mein sirf 3-5 baar chalata hai
+(bheed ke time GitHub runs late karta ya chhod deta hai). Isliye ek free "ghadi" lagao jo har 20 min agent ko jagaye:
+
+**A. Ghadi ke liye alag GitHub token**
+<https://github.com/settings/personal-access-tokens/new> → naam `cron-job` → Expiration: 1 year →
+Repository access: **Only select repositories** → `ig-reels-agent` → Repository permissions → **Actions: Read and write** → *Generate token* → copy
+
+**B. cron-job.org pe ghadi**
+1. <https://cron-job.org> pe free account banao → **Create cronjob**
+2. **URL:** `https://api.github.com/repos/Smasher1614/ig-reels-agent/actions/workflows/reels.yml/dispatches`
+3. **Execution schedule:** Every **20 minutes**
+4. **Advanced** tab:
+   - Request method: **POST**
+   - Headers (teen add karo):
+     - `Authorization` → `Bearer YAHAN_TOKEN_DAALO`
+     - `Accept` → `application/vnd.github+json`
+     - `Content-Type` → `application/json`
+   - Request body:
+     ```json
+     {"ref":"main","inputs":{"mode":"run"}}
+     ```
+5. **Save** → *Test run* dabao → jawab **204** aaye to sahi hai (GitHub Actions mein naya run dikhega)
+
+Har ping pe agent bas 15 sec mein dekhta hai ki slot due hai ya nahi — due ho tabhi reel banti hai.
+
 ### Step 8 — 🚀 GO LIVE
 
 `config.py` → `PAUSED = False` → Commit.
