@@ -47,6 +47,8 @@ jobs:
       FB_APP_SECRET: ${{ secrets.FB_APP_SECRET }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}   # trigger ke waqt wala nahi, ABHI ka latest main (pichhle run ki state ke saath)
 
       - uses: actions/setup-python@v5
         with:

@@ -61,6 +61,10 @@ class SetupError(Exception):
     """Setup/config ki galti — user ko saaf message chahiye."""
 
 
+class RecentlyPosted(Exception):
+    """Instagram pe abhi-abhi reel gayi hai (doosre run ne ya haath se) — ye slot chhod do, double post nahi."""
+
+
 # ===================================================================== basics
 def log(msg: str) -> None:
     print(f"[{now_local():%H:%M:%S}] {msg}", flush=True)
@@ -642,6 +646,15 @@ class Instagram:
     def publish(self, cid: str) -> str:
         return self.post(f"{self.ig_id}/media_publish", creation_id=cid)["id"]
 
+    def last_post(self) -> tuple[dt.datetime | None, str]:
+        """Account ki sabse nayi post ka time + link (double-post rokne ke liye)."""
+        d = self.get(f"{self.ig_id}/media", fields="id,timestamp,permalink", limit=1)
+        row = (d.get("data") or [{}])[0]
+        ts = row.get("timestamp")
+        if not ts:
+            return None, ""
+        return dt.datetime.strptime(ts, "%Y-%m-%dT%H:%M:%S%z"), row.get("permalink", "")
+
     def permalink(self, media_id: str) -> str:
         try:
             return self.get(media_id, fields="permalink").get("permalink", "")
@@ -950,6 +963,14 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
     os.makedirs(OUT_DIR, exist_ok=True)
     path = os.path.join(OUT_DIR, f"reel_{slot_key.replace('#', '_')}.mp4")
     ig = ig_client()
+    gap = dt.timedelta(minutes=max(getattr(config, "MIN_GAP_MINUTES", 0), 20))
+    try:   # pakka karo ki abhi-abhi koi reel nahi gayi (state purani ho to bhi double post na ho)
+        last_at, last_link = ig.last_post()
+        if last_at and now - last_at < gap:
+            raise RecentlyPosted(f"Instagram pe {last_at.astimezone(now.tzinfo):%H:%M} baje reel gayi thi "
+                                 f"({last_link}) — {slot_key} chhod raha hoon, double post nahi karunga")
+    except IGError as e:
+        log(f"   (pichhli post ka time nahi mila: {e} — aage badh raha hoon)")
     tried: set[str] = set()
 
     for attempt in range(3):  # gaana attach na ho to doosre gaane se dobara
@@ -1031,6 +1052,9 @@ def run_once(force: bool = False) -> int:
         st["attempts"][key] = st["attempts"].get(key, 0) + 1
         try:
             post_reel(st, key, now)
+        except RecentlyPosted as e:
+            log(f"⏭ {e}")
+            st["skipped"].append(key)
         except (SetupError, IGError) as e:
             rc = 1
             hint = getattr(e, "hint", "")
