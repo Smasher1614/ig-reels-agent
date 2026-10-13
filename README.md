@@ -28,7 +28,7 @@ Har slot pe (default: roz 10 baar, subah 5:30 se raat 10:30 tak):
 
 - **Technically theek hai:** Instagram API 24 ghante mein 50 reels tak allow karta hai.
 - **Reach ka risk:** Instagram baar-baar milta-julta content ki reach kam karta hai. 20 photos aur 10 gaano se 300 reels/mahina banengi to bahut si ek jaisi lagengi.
-- **Meri salah:** pehla hafta `POSTS_PER_DAY = 5`, Insights mein reach per reel dekho, phir badhao. 10/din ke liye **100+ alag photos** aur **15-20+ gaane** rakho.
+- **Meri salah:** pehla hafta `POST_WINDOWS` mein ginti kam rakho (jaise 2-1-2 = 5/din), Insights mein reach per reel dekho, phir badhao. 10/din ke liye **100+ alag photos** aur **15-20+ gaane** rakho.
 
 ---
 
@@ -150,7 +150,7 @@ Har ping pe agent bas 15 sec mein dekhta hai ki slot due hai ya nahi — due ho 
 
 `config.py` → `PAUSED = False` → Commit.
 
-Bas! Ab har 20 min agent check karega aur roz `POSTS_PER_DAY` reels apne aap jayengi.
+Bas! Ab har 20 min agent check karega aur roz `POST_WINDOWS` ke hisaab se reels apne aap jayengi.
 
 ---
 
@@ -158,8 +158,9 @@ Bas! Ab har 20 min agent check karega aur roz `POSTS_PER_DAY` reels apne aap jay
 
 | Kya badalna hai | Setting |
 |---|---|
-| Roz kitni reels | `POSTS_PER_DAY` |
-| Pehli / aakhri reel ka time | `DAY_START`, `DAY_END` |
+| Kab aur kitni reels (subah / dopahar / shaam) | `POST_WINDOWS` — default 3 + 2 + 5 = 10/din |
+| Do reels ke beech kam se kam faasla | `MIN_GAP_MINUTES` |
+| Tyohaar (caption mein shubhkamna + hashtag) | `FESTIVALS` |
 | Reel kitne second ki | `REEL_SECONDS` (15-90) |
 | Turant band | `PAUSED = True` |
 | Ek mahine baad apne aap band | `CAMPAIGN_END = "2026-11-10"` |
@@ -179,7 +180,7 @@ Bas! Ab har 20 min agent check karega aur roz `POSTS_PER_DAY` reels apne aap jay
 | `Token expire/galat` (code 190) | Step 2 se naya token → `IG_ACCESS_TOKEN` secret update. `GH_PAT` daala hai to dobara nahi hoga |
 | `koi gaana ready nahi` | Step 6 — music/ mein MP3 daalo |
 | Reel mute ho gayi | Meta ki audio policy — us gaane ka chhota/doosra hissa try karo, ya TuneCore support se poochho |
-| Publishing limit | `POSTS_PER_DAY` kam karo |
+| Publishing limit | `POST_WINDOWS` mein ginti kam karo |
 | Reels time pe nahi aa rahi | GitHub ka schedule kabhi 10-20 min late hota hai — normal. 2 ghante se zyada late slot skip hota hai (ek saath dher na lage) |
 | Kuch bhi post nahi ho raha | `PAUSED = False` hai? Secrets daale? `check` mode chalao |
 

@@ -489,10 +489,11 @@ def list_photos(folder: str) -> list[str]:
 _HOOK_CACHE: dict = {}
 
 
-def find_hook_starts(path: str, seconds: float, top: int = 3) -> list[float]:
+def find_hook_starts(path: str, seconds: float, top: int = 3, lo_s: float | None = None,
+                     hi_s: float | None = None) -> list[float]:
     """Gaane ke sabse jandaar (loud/energetic) hisson ke start-second — chorus aksar yahi hota hai.
     Har reel mein in top hisson mein se ek lagta hai, taaki har baar same 30 sec na ho."""
-    key = (path, os.path.getmtime(path), seconds)
+    key = (path, os.path.getmtime(path), seconds, lo_s, hi_s)
     if key in _HOOK_CACHE:
         return _HOOK_CACHE[key]
     sr = 4000
@@ -507,6 +508,10 @@ def find_hook_starts(path: str, seconds: float, top: int = 3) -> list[float]:
         cs = np.concatenate([[0.0], np.cumsum(e)])
         win = (cs[w:] - cs[:-w]) / w                                # window [i, i+w) ki average
         lo, hi = min(5, n - w), n - w                               # pehle 5 sec (intro) chhodo
+        if lo_s is not None:                                        # sirf saaf hissa (songs.json "mp3_range")
+            lo = int(min(max(0, lo_s), n - w))
+        if hi_s is not None:
+            hi = int(max(lo, min(n - w, hi_s - w)))
         order = np.argsort(win[lo:hi + 1])[::-1] + lo
         picks: list[int] = []
         for c in order:

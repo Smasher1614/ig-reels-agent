@@ -1,5 +1,5 @@
 {
- "_help": "Zyada tar zarurat NAHI: music/<bhagwan>/ mein daali har MP3 apne aap gaana ban jaati hai (file ka naam = gaane ka naam). Yahan sirf tab likho jab: kisi gaane ka mood alag ho (\"mood\": \"josh\" ya \"calm\"), start fix karna ho (\"mp3_start\": second), ya gaana band karna ho (\"enabled\": false). deity = photos/ ka folder naam.",
+ "_help": "Zyada tar zarurat NAHI: music/<bhagwan>/ mein daali har MP3 apne aap gaana ban jaati hai (file ka naam = gaane ka naam). Yahan sirf tab likho jab: kisi gaane ka mood alag ho (\"mood\": \"josh\" ya \"calm\"), start fix karna ho (\"mp3_start\": second), ya gaana band karna ho (\"enabled\": false). deity = photos/ ka folder naam. Lambi file ka sirf saaf hissa chahiye to \"mp3_range\": [start_sec, end_sec].",
  "songs": [
   {
    "title": "Shambu Ki Sawari",
@@ -63,6 +63,18 @@
    "mp3": "music/shiv/Jhanda Uncha Rahe.mp3",
    "mp3_start": "auto",
    "mood": "josh"
+  },
+  {
+   "title": "Radha Naam Jap",
+   "deity": "premanand",
+   "mp3": "music/premanand/Radha Naam Jap.mp3",
+   "mp3_start": "auto",
+   "mp3_range": [
+    0,
+    861
+   ],
+   "enabled": false,
+   "_note": "14 min video ki audio — kuch hisson mein do audio mix. Saaf hissa confirm hone tak band."
   }
  ]
 }

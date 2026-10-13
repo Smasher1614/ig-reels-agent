@@ -145,19 +145,36 @@ def _seed(*parts) -> int:
 
 # ===================================================================== schedule
 def day_slots(day: dt.date) -> list[tuple[str, dt.datetime]]:
-    n = max(1, int(config.POSTS_PER_DAY))
-    start = dt.datetime.combine(day, _hhmm(config.DAY_START), TZ)
-    end = dt.datetime.combine(day, _hhmm(config.DAY_END), TZ)
-    span = (end - start).total_seconds() / 60
-    step = span / (n - 1) if n > 1 else 0
-    jit = min(config.JITTER_MINUTES, step / 3) if n > 1 else config.JITTER_MINUTES
-    out = []
-    for i in range(n):
-        r = random.Random(_seed(day.isoformat(), i, "slot")).uniform(-jit, jit)
-        t = start + dt.timedelta(minutes=i * step + r)
-        t = min(max(t, start - dt.timedelta(minutes=jit)), end + dt.timedelta(minutes=jit))
-        out.append((f"{day.isoformat()}#{i}", t.replace(second=0, microsecond=0)))
+    """Din ke slots: har POST_WINDOWS khidki mein reels barabar faasle pe (thoda aage-peeche)."""
+    windows = getattr(config, "POST_WINDOWS", None) or [(config.DAY_START, config.DAY_END, config.POSTS_PER_DAY)]
+    out, i = [], 0
+    for ws, we, cnt in windows:
+        cnt = int(cnt)
+        if cnt <= 0:
+            continue
+        start = dt.datetime.combine(day, _hhmm(ws), TZ)
+        end = dt.datetime.combine(day, _hhmm(we), TZ)
+        step = (end - start).total_seconds() / 60 / cnt
+        jit = min(config.JITTER_MINUTES, step / 3)
+        for k in range(cnt):
+            r = random.Random(_seed(day.isoformat(), i, "slot")).uniform(-jit, jit)
+            t = start + dt.timedelta(minutes=(k + 0.5) * step + r)
+            out.append((f"{day.isoformat()}#{i}", t.replace(second=0, microsecond=0)))
+            i += 1
     return out
+
+
+def festival_today(day: dt.date) -> dict | None:
+    for f in getattr(config, "FESTIVALS", []) or []:
+        try:
+            a, b = dt.date.fromisoformat(f["start"]), dt.date.fromisoformat(f["end"])
+        except (KeyError, ValueError):
+            continue
+        if a <= day <= b:
+            f = dict(f)
+            f["day_no"] = (day - a).days + 1
+            return f
+    return None
 
 
 def campaign_over(now: dt.datetime) -> bool:
@@ -184,6 +201,14 @@ def due_slot(st: dict, now: dt.datetime, mark: bool = True):
                 continue
             if found is None:
                 found = (key, t)
+    if found and st["posted"]:
+        # do reels bahut paas-paas na jaayein (late run ke baad ek ke peeche ek) — agli tick tak ruko
+        try:
+            last = dt.datetime.fromisoformat(st["posted"][-1]["at"])
+            if now - last < dt.timedelta(minutes=getattr(config, "MIN_GAP_MINUTES", 0)):
+                return None
+        except (KeyError, ValueError):
+            pass
     return found
 
 
@@ -338,7 +363,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     return {
         "slot": slot_key, "song": song, "deity": deity, "god": god, "photo": photo,
         "mantra": mantra, "bottom": bottom, "seed": _seed(slot_key, "video", st["counter"]),
-        "weekday": now.weekday(),
+        "weekday": now.weekday(), "festival": festival_today(now.date()),
     }
 
 
@@ -408,6 +433,7 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
         "Page apne khud ke bhajan/mantra gaane post karta hai. Bhasha bhaktipurn, garam aur sacchi ho."
     )
     prev = "\n---\n".join(recent[-5:]) or "(abhi koi nahi)"
+    fest = plan.get("festival")
     user = (
         f"Is reel ka caption likho.\n"
         f"Vishay (bhagwan/sant): {god['name']} | Jaikara: {god['jaikara']}\n"
@@ -422,6 +448,9 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
         f"- 1-3 emoji theek hain; hashtag BILKUL nahi\n"
         f"- Koi chamatkar/paisa/bimari theek hone ka vaada nahi, 'share nahi kiya to...' jaisi dhamki nahi\n"
         + (f"- Is vishay ka khaas niyam: {god['caption_note']}\n" if god.get("caption_note") else "")
+        + (f"- Aaj tyohaar hai: {fest['name']}" + (f" (din {fest['day_no']})" if fest.get("count_days") else "")
+           + f". Caption ki aakhri line mein chhoti si shubhkamna do, jaise: \"{fest['wish']}\". "
+             "Reel ke bhagwan ko tyohaar se zabardasti mat jodo.\n" if fest else "")
         + f"- Pichhle captions se alag ho:\n{prev}\n\n"
         f"Sirf caption likho, aur kuch nahi."
     )
@@ -456,7 +485,12 @@ def make_caption(plan: dict, st: dict) -> str:
         options = [t.format(**fields) for t in pool]
         fresh = [o for o in options if o not in recent] or options
         text = rng.choice(fresh)
+        if plan.get("festival") and plan["festival"].get("wish") and plan["festival"]["wish"] not in text:
+            text += "\n" + plan["festival"]["wish"]
     tags = pick_hashtags(plan["deity"], rng, god.get("hashtags"))
+    fest = plan.get("festival")
+    if fest and fest.get("hashtag") and fest["hashtag"].lower() not in [t.lower() for t in tags]:
+        tags = (tags[:max(0, int(config.MAX_HASHTAGS) - 1)] + [fest["hashtag"]])[:max(1, int(config.MAX_HASHTAGS))]
     caption = text + ("\n\n" + " ".join(tags) if tags else "")
     return caption[:2150]
 
@@ -738,7 +772,9 @@ def audio_start_for(song: dict, seed: int) -> float:
     if isinstance(v, (int, float)) or (isinstance(v, str) and v.replace(".", "", 1).isdigit()):
         return float(v)
     from render import find_hook_starts
-    starts = find_hook_starts(song["mp3_path"], float(config.REEL_SECONDS))
+    rng_ = song.get("mp3_range")  # [start_sec, end_sec] — sirf is hisse se (jaise lambi video ka saaf hissa)
+    lo, hi = (float(rng_[0]), float(rng_[1])) if isinstance(rng_, (list, tuple)) and len(rng_) == 2 else (None, None)
+    starts = find_hook_starts(song["mp3_path"], float(config.REEL_SECONDS), lo_s=lo, hi_s=hi)
     return random.Random(seed).choice(starts) if starts else 0.0
 
 

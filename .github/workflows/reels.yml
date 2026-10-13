@@ -2,7 +2,7 @@ name: IG Reels Agent
 
 on:
   schedule:
-    - cron: "*/20 * * * *"        # backup — GitHub ise kabhi-kabhi ghanto late chalata hai
+    - cron: "11,31,51 * * * *"    # backup (har 20 min, :00 se hat ke — us waqt GitHub pe bheed) — ye kabhi-kabhi ghanto late hota hai
                                   # isliye asli "ghadi" cron-job.org hai (README: "Time pe post")
   workflow_dispatch:
     inputs:

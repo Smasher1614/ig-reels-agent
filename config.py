@@ -7,13 +7,22 @@
 # 1) POSTING SCHEDULE
 # ---------------------------------------------------------------------
 TIMEZONE = "Asia/Kolkata"
-POSTS_PER_DAY = 10            # roz kitni reels (Instagram API limit: 24 ghante mein 50)
-DAY_START = "05:30"           # pehli reel lagbhag is time
-DAY_END = "22:30"             # aakhri reel lagbhag is time
+# Kab-kab post ho (IST): (shuru, khatam, kitni reels). Reels in khidkiyon mein barabar faasle pe lagti hain.
+#  - Subah: puja/aarti ka time — bhakti wale log subah sabse pehle bhajan dekhte hain
+#  - Dopahar: lunch + India ka afternoon engagement peak (2-5 PM)
+#  - Shaam: sandhya aarti + Reels ka prime time (6-9 PM) — sabse zyada reels yahin
+# Instagram Insights → Followers → "Most active times" dekh ke inhe badal sakte ho.
+POST_WINDOWS = [
+    ("05:45", "08:45", 3),
+    ("12:30", "16:30", 2),
+    ("18:00", "22:30", 5),
+]
+POSTS_PER_DAY = sum(c for _, _, c in POST_WINDOWS)   # roz kitni reels (apne aap — upar ki ginti ka jod)
 JITTER_MINUTES = 12           # har slot ko ±12 min aage-peeche (robot jaisa fix time na lage)
 MAX_LATE_MINUTES = 120        # koi slot isse zyada late ho gaya to skip (ek saath dher na lage)
+MIN_GAP_MINUTES = 35          # do reels ke beech kam se kam itna faasla
 CAMPAIGN_END = ""             # "2026-11-10" likho to us din ke baad posting band. "" = kabhi band nahi
-PAUSED = True                 # ⚠ Setup + test ke baad False karo = GO LIVE. (True = automatic posting band)
+PAUSED = False                # 🚀 LIVE. True karo to automatic posting turant band
 
 # ---------------------------------------------------------------------
 # 2) REEL VIDEO
@@ -50,6 +59,20 @@ USE_CLAUDE = True             # ANTHROPIC_API_KEY ho to Claude caption likhega, 
 CLAUDE_MODEL = "claude-haiku-5-5"   # sasta + tez; behtar likhai chahiye to "claude-sonnet-5-5"
 MAX_HASHTAGS = 5              # Instagram ab ek post pe 5 hashtag hi allow karta hai
 COMMON_HASHTAGS = ["#bhakti", "#bhajan", "#devotional", "#omnamohbhagwate"]
+
+# Tyohaar: in dino caption mein chhoti si shubhkamna + tyohaar ka hashtag (har bhagwan ki reel mein)
+FESTIVALS = [
+    {"name": "नवरात्रि", "start": "2026-10-11", "end": "2026-10-19", "hashtag": "#navratri",
+     "wish": "नवरात्रि की हार्दिक शुभकामनाएं 🙏", "count_days": True},
+    {"name": "दशहरा", "start": "2026-10-20", "end": "2026-10-20", "hashtag": "#dussehra",
+     "wish": "विजयादशमी की हार्दिक शुभकामनाएं 🙏"},
+    {"name": "शरद पूर्णिमा", "start": "2026-10-25", "end": "2026-10-25", "hashtag": "#sharadpurnima",
+     "wish": "शरद पूर्णिमा की शुभकामनाएं 🌕"},
+    {"name": "धनतेरस", "start": "2026-11-06", "end": "2026-11-06", "hashtag": "#dhanteras",
+     "wish": "धनतेरस की शुभकामनाएं 🪔"},
+    {"name": "दीपावली", "start": "2026-11-08", "end": "2026-11-08", "hashtag": "#diwali",
+     "wish": "दीपावली की हार्दिक शुभकामनाएं 🪔"},
+]
 
 # ---------------------------------------------------------------------
 # 5) NOTIFICATIONS (Telegram — optional, X agent wala bot hi chalega)
