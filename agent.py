@@ -258,6 +258,22 @@ def usable_songs(songs: list[dict], st: dict | None = None) -> list[dict]:
     return out
 
 
+def god_for(deity: str, song: dict | None = None) -> dict:
+    """Section ki settings; gaane ka "mood" (songs.json) ho to us mood ki settings upar se laga do.
+    Jaise Shiv section calm hai, par "josh" wale gaane (kanwar/dhol) ke liye alag mantra/lines/video speed."""
+    god = dict(config.DEITIES[deity])
+    mood = (song or {}).get("mood") or ""
+    over = (god.get("moods") or {}).get(mood) or {}
+    god.update(over)
+    theme = dict(god.get("theme") or {})
+    if mood in ("josh", "calm"):
+        theme["calm"] = mood == "calm"
+    theme.update(over.get("theme") or {})
+    god["theme"] = theme
+    god["mood"] = mood
+    return god
+
+
 def lru_pick(items: list, keyfn, st: dict, rng: random.Random):
     """Sabse kam haal-filhaal use hua item (thoda random) — repeat kam."""
     lu = st["last_used"]
@@ -287,7 +303,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     pool = day_songs if day_songs and rng.random() < config.DAY_DEITY_SHARE else fresh
     song = lru_pick(pool, lambda s: "song:" + s["title"], st, rng)
     deity = song["deity"]
-    god = config.DEITIES[deity]
+    god = god_for(deity, song)
 
     photos = photos_for(deity)
     photo = None
@@ -296,7 +312,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
     mantra = lru_pick(god["mantras"], lambda m: f"mantra:{deity}:{m}", st, rng)
     bottom = lru_pick(god.get("bottom_lines") or config.BOTTOM_LINES, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
     return {
-        "slot": slot_key, "song": song, "deity": deity, "photo": photo,
+        "slot": slot_key, "song": song, "deity": deity, "god": god, "photo": photo,
         "mantra": mantra, "bottom": bottom, "seed": _seed(slot_key, "video", st["counter"]),
         "weekday": now.weekday(),
     }
@@ -310,7 +326,7 @@ def mark_used(st: dict, plan: dict) -> None:
     if plan["photo"]:
         lu["photo:" + os.path.relpath(plan["photo"], BASE_DIR)] = c
     lu[f"mantra:{plan['deity']}:{plan['mantra']}"] = c
-    god = config.DEITIES[plan["deity"]]
+    god = plan.get("god") or god_for(plan["deity"], plan["song"])
     for b in god.get("bottom_lines") or config.BOTTOM_LINES:
         if b.format(jaikara=god["jaikara"]) == plan["bottom"]:
             lu["bottom:" + b] = c
@@ -332,8 +348,8 @@ TEMPLATES_HINGLISH = [
 ]
 
 
-def pick_hashtags(deity: str, rng: random.Random) -> list[str]:
-    god = config.DEITIES[deity]["hashtags"][:]
+def pick_hashtags(deity: str, rng: random.Random, tags: list | None = None) -> list[str]:
+    god = list(tags or config.DEITIES[deity]["hashtags"])
     common = config.COMMON_HASHTAGS[:]
     rng.shuffle(god)
     rng.shuffle(common)
@@ -360,7 +376,7 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
     if not (config.USE_CLAUDE and key):
         return None
     import requests
-    god = config.DEITIES[plan["deity"]]
+    god = plan.get("god") or god_for(plan["deity"], plan["song"])
     style = ("शुद्ध, सरल हिंदी (देवनागरी)" if config.CAPTION_STYLE == "hindi"
              else "Hinglish (Roman script mein Hindi)")
     system = (
@@ -406,7 +422,7 @@ def claude_caption(plan: dict, recent: list[str]) -> str | None:
 
 def make_caption(plan: dict, st: dict) -> str:
     rng = random.Random(plan["seed"] + 7)
-    god = config.DEITIES[plan["deity"]]
+    god = plan.get("god") or god_for(plan["deity"], plan["song"])
     text = claude_caption(plan, st["captions"])
     if not text:
         fields = dict(jaikara=god["jaikara"], name=god["name"], song=plan["song"]["title"],
@@ -416,7 +432,7 @@ def make_caption(plan: dict, st: dict) -> str:
         options = [t.format(**fields) for t in pool]
         fresh = [o for o in options if o not in recent] or options
         text = rng.choice(fresh)
-    tags = pick_hashtags(plan["deity"], rng)
+    tags = pick_hashtags(plan["deity"], rng, god.get("hashtags"))
     caption = text + ("\n\n" + " ".join(tags) if tags else "")
     return caption[:2150]
 
@@ -681,7 +697,7 @@ def maybe_refresh_token(st: dict) -> None:
 # ===================================================================== core: one reel
 def render_for(plan: dict, path: str, with_mp3: bool) -> dict:
     from render import render_reel
-    god = config.DEITIES[plan["deity"]]
+    god = plan.get("god") or god_for(plan["deity"], plan["song"])
     song = plan["song"]
     return render_reel(
         path, plan["photo"], plan["mantra"], plan["bottom"],

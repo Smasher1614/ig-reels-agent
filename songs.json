@@ -1,13 +1,68 @@
 {
- "_help": "Zyada tar zarurat NAHI: music/ (ya music/<bhagwan>/) mein daali har MP3 apne aap gaana ban jaati hai. Yahan sirf tab likho jab kisi gaane ka start fix karna ho (mp3_start = second) ya use band karna ho (enabled false). deity = photos/ ka folder naam. audio_id sirf Facebook Login + library mode mein.",
+ "_help": "Zyada tar zarurat NAHI: music/<bhagwan>/ mein daali har MP3 apne aap gaana ban jaati hai (file ka naam = gaane ka naam). Yahan sirf tab likho jab: kisi gaane ka mood alag ho (\"mood\": \"josh\" ya \"calm\"), start fix karna ho (\"mp3_start\": second), ya gaana band karna ho (\"enabled\": false). deity = photos/ ka folder naam.",
  "songs": [
   {
-   "title": "EXAMPLE — Om Namah Shivay (isse hata dena)",
+   "title": "Shambu Ki Sawari",
    "deity": "shiv",
-   "audio_id": "",
-   "mp3": "",
-   "mp3_start": 0,
-   "enabled": false
+   "mp3": "music/shiv/Shambu Ki Sawari.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Saavan Aaya Bhole Aaye",
+   "deity": "shiv",
+   "mp3": "music/shiv/Saavan Aaya Bhole Aaye.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Kawad Chale",
+   "deity": "shiv",
+   "mp3": "music/shiv/Kawad Chale.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Kafila Mahdev Ka",
+   "deity": "shiv",
+   "mp3": "music/shiv/Kafila Mahdev Ka.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Kon Aaya",
+   "deity": "shiv",
+   "mp3": "music/shiv/Kon Aaya.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Saavan Aa Gaya",
+   "deity": "shiv",
+   "mp3": "music/shiv/Saavan Aa Gaya.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Saavan Ka Rang",
+   "deity": "shiv",
+   "mp3": "music/shiv/Saavan Ka Rang.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Jai Shambu",
+   "deity": "shiv",
+   "mp3": "music/shiv/Jai Shambu.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
+  },
+  {
+   "title": "Jhanda Uncha Rahe",
+   "deity": "shiv",
+   "mp3": "music/shiv/Jhanda Uncha Rahe.mp3",
+   "mp3_start": "auto",
+   "mood": "josh"
   }
  ]
 }

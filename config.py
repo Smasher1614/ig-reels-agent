@@ -78,7 +78,30 @@ DEITIES = {
             "मन को शांति दे — अपनों को भेजें",
         ],
         "caption_note": ("Ye bhajan ekdum shaant, dhyaan (meditation) wala hai. Caption bhi shaant, sukoon aur dhyaan ka ho — "
-                         "'Bam Bam', josh ya chillane wala tone NAHI. Headphone lagake, aankhein band karke sunne ka bhaav ho."),
+                         "'Bam Bam', josh ya chillane wala tone NAHI. Headphone lagake, aankhein band karke sunne ka bhaav ho. "
+                         "Gaane ke naam mein Saavan/Sawan ho to bhi ye mat likho ki abhi saavan ka mahina chal raha hai."),
+        # songs.json mein kisi gaane pe "mood": "josh" likho to ye settings lagengi (kanwar/dhol wale gaane)
+        "moods": {
+            "josh": {
+                "jaikara": "हर हर महादेव",
+                "mantras": ["हर हर महादेव", "बम बम भोले", "जय भोलेनाथ", "जय शिव शंकर"],
+                "bottom_lines": [
+                    "कमेंट में लिखें — हर हर महादेव",
+                    "रोज़ भक्ति के लिए फ़ॉलो करें",
+                    "पूरा भजन सुनने के लिए ऑडियो पर टैप करें",
+                    "भोले के भक्तों को भेजें",
+                ],
+                "hashtags": ["#harharmahadev", "#bambambhole", "#mahadev", "#bholenath"],
+                "caption_note": ("Ye joshila Shiv bhajan hai (dhol/kanwar wala). Caption mein utsah aur bhakti ho — "
+                                 "'Har Har Mahadev', 'Bam Bam Bhole' jaisa jaikara. Gaane ke naam mein Saavan/Sawan ho "
+                                 "to bhi ye mat likho ki abhi saavan ka mahina chal raha hai."),
+                "templates": [
+                    "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 {song}\nकमेंट में लिखें: हर हर महादेव",
+                    "बम बम भोले 🔱\n🎵 {song}\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+                    "आज {day} — भोलेनाथ के नाम 🔱\n🎵 {song}\nजय भोलेनाथ 🙏",
+                ],
+            },
+        },
         "templates": [
             "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 {song}",
             "शिव में ही शांति है 🌙\n🎵 {song}\nकमेंट में लिखें: ॐ नमः शिवाय",
