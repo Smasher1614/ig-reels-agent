@@ -47,6 +47,18 @@
    "media_id": "17972645532150901",
    "permalink": "https://www.instagram.com/reel/DecFbthjlXm/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-13#8",
+   "at": "2026-10-13T21:18:16+05:30",
+   "song": "Thodi Der Sanwariya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-02.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "18135431629630997",
+   "permalink": "https://www.instagram.com/reel/DecKlApglEZ/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -72,7 +84,7 @@
   "song:Radha Naam Jap": 1,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 1,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 5,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
@@ -84,14 +96,18 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 4,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
-  "bottom:कमेंट में लिखें — {jaikara}": 4
+  "bottom:कमेंट में लिखें — {jaikara}": 4,
+  "song:Thodi Der Sanwariya": 5,
+  "photo:photos/sanwariya/sanwariya-02.jpg": 5,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 5
  },
- "counter": 4,
+ "counter": 5,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
