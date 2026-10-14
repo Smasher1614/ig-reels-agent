@@ -71,6 +71,18 @@
    "media_id": "18142910176538340",
    "permalink": "https://www.instagram.com/reel/DecRe5uk5mD/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#0",
+   "at": "2026-10-14T06:33:04+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-11.jpg",
+   "mantra": "जय जय श्री राधे",
+   "audio": "mp3",
+   "media_id": "17876428107576525",
+   "permalink": "https://www.instagram.com/reel/DedKFOalPC9/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -93,14 +105,14 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 1,
+  "song:Radha Naam Jap": 7,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 5,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 2,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 7,
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
@@ -115,16 +127,19 @@
   "song:Kon Aaya": 6,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 6,
-  "bottom:भोले के भक्तों को भेजें": 6
+  "bottom:भोले के भक्तों को भेजें": 6,
+  "photo:photos/premanand/premanand-11.jpg": 7,
+  "mantra:premanand:जय जय श्री राधे": 7
  },
- "counter": 6,
+ "counter": 7,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
