@@ -45,10 +45,13 @@ BOTTOM_LINES = [              # neeche wali chhoti line (rotate hoti hai). {jaik
 LOGIN_TYPE = "instagram"
 # AUDIO_MODE:
 #   "mp3"     = music/ folder ki MP3 ka sabse jandaar 30 sec hissa video mein judta hai
-#   "library" = Instagram music library se official gaana attach (sirf LOGIN_TYPE = "facebook")
-AUDIO_MODE = "mp3"
+#   "library" = Instagram music library se official gaana attach (Facebook token chahiye)
+#   "auto"    = jis gaane ka library mein milan ho (songs.json mein audio_id) wahan library gaana, baaki MP3
+#               — FB_ACCESS_TOKEN secret na ho to bilkul "mp3" jaisa
+AUDIO_MODE = "auto"
 FALLBACK_TO_MP3 = True        # (library mode) attach fail ho aur MP3 ho to MP3 wali reel
-ARTIST_NAME = ""              # (library mode) find-songs isse filter karta hai
+ARTIST_NAME = ""              # (library) Instagram music pe tumhara artist naam — sirf isi naam ke gaane lagenge
+IG_USERNAME = "om_namoh_bhagwate_"   # (Facebook Login) kaunsa Instagram account (Page se juda)
 TOKEN_REFRESH_DAYS = 20       # (instagram login) token har 20 din mein apne aap naya — GH_PAT secret chahiye
 
 # ---------------------------------------------------------------------

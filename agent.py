@@ -275,8 +275,16 @@ def load_songs() -> list[dict]:
     return out
 
 
+def library_on() -> bool:
+    """Library gaana lag sakta hai? ("auto" = jahan audio_id ho aur Facebook token ho)"""
+    if config.AUDIO_MODE == "library":
+        return True
+    return config.AUDIO_MODE == "auto" and bool(env("FB_ACCESS_TOKEN") or env("FB_PAGE_TOKEN")
+                                                or config.LOGIN_TYPE == "facebook")
+
+
 def usable_songs(songs: list[dict], st: dict | None = None) -> list[dict]:
-    if config.AUDIO_MODE == "mp3":
+    if config.AUDIO_MODE == "mp3" or not library_on():
         return [s for s in songs if s["mp3_path"]]
     bad = {aid for aid, n in ((st or {}).get("song_fail") or {}).items() if n >= 2}
     out = []
@@ -361,7 +369,7 @@ def choose_content(st: dict, now: dt.datetime, slot_key: str, songs: list[dict])
         photo = lru_pick(photos, lambda p: "photo:" + os.path.relpath(p, BASE_DIR), st, rng)
     mantra = lru_pick(god["mantras"], lambda m: f"mantra:{deity}:{m}", st, rng)
     lines = god.get("bottom_lines") or config.BOTTOM_LINES
-    if config.AUDIO_MODE != "library":  # MP3 wali reel pe "Original audio" hota hai — tap karke poora gaana nahi milta
+    if not (library_on() and song.get("audio_id")):  # MP3 wali reel pe "Original audio" — tap karke gaana nahi milta
         lines = [b for b in lines if "ऑडियो पर टैप" not in b] or lines
     bottom = lru_pick(lines, lambda b: "bottom:" + b, st, rng).format(jaikara=god["jaikara"])
     return {
@@ -520,8 +528,9 @@ class IGError(Exception):
 
 
 class Instagram:
-    def __init__(self, token: str, ig_id: str, version: str = config.GRAPH_VERSION):
-        ig_login = config.LOGIN_TYPE == "instagram"
+    def __init__(self, token: str, ig_id: str, version: str = config.GRAPH_VERSION, kind: str | None = None):
+        self.kind = kind or config.LOGIN_TYPE
+        ig_login = self.kind == "instagram"
         if not token or (not ig_id and not ig_login):
             raise SetupError("IG_ACCESS_TOKEN" + ("" if ig_login else " aur IG_USER_ID") +
                              " secret set nahi hai (README step 4).")
@@ -566,7 +575,7 @@ class Instagram:
 
     # ------------------------------------------------------------ endpoints
     def account(self):
-        if config.LOGIN_TYPE == "instagram":
+        if self.kind == "instagram":
             return self.get("me", fields="user_id,username,name,account_type,followers_count,media_count")
         return self.get(self.ig_id, fields="id,username,name,followers_count,media_count")
 
@@ -664,6 +673,221 @@ class Instagram:
 
 def ig_client() -> Instagram:
     return Instagram(env("IG_ACCESS_TOKEN"), env("IG_USER_ID"))
+
+
+# ===================================================================== Facebook Login (library gaana)
+# Instagram Login (upar) MP3 wali reels ke liye chalta rehta hai. Library ka asli gaana sirf Facebook Login se
+# lagta hai, isliye FB_ACCESS_TOKEN secret ho to bot ek doosra client bhi banata hai. state.json PUBLIC hai —
+# usme kabhi token nahi, sirf Page/IG ka naam-id aur gaano ki list.
+FB_GRAPH = f"https://graph.facebook.com/{config.GRAPH_VERSION}"
+_FB_CACHE: dict = {}
+
+
+def _fb_get(path: str, token: str, **params) -> dict:
+    import requests
+    if token:
+        params["access_token"] = token
+    r = requests.get(f"{FB_GRAPH}/{path.lstrip('/')}", params=params, timeout=60)
+    body = r.json() if r.content else {}
+    if r.status_code >= 400 or "error" in body:
+        err = body.get("error", {}) if isinstance(body, dict) else {}
+        raise IGError(err.get("error_user_msg") or err.get("message") or f"HTTP {r.status_code}",
+                      err.get("code"), err.get("error_subcode"), body)
+    return body
+
+
+def fb_setup_due(st: dict, now: dt.datetime) -> bool:
+    """Naya FB_ACCESS_TOKEN aaya hai (ya pichhli koshish fail hui thi aur 30 min ho gaye)?"""
+    tok = env("FB_ACCESS_TOKEN")
+    if not tok:
+        return False
+    fb = st.get("fb") or {}
+    if fb.get("token_fp") == _fp(tok) and fb.get("ok"):
+        # artist naam badla ya naye gaane aaye to library dobara dhundo
+        return fb.get("artist", "") != config.ARTIST_NAME or fb.get("titles_fp") != _titles_fp()
+    try:
+        last = dt.datetime.fromisoformat(fb.get("tried_at", ""))
+        if fb.get("token_fp") == _fp(tok) and now - last < dt.timedelta(minutes=30):
+            return False
+    except ValueError:
+        pass
+    return True
+
+
+def _scan_titles() -> list[str]:
+    out = []
+    for s in load_songs():
+        if s.get("mp3_path") and s["title"] not in out and s["deity"] != "premanand":
+            out.append(s["title"])
+    return out
+
+
+def _titles_fp() -> str:
+    return _fp("|".join(sorted(_scan_titles())))
+
+
+def _norm(t: str) -> str:
+    t = re.sub(r"\(.*?\)|\[.*?\]", " ", (t or "").casefold())
+    return " ".join(re.findall(r"[a-z0-9\u0900-\u097f]+", t))
+
+
+def _title_match(mine: str, theirs: str) -> bool:
+    a, b = _norm(mine), _norm(theirs)
+    return bool(a and b) and (a == b or a in b or b in a)
+
+
+def fb_setup(st: dict, now: dt.datetime) -> None:
+    """FB token se: lamba token, Page + Instagram account, Page token (kabhi expire nahi), aur library mein
+    tumhare gaane dhundo. Sab report state.json ke "fb" mein (bina token ke)."""
+    user = env("FB_ACCESS_TOKEN")
+    fb = {"token_fp": _fp(user), "tried_at": now.isoformat(timespec="seconds"), "ok": False}
+    st["fb"] = fb
+    try:
+        # 1) chhota (1-2 ghante wala) token ho to lamba (60 din) banao
+        app_id, secret = env("FB_APP_ID"), env("FB_APP_SECRET")
+        if app_id and secret:
+            try:
+                d = _fb_get("debug_token", f"{app_id}|{secret}", input_token=user).get("data", {})
+                exp = d.get("expires_at") or 0
+                fb["user_token_expires"] = (dt.datetime.fromtimestamp(exp, TZ).isoformat(timespec="minutes")
+                                            if exp else "never")
+                if exp and exp - time.time() < 2 * 86400:
+                    new = _fb_get("oauth/access_token", "", grant_type="fb_exchange_token", client_id=app_id,
+                                  client_secret=secret, fb_exchange_token=user).get("access_token")
+                    if new:
+                        user = new
+                        fb["exchanged"] = True
+                        if update_github_secret("FB_ACCESS_TOKEN", new):
+                            os.environ["FB_ACCESS_TOKEN"] = new
+                            fb["token_fp"] = _fp(new)
+                            fb["user_token_expires"] = (now + dt.timedelta(days=60)).isoformat(timespec="minutes")
+            except IGError as e:
+                fb["exchange_error"] = str(e)[:200]
+        # 2) Page + us se juda Instagram account
+        pages = _fb_get("me/accounts", user, limit=50,
+                        fields="name,access_token,instagram_business_account{id,username}").get("data", [])
+        want = (getattr(config, "IG_USERNAME", "") or "").lstrip("@").casefold()
+        with_ig = [p for p in pages if p.get("instagram_business_account")]
+        pick = next((p for p in with_ig if p["instagram_business_account"].get("username", "").casefold() == want),
+                    None) or (with_ig[0] if len(with_ig) == 1 else None)
+        fb["pages"] = [{"name": p.get("name"), "ig": (p.get("instagram_business_account") or {}).get("username")}
+                       for p in pages]
+        if not pick:
+            raise SetupError("Token mein koi FB Page nahi mila jo Instagram se juda ho — token banate waqt Facebook "
+                             "popup mein Page aur Instagram dono tick karne the (aur pages_show_list permission).")
+        iga = pick["instagram_business_account"]
+        fb.update(page=pick.get("name"), ig_id=str(iga["id"]), ig_username=iga.get("username"))
+        page_tok = pick.get("access_token") or ""
+        # 3) kaunsa token Instagram + music search ke liye chalta hai? Page token kabhi expire nahi hota — pehle wo
+        first = next((s["title"] for s in load_songs() if s.get("mp3_path")), "bhajan")
+        works = None
+        for kind, tok in (("page", page_tok), ("user", user)):
+            if not tok:
+                continue
+            try:
+                _fb_get(fb["ig_id"], tok, fields="username")
+                _fb_get("ig_audio", tok, audio_type="music", user_id=fb["ig_id"], search_query=first)
+                works = (kind, tok)
+                break
+            except IGError as e:
+                fb[f"{kind}_token_error"] = str(e)[:200]
+        if not works:
+            raise SetupError("Token se Instagram/music search nahi chala — permissions check karo "
+                             "(instagram_basic, instagram_content_publish, pages_show_list, pages_read_engagement).")
+        fb["token_kind"] = works[0]
+        if works[0] == "page":
+            fb["page_token_saved"] = update_github_secret("FB_PAGE_TOKEN", works[1])
+            os.environ["FB_PAGE_TOKEN"] = works[1]
+        # 4) library mein tumhare gaane dhundo
+        fb["library"] = library_scan(works[1], fb["ig_id"])
+        fb.update(ok=True, artist=config.ARTIST_NAME, titles_fp=_titles_fp())
+        n_found = sum(1 for v in fb["library"].values() if v.get("picked"))
+        msg = (f"✅ Facebook juda: Page '{fb['page']}' → @{fb['ig_username']} (token: {fb['token_kind']}). "
+               f"Library mein {n_found}/{len(fb['library'])} gaane tumhare naam se mile.")
+        log(msg)
+        telegram(msg)
+    except (SetupError, IGError) as e:
+        fb["error"] = str(e)[:300]
+        log(f"❌ Facebook setup: {e}")
+        telegram(f"❌ Facebook setup nahi hua: {e}")
+    except Exception as e:  # noqa: BLE001
+        fb["error"] = repr(e)[:300]
+        log(f"❌ Facebook setup (anjaan): {e!r}")
+
+
+def library_scan(token: str, ig_id: str) -> dict:
+    """Har MP3 gaane ke naam se Instagram music library search. ARTIST_NAME ho to usi artist ka gaana
+    "picked" hota hai aur songs.json mein audio_id jud jaata hai; warna sirf list (koi gaana apne aap nahi lagta)."""
+    artist = (config.ARTIST_NAME or "").strip().casefold()
+    out: dict = {}
+    for title in _scan_titles():
+        q = f"{title} {config.ARTIST_NAME}".strip() if artist else title
+        try:
+            res = _fb_get("ig_audio", token, audio_type="music", user_id=ig_id, search_query=q)
+        except IGError as e:
+            out[title] = {"error": str(e)[:120]}
+            continue
+        items = res.get("audio") or res.get("data") or []
+        cands = []
+        for a in items[:8]:
+            cands.append({"audio_id": str(a.get("audio_id") or a.get("id") or ""), "title": a.get("title") or "",
+                          "artist": a.get("display_artist") or "",
+                          "sec": int((a.get("duration_in_ms") or 0) / 1000)})
+        good = [c for c in cands if c["audio_id"] and _title_match(title, c["title"])]
+        picked = next((c for c in good if artist and artist in c["artist"].casefold()), None)
+        out[title] = {"candidates": good[:4] or cands[:3], "picked": picked}
+    attach_library(out)
+    return out
+
+
+def attach_library(scan: dict) -> int:
+    """"picked" gaano ka audio_id songs.json mein likho (MP3 bhi saath rehti hai — fail ho to MP3 wali reel)."""
+    data = load_json(SONGS_FILE, {"songs": []})
+    data.setdefault("songs", [])
+    by_title = {s.get("title"): s for s in data["songs"] if isinstance(s, dict)}
+    files = {s["title"]: s for s in load_songs()}
+    n = 0
+    for title, v in scan.items():
+        c = (v or {}).get("picked")
+        if not c:
+            continue
+        row = by_title.get(title)
+        if row is None:
+            src = files.get(title) or {}
+            row = {"title": title, "deity": src.get("deity", ""), "mp3": src.get("mp3", ""), "mp3_start": "auto"}
+            data["songs"].append(row)
+            by_title[title] = row
+        if str(row.get("audio_id") or "") != c["audio_id"]:
+            row["audio_id"] = c["audio_id"]
+            row["library_title"] = f"{c['title']} — {c['artist']}"
+            n += 1
+    if n:
+        save_json(SONGS_FILE, data)
+    return n
+
+
+def fb_client(st: dict) -> "Instagram | None":
+    """Library gaane wali reel ke liye Facebook Login client (setup ho chuka ho tab)."""
+    if config.LOGIN_TYPE == "facebook":
+        return ig_client()
+    fb = st.get("fb") or {}
+    if not (fb.get("ok") and fb.get("ig_id")):
+        return None
+    tok = env("FB_PAGE_TOKEN") if fb.get("token_kind") == "page" else env("FB_ACCESS_TOKEN")
+    if not tok and fb.get("token_kind") == "page" and env("FB_ACCESS_TOKEN"):
+        try:  # Page token secret mein save nahi hua — user token se abhi nikaal lo
+            pages = _fb_get("me/accounts", env("FB_ACCESS_TOKEN"), limit=50,
+                            fields="access_token,instagram_business_account{id}").get("data", [])
+            tok = next((p.get("access_token") for p in pages
+                        if str((p.get("instagram_business_account") or {}).get("id")) == fb["ig_id"]), "")
+        except IGError as e:
+            log(f"   Page token nahi mila: {e}")
+    if not tok:
+        return None
+    key = (tok, fb["ig_id"])
+    if key not in _FB_CACHE:
+        _FB_CACHE[key] = Instagram(tok, fb["ig_id"], kind="facebook")
+    return _FB_CACHE[key]
 
 
 # ===================================================================== telegram
@@ -901,15 +1125,6 @@ ACCOUNT_ERRORS = {4, 9, 10, 17, 32, 190, 200, 341, 613}   # in pe doosra link tr
 
 def make_container(ig: "Instagram", st: dict, path: str, caption: str, audio_id: str | None):
     """Container banao aur Instagram ke process karne tak ruko. Return: (container_id, cleanup, host)."""
-    if config.LOGIN_TYPE != "instagram":
-        cid, uri = ig.create_reel(caption, audio_id)
-        try:
-            ig.upload(uri, path)
-            ig.wait_ready(cid)
-        except IGError as e:
-            e.code = e.code or -1
-            raise
-        return cid, (lambda: None), "resumable"
     order = sorted(HOSTS, key=lambda h: h != st.get("host_ok"))   # jo pichhli baar chala wo pehle
     last = None
     for host in order:
@@ -924,8 +1139,8 @@ def make_container(ig: "Instagram", st: dict, path: str, caption: str, audio_id:
             cid, _ = ig.create_reel(caption, audio_id, video_url=url)
         except IGError as e:
             cleanup()
-            if e.code in ACCOUNT_ERRORS:     # token/limit ki dikkat — doosra link bhi nahi chalega
-                raise
+            if e.code in ACCOUNT_ERRORS or (audio_id and "audio" in str(e).lower()):
+                raise                        # token/limit/gaane ki dikkat — doosra link bhi nahi chalega
             log(f"   Instagram ne {host} link nahi maana: {e}")
             e.code = e.code or -1
             last = e
@@ -949,7 +1164,7 @@ def song_problem(e: IGError) -> bool:
 
 
 def check_mode() -> None:
-    if config.LOGIN_TYPE == "instagram" and config.AUDIO_MODE == "library":
+    if config.LOGIN_TYPE == "instagram" and config.AUDIO_MODE == "library" and not env("FB_ACCESS_TOKEN"):
         raise SetupError("Instagram Login mein library ka gaana attach nahi hota — config.py mein AUDIO_MODE = \"mp3\" karo "
                          "(ya FB Page jod ke LOGIN_TYPE = \"facebook\").")
 
@@ -981,8 +1196,9 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
         song = plan["song"]
         tried.add(song["title"])
         caption = make_caption(plan, st)
-        use_library = (config.AUDIO_MODE == "library" and bool(song.get("audio_id"))
-                       and st["song_fail"].get(str(song.get("audio_id")), 0) < 2)
+        fbc = fb_client(st) if (library_on() and song.get("audio_id")) else None
+        use_library = (fbc is not None and st["song_fail"].get(str(song.get("audio_id")), 0) < 2)
+        client = fbc if use_library else ig
         log(f"🎬 {slot_key}: '{song['title']}' ({plan['deity']}) | photo: "
             f"{os.path.relpath(plan['photo'], BASE_DIR) if plan['photo'] else 'mantra-art'} | "
             f"audio: {'library' if use_library else 'mp3'}")
@@ -993,7 +1209,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
 
         audio_used = "library" if use_library else "mp3"
         try:
-            cid, cleanup, host = make_container(ig, st, path, caption, song.get("audio_id") if use_library else None)
+            cid, cleanup, host = make_container(client, st, path, caption, song.get("audio_id") if use_library else None)
         except IGError as e:
             if not (use_library and song_problem(e)):
                 raise
@@ -1002,6 +1218,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
             if config.FALLBACK_TO_MP3 and song["mp3_path"]:
                 log(f"   gaana attach nahi hua ({e}) — MP3 wali reel bana raha hoon")
                 render_for(plan, path, with_mp3=True)
+                client = ig
                 cid, cleanup, host = make_container(ig, st, path, caption, None)
                 audio_used = "mp3"
             else:
@@ -1011,10 +1228,10 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
                              f"ab ye skip hoga. songs.json mein audio_id check karo ya MP3 jodo.")
                 continue
         try:
-            media_id = ig.publish(cid)
+            media_id = client.publish(cid)
         finally:
             cleanup()
-        link = ig.permalink(media_id)
+        link = client.permalink(media_id)
         log(f"   ✅ post ho gayi: {link or media_id}")
         if use_library and audio_used == "library":
             st["song_fail"].pop(str(song["audio_id"]), None)
@@ -1042,6 +1259,8 @@ def run_once(force: bool = False) -> int:
     st = load_state()
     now = now_local()
     maybe_refresh_token(st)
+    if fb_setup_due(st, now):
+        fb_setup(st, now)
     if force:
         slot = (f"{now.date().isoformat()}#m{now:%H%M%S}", now)
     else:
@@ -1105,7 +1324,7 @@ def cmd_due() -> int:
     except SetupError:
         ready = False
     slot = due_slot(st, now, mark=False) if ready else None
-    due = bool(slot) or summary_due(st, now) or token_refresh_due(st)
+    due = bool(slot) or summary_due(st, now) or token_refresh_due(st) or fb_setup_due(st, now)
     if not ready and not config.PAUSED:
         print("setup abhi poora nahi (secrets/gaane) — scheduled posting ruki hai")
     print(f"due={'true' if due else 'false'}" + (f"  (slot {slot[0]} @ {slot[1]:%H:%M})" if slot else ""))
@@ -1148,7 +1367,7 @@ def cmd_preview(n: int) -> int:
         plan = choose_content(sim, now, key, songs)
         caption = make_caption(plan, sim)
         path = os.path.join(PREVIEW_DIR, f"preview_{i + 1}.mp4")
-        has_mp3 = config.AUDIO_MODE == "mp3" and bool(plan["song"].get("mp3_path"))
+        has_mp3 = bool(plan["song"].get("mp3_path")) and not (library_on() and plan["song"].get("audio_id"))
         t0 = time.time()
         info = render_for(plan, path, with_mp3=has_mp3)
         with open(path[:-4] + "_caption.txt", "w", encoding="utf-8") as fh:
@@ -1240,6 +1459,16 @@ def cmd_check() -> int:
             except IGError as e:
                 ok = False
                 print(f"   ❌ {s['title']} (audio_id {s['audio_id']}): {e}")
+    fb = load_state().get("fb") or {}
+    if env("FB_ACCESS_TOKEN") or fb:
+        if fb.get("ok"):
+            lib = fb.get("library") or {}
+            print(f"• Facebook (library gaana): ✅ Page '{fb.get('page')}' → @{fb.get('ig_username')}, token={fb.get('token_kind')}, "
+                  f"{sum(1 for v in lib.values() if (v or {}).get('picked'))}/{len(lib)} gaane library se")
+        elif fb.get("error"):
+            print(f"• Facebook (library gaana): ❌ {fb['error']}")
+        else:
+            print("• Facebook (library gaana): ⏳ agle run mein setup hoga")
     if env("TELEGRAM_BOT_TOKEN"):
         telegram("✅ IG Reels Agent: setup check chala. " + ("Sab theek!" if ok else "Kuch problem hai — GitHub log dekho."))
     print("── Result:", "✅ sab theek" if ok else "❌ upar ki problems theek karo")
@@ -1247,11 +1476,13 @@ def cmd_check() -> int:
 
 
 def cmd_find_songs(query: str, save: bool) -> int:
-    if config.LOGIN_TYPE == "instagram":
+    st = load_state()
+    fbc = fb_client(st)
+    if config.LOGIN_TYPE == "instagram" and not fbc:
         print("Instagram Login mein music library search nahi hota (sirf Facebook Login mein).")
         print("👉 Apne gaano ki MP3 music/ folder mein daalo — agent unhe apne aap use karega (README Step 6).")
         return 1
-    ig = ig_client()
+    ig = fbc or ig_client()
     res = ig.search_audio(query)
     artist = config.ARTIST_NAME.strip().casefold()
     if not res:

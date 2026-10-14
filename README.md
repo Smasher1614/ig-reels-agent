@@ -192,15 +192,25 @@ Agar restricted FB ki wajah se developers.facebook.com pe developer account hi n
 - **Account Quality** (facebook.com/accountquality) se restriction pe *Request review* karo — purani restriction kabhi-kabhi hat jaati hai
 - Ya koi bharosemand saathi (jiska FB theek ho) app bana ke tumhe **Instagram Tester** add kare — token phir bhi tumhare Instagram se banega
 
-## Baad mein FB theek ho jaaye to (Instagram library ka gaana)
+## Instagram library ka asli gaana (Facebook Login)
 
-FB Page juda ho to reel pe **tumhare official gaane ka naam** (Instagram library se) lag sakta hai — reach ke liye ye best hai:
-1. Instagram ko FB Page se jodo
-2. `config.py`: `LOGIN_TYPE = "facebook"`, `AUDIO_MODE = "library"`, `ARTIST_NAME = "..."`
-3. Graph API Explorer se Page token (permissions: `instagram_basic`, `instagram_content_publish`, `pages_show_list`, `pages_read_engagement`, `business_management`) → secrets `IG_ACCESS_TOKEN` + `IG_USER_ID`
-4. Actions → mode `find-songs` (query = artist naam, save ✅) → gaane `songs.json` mein jud jaayenge
+MP3 wali reel pe "Original audio" dikhta hai. Library wale gaane mein reel pe **gaane ka naam + artist** aata hai
+aur log tap karke tumhara gaana dekh/use kar sakte hain. Ye sirf Facebook Login se hota hai (Meta ka Audio API).
 
-Is waqt mujhse poochh lena — detail mein step bata dunga.
+1. Instagram ko ek FB Page se jodo (Instagram → Edit profile → Page)
+2. App mein **API setup with Facebook login** jodo, permissions: `instagram_basic`, `instagram_content_publish`,
+   `pages_show_list`, `pages_read_engagement`, `business_management`
+3. Graph API Explorer → User Token (ye 5 permissions) → Generate → popup mein Page + Instagram tick →
+   Access Token Tool → **Extend Access Token** → secret **`FB_ACCESS_TOKEN`**
+4. `config.py` mein `ARTIST_NAME` = Instagram music pe tumhara artist naam
+
+Bot apne aap: Page + Instagram dhundta hai, kabhi-expire-na-hone wala Page token (`FB_PAGE_TOKEN`) bana leta hai,
+aur har MP3 gaane ko naam se library mein dhundta hai. Sirf **tumhare artist naam** wale gaane jodta hai
+(`songs.json` mein `audio_id`). Report `state.json` → `"fb"` mein.
+
+- Library gaana: kaunsa hissa bajega wo Instagram tay karta hai
+- Jo gaana library mein nahi (ya attach fail) — wo MP3 se hi post hota hai
+- `AUDIO_MODE = "mp3"` karo to library band
 
 ---
 
