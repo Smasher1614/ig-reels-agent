@@ -95,6 +95,18 @@
    "media_id": "17953243227280570",
    "permalink": "https://www.instagram.com/reel/DedQ-b-AOju/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#2",
+   "at": "2026-10-14T08:18:03+05:30",
+   "song": "Sanwariya Mai Aa Gaya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-06.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "17993151075024490",
+   "permalink": "https://www.instagram.com/reel/DedWGNmmUvs/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -120,7 +132,7 @@
   "song:Radha Naam Jap": 7,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 5,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 9,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
@@ -144,9 +156,12 @@
   "mantra:premanand:जय जय श्री राधे": 7,
   "song:Radha Naam Tera": 8,
   "photo:photos/radha/radha-05.jpg": 8,
-  "mantra:radha:बरसाने वाली राधे": 8
+  "mantra:radha:बरसाने वाली राधे": 8,
+  "song:Sanwariya Mai Aa Gaya": 9,
+  "photo:photos/sanwariya/sanwariya-06.jpg": 9,
+  "mantra:sanwariya:मेरे सांवरिया": 9
  },
- "counter": 8,
+ "counter": 9,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -155,7 +170,8 @@
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radha Naam Tera 🎵\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radha Naam Tera 🎵\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
