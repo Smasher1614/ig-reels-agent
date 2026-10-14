@@ -143,6 +143,18 @@
    "media_id": "18117755494955511",
    "permalink": "https://www.instagram.com/reel/DeecgEeCfhz/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#6",
+   "at": "2026-10-14T19:19:01+05:30",
+   "song": "Radhe Tere Dar Se",
+   "deity": "radha",
+   "photo": "photos/radha/radha-17.jpg",
+   "mantra": "जय श्री राधे",
+   "audio": "mp3",
+   "media_id": "18419040505152597",
+   "permalink": "https://www.instagram.com/reel/DeehsU0CJi6/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -168,7 +180,7 @@
   "song:Radha Naam Jap": 7,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 9,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 13,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
@@ -205,9 +217,12 @@
   "mantra:radha:श्री राधा रानी की जय": 11,
   "song:Sanwariya Muskura Dena": 12,
   "photo:photos/sanwariya/sanwariya-04.jpg": 12,
-  "mantra:sanwariya:जय श्री कृष्ण": 12
+  "mantra:sanwariya:जय श्री कृष्ण": 12,
+  "song:Radhe Tere Dar Se": 13,
+  "photo:photos/radha/radha-17.jpg": 13,
+  "mantra:radha:जय श्री राधे": 13
  },
- "counter": 12,
+ "counter": 13,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -220,7 +235,8 @@
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Bas Radhe Radhe\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
