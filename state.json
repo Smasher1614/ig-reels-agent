@@ -83,6 +83,18 @@
    "media_id": "17876428107576525",
    "permalink": "https://www.instagram.com/reel/DedKFOalPC9/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#1",
+   "at": "2026-10-14T07:33:14+05:30",
+   "song": "Radha Naam Tera",
+   "deity": "radha",
+   "photo": "photos/radha/radha-05.jpg",
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "17953243227280570",
+   "permalink": "https://www.instagram.com/reel/DedQ-b-AOju/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -120,7 +132,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 4,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
-  "bottom:कमेंट में लिखें — {jaikara}": 4,
+  "bottom:कमेंट में लिखें — {jaikara}": 8,
   "song:Thodi Der Sanwariya": 5,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 5,
@@ -129,9 +141,12 @@
   "mantra:shiv:हर हर महादेव": 6,
   "bottom:भोले के भक्तों को भेजें": 6,
   "photo:photos/premanand/premanand-11.jpg": 7,
-  "mantra:premanand:जय जय श्री राधे": 7
+  "mantra:premanand:जय जय श्री राधे": 7,
+  "song:Radha Naam Tera": 8,
+  "photo:photos/radha/radha-05.jpg": 8,
+  "mantra:radha:बरसाने वाली राधे": 8
  },
- "counter": 7,
+ "counter": 8,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -139,7 +154,8 @@
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radha Naam Tera 🎵\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
