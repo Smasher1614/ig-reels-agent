@@ -179,6 +179,18 @@
    "media_id": "18023122664715628",
    "permalink": "https://www.instagram.com/reel/DeevVsxkcCO/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#9",
+   "at": "2026-10-14T22:17:41+05:30",
+   "song": "Radhe Radhe Bol",
+   "deity": "radha",
+   "photo": "photos/radha/radha-08.jpg",
+   "mantra": "राधे राधे",
+   "audio": "mp3",
+   "media_id": "17973863139173890",
+   "permalink": "https://www.instagram.com/reel/Dee2Lg7iSem/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -204,7 +216,7 @@
   "song:Radha Naam Jap": 7,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 13,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 16,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
@@ -250,9 +262,12 @@
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 14,
   "song:Mere Shyaam": 15,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
-  "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 15
+  "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 15,
+  "song:Radhe Radhe Bol": 16,
+  "photo:photos/radha/radha-08.jpg": 16,
+  "mantra:radha:राधे राधे": 16
  },
- "counter": 15,
+ "counter": 16,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -268,7 +283,8 @@
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
