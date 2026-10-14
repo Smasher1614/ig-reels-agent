@@ -167,6 +167,18 @@
    "media_id": "18055711976656870",
    "permalink": "https://www.instagram.com/reel/DeeqLtpCAuG/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-14#8",
+   "at": "2026-10-14T21:17:51+05:30",
+   "song": "Mere Shyaam",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-04.jpg",
+   "mantra": "हारे का सहारा बाबा श्याम हमारा",
+   "audio": "mp3",
+   "media_id": "18023122664715628",
+   "permalink": "https://www.instagram.com/reel/DeevVsxkcCO/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -204,7 +216,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 4,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
-  "bottom:कमेंट में लिखें — {jaikara}": 12,
+  "bottom:कमेंट में लिखें — {jaikara}": 15,
   "song:Thodi Der Sanwariya": 5,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 5,
@@ -235,9 +247,12 @@
   "mantra:radha:जय श्री राधे": 13,
   "song:Tere Bharose Sanwariya": 14,
   "photo:photos/sanwariya/sanwariya-03.jpg": 14,
-  "mantra:sanwariya:जय श्री सांवलिया सेठ": 14
+  "mantra:sanwariya:जय श्री सांवलिया सेठ": 14,
+  "song:Mere Shyaam": 15,
+  "photo:photos/khatushyam/khatushyam-04.jpg": 15,
+  "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 15
  },
- "counter": 14,
+ "counter": 15,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -252,7 +267,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Bas Radhe Radhe\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
