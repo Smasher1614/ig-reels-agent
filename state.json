@@ -191,6 +191,18 @@
    "media_id": "17973863139173890",
    "permalink": "https://www.instagram.com/reel/Dee2Lg7iSem/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-15#0",
+   "at": "2026-10-15T06:33:45+05:30",
+   "song": "Milne Aya Hu Sanwriya",
+   "deity": "sanwariya",
+   "photo": null,
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "18133395058738503",
+   "permalink": "https://www.instagram.com/reel/Defu9FKk81D/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -220,7 +232,7 @@
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 14,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 17,
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
@@ -231,7 +243,7 @@
   "bottom:कमेंट में लिखें — {jaikara}": 15,
   "song:Thodi Der Sanwariya": 5,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 5,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 17,
   "song:Kon Aaya": 6,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 6,
@@ -265,9 +277,10 @@
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 15,
   "song:Radhe Radhe Bol": 16,
   "photo:photos/radha/radha-08.jpg": 16,
-  "mantra:radha:राधे राधे": 16
+  "mantra:radha:राधे राधे": 16,
+  "song:Milne Aya Hu Sanwriya": 17
  },
- "counter": 16,
+ "counter": 17,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -284,7 +297,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
