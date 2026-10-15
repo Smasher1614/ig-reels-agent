@@ -1178,7 +1178,7 @@ def post_reel(st: dict, slot_key: str, now: dt.datetime) -> dict:
     os.makedirs(OUT_DIR, exist_ok=True)
     path = os.path.join(OUT_DIR, f"reel_{slot_key.replace('#', '_')}.mp4")
     ig = ig_client()
-    gap = dt.timedelta(minutes=max(getattr(config, "MIN_GAP_MINUTES", 0), 20))
+    gap = dt.timedelta(minutes=max(getattr(config, "MIN_GAP_MINUTES", 0), 5))
     try:   # pakka karo ki abhi-abhi koi reel nahi gayi (state purani ho to bhi double post na ho)
         last_at, last_link = ig.last_post()
         if last_at and now - last_at < gap:

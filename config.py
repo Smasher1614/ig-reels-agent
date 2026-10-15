@@ -8,19 +8,17 @@
 # ---------------------------------------------------------------------
 TIMEZONE = "Asia/Kolkata"
 # Kab-kab post ho (IST): (shuru, khatam, kitni reels). Reels in khidkiyon mein barabar faasle pe lagti hain.
-#  - Subah: puja/aarti ka time — bhakti wale log subah sabse pehle bhajan dekhte hain
-#  - Dopahar: lunch + India ka afternoon engagement peak (2-5 PM)
-#  - Shaam: sandhya aarti + Reels ka prime time (6-9 PM) — sabse zyada reels yahin
-# Instagram Insights → Followers → "Most active times" dekh ke inhe badal sakte ho.
+#  - Subah 4-6: Brahma muhurta / puja ka time
+#  - Shaam 6-7: sandhya aarti ka time (18:50 tak taaki 7 baje se pehle dono chali jaayein)
+# Smasher ka faisla: roz sirf 4 reels (zyada ek-jaisi reels account ke liye theek nahi).
 POST_WINDOWS = [
-    ("05:45", "08:45", 3),
-    ("12:30", "16:30", 2),
-    ("18:00", "22:30", 5),
+    ("04:00", "06:00", 2),
+    ("18:00", "18:50", 2),
 ]
 POSTS_PER_DAY = sum(c for _, _, c in POST_WINDOWS)   # roz kitni reels (apne aap — upar ki ginti ka jod)
-JITTER_MINUTES = 12           # har slot ko ±12 min aage-peeche (robot jaisa fix time na lage)
+JITTER_MINUTES = 5            # har slot ko ±5 min aage-peeche (robot jaisa fix time na lage)
 MAX_LATE_MINUTES = 120        # koi slot isse zyada late ho gaya to skip (ek saath dher na lage)
-MIN_GAP_MINUTES = 35          # do reels ke beech kam se kam itna faasla
+MIN_GAP_MINUTES = 10          # do reels ke beech kam se kam itna faasla
 CAMPAIGN_END = ""             # "2026-11-10" likho to us din ke baad posting band. "" = kabhi band nahi
 PAUSED = False                # 🚀 LIVE. True karo to automatic posting turant band
 
