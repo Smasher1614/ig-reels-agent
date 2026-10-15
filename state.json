@@ -239,6 +239,18 @@
    "media_id": "18134984065735775",
    "permalink": "https://www.instagram.com/reel/DehC_0Sj7dO/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-16#0",
+   "at": "2026-10-16T04:33:11+05:30",
+   "song": "Ghar Jesa Lagta Hai",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-05.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "17912322351511998",
+   "permalink": "https://www.instagram.com/reel/DeiF82hjLcl/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -268,7 +280,7 @@
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 2,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 17,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 21,
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
@@ -291,7 +303,7 @@
   "mantra:radha:बरसाने वाली राधे": 8,
   "song:Sanwariya Mai Aa Gaya": 9,
   "photo:photos/sanwariya/sanwariya-06.jpg": 9,
-  "mantra:sanwariya:मेरे सांवरिया": 9,
+  "mantra:sanwariya:मेरे सांवरिया": 21,
   "song:Jai Shambu": 10,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 10,
@@ -322,11 +334,12 @@
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 19,
   "photo:photos/premanand/premanand-09.jpg": 20,
-  "mantra:premanand:श्री राधा": 20
+  "mantra:premanand:श्री राधा": 20,
+  "song:Ghar Jesa Lagta Hai": 21,
+  "photo:photos/sanwariya/sanwariya-05.jpg": 21
  },
- "counter": 20,
+ "counter": 21,
  "captions": [
-  "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -345,7 +358,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Saanjh Ki Aarti\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज गुरुवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज गुरुवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
