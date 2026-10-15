@@ -215,6 +215,18 @@
    "media_id": "18129377602616153",
    "permalink": "https://www.instagram.com/reel/Def0Hllkogg/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-15#2",
+   "at": "2026-10-15T18:18:01+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-20.jpg",
+   "mantra": "श्याम बाबा की जय",
+   "audio": "mp3",
+   "media_id": "17898576786608484",
+   "permalink": "https://www.instagram.com/reel/Deg_jVdEREc/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -249,10 +261,10 @@
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 3,
-  "song:Dil Se Tujhe Bulau Shyam Baba": 4,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 19,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
-  "bottom:कमेंट में लिखें — {jaikara}": 15,
+  "bottom:कमेंट में लिखें — {jaikara}": 19,
   "song:Thodi Der Sanwariya": 5,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 17,
@@ -294,9 +306,11 @@
   "song:Saanjh Ki Aarti": 18,
   "photo:photos/shiv/shiv-18.jpg": 18,
   "mantra:shiv:शिवोहम्": 18,
-  "bottom:आँखें बंद करें और बस सुनें": 18
+  "bottom:आँखें बंद करें और बस सुनें": 18,
+  "photo:photos/khatushyam/khatushyam-20.jpg": 19,
+  "mantra:khatushyam:श्याम बाबा की जय": 19
  },
- "counter": 18,
+ "counter": 19,
  "captions": [
   "राधा राधा 🙏\nपूज्य महाराज जी के चरणों में कोटि-कोटि प्रणाम 🌼\n🎵 Radha Naam Jap\nकमेंट में लिखें: राधा राधा\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -315,7 +329,8 @@
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "शिव में ही शांति है 🌙\n🎵 Saanjh Ki Aarti\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "शिव में ही शांति है 🌙\n🎵 Saanjh Ki Aarti\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
