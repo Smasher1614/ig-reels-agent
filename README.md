@@ -8,7 +8,7 @@ GitHub Actions pe free chalta hai — laptop band ho tab bhi.
 
 ## Ye kya karta hai
 
-Har slot pe (default: roz 10 baar, subah 5:30 se raat 10:30 tak):
+Har slot pe (abhi: roz 4 baar — subah 4-6 aur shaam 6-7):
 
 1. **Gaana chunta hai** — `music/` folder ki MP3s mein se, rotate karke (pichhli 4 reels wala gaana dobara nahi). Hafte ke din ke bhagwan ko thoda zyada mauka (Somvar = Shiv, Mangal = Hanuman, …)
 2. **Gaane ka sabse jandaar 30 sec hissa** (chorus/hook) khud dhundta hai — har reel mein alag-alag hook
@@ -158,7 +158,7 @@ Bas! Ab har 20 min agent check karega aur roz `POST_WINDOWS` ke hisaab se reels 
 
 | Kya badalna hai | Setting |
 |---|---|
-| Kab aur kitni reels (subah / dopahar / shaam) | `POST_WINDOWS` — default 3 + 2 + 5 = 10/din |
+| Kab aur kitni reels (subah / shaam) | `POST_WINDOWS` — abhi 2 + 2 = 4/din |
 | Do reels ke beech kam se kam faasla | `MIN_GAP_MINUTES` |
 | Tyohaar (caption mein shubhkamna + hashtag) | `FESTIVALS` |
 | Reel kitne second ki | `REEL_SECONDS` (15-90) |
