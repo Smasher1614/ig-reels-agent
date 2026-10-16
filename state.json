@@ -275,6 +275,18 @@
    "media_id": "18126768475876642",
    "permalink": "https://www.instagram.com/reel/DejkW83DS5b/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-16#3",
+   "at": "2026-10-16T18:48:04+05:30",
+   "song": "Om Uchharan",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-06.jpg",
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18062076953559465",
+   "permalink": "https://www.instagram.com/reel/DejnxTPEuaR/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -364,11 +376,14 @@
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
   "mantra:khatushyam:लखदातार की जय": 22,
   "song:Rom Rom Mai Radhe": 23,
-  "photo:photos/radha/radha-14.jpg": 23
+  "photo:photos/radha/radha-14.jpg": 23,
+  "song:Om Uchharan": 24,
+  "photo:photos/shiv/shiv-06.jpg": 24,
+  "mantra:shiv:ॐ महादेवाय नमः": 24,
+  "bottom:मन को शांति दे — अपनों को भेजें": 24
  },
- "counter": 23,
+ "counter": 24,
  "captions": [
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -387,7 +402,8 @@
   "आज गुरुवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Rom Rom Mai Radhe\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Rom Rom Mai Radhe\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
