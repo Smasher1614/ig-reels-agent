@@ -263,6 +263,18 @@
    "media_id": "18107336626951320",
    "permalink": "https://www.instagram.com/reel/DeiM0u9EfsO/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-16#2",
+   "at": "2026-10-16T18:18:15+05:30",
+   "song": "Rom Rom Mai Radhe",
+   "deity": "radha",
+   "photo": "photos/radha/radha-14.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18126768475876642",
+   "permalink": "https://www.instagram.com/reel/DejkW83DS5b/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -288,10 +300,10 @@
   "song:Radha Naam Jap": 20,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 20,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 23,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
-  "mantra:radha:राधे कृष्ण": 2,
+  "mantra:radha:राधे कृष्ण": 23,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 21,
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
@@ -350,11 +362,12 @@
   "song:Ghar Jesa Lagta Hai": 21,
   "photo:photos/sanwariya/sanwariya-05.jpg": 21,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
-  "mantra:khatushyam:लखदातार की जय": 22
+  "mantra:khatushyam:लखदातार की जय": 22,
+  "song:Rom Rom Mai Radhe": 23,
+  "photo:photos/radha/radha-14.jpg": 23
  },
- "counter": 22,
+ "counter": 23,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Pahli Chai Shiv Ka Naam\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Thodi Der Sanwariya\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -373,7 +386,8 @@
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज गुरुवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Rom Rom Mai Radhe\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
