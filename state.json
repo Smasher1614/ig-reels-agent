@@ -299,6 +299,18 @@
    "media_id": "18350955883265218",
    "permalink": "https://www.instagram.com/reel/DekqteNHX4E/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-17#1",
+   "at": "2026-10-17T05:33:20+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-08.jpg",
+   "mantra": "राधा नाम जप",
+   "audio": "mp3",
+   "media_id": "17950707192056149",
+   "permalink": "https://www.instagram.com/reel/DekxoQsj7Hm/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -321,14 +333,14 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 20,
+  "song:Radha Naam Jap": 26,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 23,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 23,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 21,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 26,
   "song:Pahli Chai Shiv Ka Naam": 3,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 3,
@@ -394,11 +406,12 @@
   "mantra:shiv:ॐ महादेवाय नमः": 24,
   "bottom:मन को शांति दे — अपनों को भेजें": 24,
   "song:Saawan Aaya": 25,
-  "mantra:shiv:ॐ नमः शिवाय": 25
+  "mantra:shiv:ॐ नमः शिवाय": 25,
+  "photo:photos/premanand/premanand-08.jpg": 26,
+  "mantra:premanand:राधा नाम जप": 26
  },
- "counter": 25,
+ "counter": 26,
  "captions": [
-  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज बुधवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radha Naam Tera 🎵\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -417,7 +430,8 @@
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Rom Rom Mai Radhe\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज शनिवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
