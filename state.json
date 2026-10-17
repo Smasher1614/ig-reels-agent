@@ -323,6 +323,18 @@
    "media_id": "17908240143565414",
    "permalink": "https://www.instagram.com/reel/DemJIyoD2Sk/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-17#3",
+   "at": "2026-10-17T18:47:44+05:30",
+   "song": "Saavan Aaya Bhole Aaye",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-09.jpg",
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "18070648283760164",
+   "permalink": "https://www.instagram.com/reel/DemMiuQE40z/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -367,7 +379,7 @@
   "song:Kon Aaya": 6,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 6,
-  "bottom:भोले के भक्तों को भेजें": 6,
+  "bottom:भोले के भक्तों को भेजें": 28,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 7,
   "song:Radha Naam Tera": 8,
@@ -422,11 +434,13 @@
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 26,
   "song:Badal Bole": 27,
-  "photo:photos/shiv/shiv-10.jpg": 27
+  "photo:photos/shiv/shiv-10.jpg": 27,
+  "song:Saavan Aaya Bhole Aaye": 28,
+  "photo:photos/shiv/shiv-09.jpg": 28,
+  "mantra:shiv:जय शिव शंकर": 28
  },
- "counter": 27,
+ "counter": 28,
  "captions": [
-  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radha Naam Tera 🎵\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Bas Radhe Radhe\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -445,7 +459,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शनिवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "शिव में ही शांति है 🌙\n🎵 Badal Bole\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "शिव में ही शांति है 🌙\n🎵 Badal Bole\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
