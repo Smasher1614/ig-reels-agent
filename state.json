@@ -383,6 +383,18 @@
    "media_id": "18095172632449182",
    "permalink": "https://www.instagram.com/reel/DeoxV7VinH_/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-19#0",
+   "at": "2026-10-19T04:47:29+05:30",
+   "song": "Thodi Der Sanwariya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-01.jpg",
+   "mantra": "जय श्री कृष्ण",
+   "audio": "mp3",
+   "media_id": "18068389064787244",
+   "permalink": "https://www.instagram.com/reel/Dep1-RJDx7-/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -408,7 +420,7 @@
   "song:Radha Naam Jap": 26,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 1,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 23,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 33,
   "song:Radha": 2,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 23,
@@ -421,7 +433,7 @@
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
   "bottom:कमेंट में लिखें — {jaikara}": 29,
-  "song:Thodi Der Sanwariya": 5,
+  "song:Thodi Der Sanwariya": 33,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 17,
   "song:Kon Aaya": 6,
@@ -445,7 +457,7 @@
   "mantra:radha:श्री राधा रानी की जय": 11,
   "song:Sanwariya Muskura Dena": 12,
   "photo:photos/sanwariya/sanwariya-04.jpg": 12,
-  "mantra:sanwariya:जय श्री कृष्ण": 12,
+  "mantra:sanwariya:जय श्री कृष्ण": 33,
   "song:Radhe Tere Dar Se": 13,
   "photo:photos/radha/radha-17.jpg": 13,
   "mantra:radha:जय श्री राधे": 13,
@@ -494,11 +506,11 @@
   "song:Jhanda Uncha Rahe": 31,
   "photo:photos/shiv/shiv-07.jpg": 31,
   "song:Saavan Ka Rang": 32,
-  "photo:photos/shiv/shiv-17.jpg": 32
+  "photo:photos/shiv/shiv-17.jpg": 32,
+  "photo:photos/sanwariya/sanwariya-01.jpg": 33
  },
- "counter": 32,
+ "counter": 33,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -517,7 +529,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
