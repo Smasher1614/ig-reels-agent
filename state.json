@@ -371,6 +371,18 @@
    "media_id": "18096658277676038",
    "permalink": "https://www.instagram.com/reel/Deot6yCESzY/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-18#3",
+   "at": "2026-10-18T18:47:56+05:30",
+   "song": "Saavan Ka Rang",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-17.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18095172632449182",
+   "permalink": "https://www.instagram.com/reel/DeoxV7VinH_/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -415,7 +427,7 @@
   "song:Kon Aaya": 6,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 31,
-  "bottom:भोले के भक्तों को भेजें": 28,
+  "bottom:भोले के भक्तों को भेजें": 32,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 7,
   "song:Radha Naam Tera": 8,
@@ -426,7 +438,7 @@
   "mantra:sanwariya:मेरे सांवरिया": 21,
   "song:Jai Shambu": 10,
   "photo:photos/shiv/shiv-15.jpg": 10,
-  "mantra:shiv:बम बम भोले": 10,
+  "mantra:shiv:बम बम भोले": 32,
   "bottom:कमेंट में लिखें — हर हर महादेव": 30,
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
@@ -480,11 +492,12 @@
   "photo:photos/shiv/shiv-14.jpg": 30,
   "mantra:shiv:जय भोलेनाथ": 30,
   "song:Jhanda Uncha Rahe": 31,
-  "photo:photos/shiv/shiv-07.jpg": 31
+  "photo:photos/shiv/shiv-07.jpg": 31,
+  "song:Saavan Ka Rang": 32,
+  "photo:photos/shiv/shiv-17.jpg": 32
  },
- "counter": 31,
+ "counter": 32,
  "captions": [
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -503,7 +516,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
