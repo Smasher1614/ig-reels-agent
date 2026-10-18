@@ -347,6 +347,18 @@
    "media_id": "18034021988889816",
    "permalink": "https://www.instagram.com/reel/DenPiGpj26n/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-18#1",
+   "at": "2026-10-18T05:33:01+05:30",
+   "song": "Kawad Chale",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-14.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "17875832901586090",
+   "permalink": "https://www.instagram.com/reel/DenWZG3CQ9k/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -403,7 +415,7 @@
   "song:Jai Shambu": 10,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 10,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 10,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 30,
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 11,
@@ -451,11 +463,13 @@
   "photo:photos/shiv/shiv-09.jpg": 28,
   "mantra:shiv:जय शिव शंकर": 28,
   "song:Radha Naam Kirtan": 29,
-  "photo:photos/radha/radha-03.jpg": 29
+  "photo:photos/radha/radha-03.jpg": 29,
+  "song:Kawad Chale": 30,
+  "photo:photos/shiv/shiv-14.jpg": 30,
+  "mantra:shiv:जय भोलेनाथ": 30
  },
- "counter": 29,
+ "counter": 30,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Bas Radhe Radhe\nकमेंट में लिखें: राधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Sanwariya Muskura Dena\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadhe Tere Dar Se\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -474,7 +488,8 @@
   "आज शनिवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Badal Bole\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
