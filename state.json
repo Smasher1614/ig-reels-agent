@@ -395,6 +395,18 @@
    "media_id": "18068389064787244",
    "permalink": "https://www.instagram.com/reel/Dep1-RJDx7-/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-19#1",
+   "at": "2026-10-19T05:33:06+05:30",
+   "song": "Kafila Mahdev Ka",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-11.jpg",
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "17912710659508372",
+   "permalink": "https://www.instagram.com/reel/Dep7Mhao1EA/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -451,7 +463,7 @@
   "song:Jai Shambu": 10,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 32,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 30,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 34,
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 11,
@@ -497,7 +509,7 @@
   "photo:photos/shiv/shiv-10.jpg": 27,
   "song:Saavan Aaya Bhole Aaye": 28,
   "photo:photos/shiv/shiv-09.jpg": 28,
-  "mantra:shiv:जय शिव शंकर": 28,
+  "mantra:shiv:जय शिव शंकर": 34,
   "song:Radha Naam Kirtan": 29,
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 30,
@@ -507,11 +519,12 @@
   "photo:photos/shiv/shiv-07.jpg": 31,
   "song:Saavan Ka Rang": 32,
   "photo:photos/shiv/shiv-17.jpg": 32,
-  "photo:photos/sanwariya/sanwariya-01.jpg": 33
+  "photo:photos/sanwariya/sanwariya-01.jpg": 33,
+  "song:Kafila Mahdev Ka": 34,
+  "photo:photos/shiv/shiv-11.jpg": 34
  },
- "counter": 33,
+ "counter": 34,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Tere Bharose Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Bol\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -530,7 +543,8 @@
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
+  "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
