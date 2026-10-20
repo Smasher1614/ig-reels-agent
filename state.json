@@ -443,6 +443,18 @@
    "media_id": "18115264042827367",
    "permalink": "https://www.instagram.com/reel/Desa1G4j-f4/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-20#1",
+   "at": "2026-10-20T05:33:04+05:30",
+   "song": "Badalo Mai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-01.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "18100074491645651",
+   "permalink": "https://www.instagram.com/reel/Desf-c0ErCI/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -521,7 +533,7 @@
   "song:Milne Aya Hu Sanwriya": 17,
   "song:Saanjh Ki Aarti": 18,
   "photo:photos/shiv/shiv-18.jpg": 18,
-  "mantra:shiv:शिवोहम्": 18,
+  "mantra:shiv:शिवोहम्": 38,
   "bottom:आँखें बंद करें और बस सुनें": 27,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 19,
@@ -536,7 +548,7 @@
   "song:Om Uchharan": 24,
   "photo:photos/shiv/shiv-06.jpg": 24,
   "mantra:shiv:ॐ महादेवाय नमः": 24,
-  "bottom:मन को शांति दे — अपनों को भेजें": 24,
+  "bottom:मन को शांति दे — अपनों को भेजें": 38,
   "song:Saawan Aaya": 25,
   "mantra:shiv:ॐ नमः शिवाय": 25,
   "photo:photos/premanand/premanand-08.jpg": 26,
@@ -562,11 +574,12 @@
   "photo:photos/radha/radha-20.jpg": 35,
   "song:Shambu Ki Sawari": 36,
   "photo:photos/shiv/shiv-16.jpg": 36,
-  "photo:photos/premanand/premanand-13.jpg": 37
+  "photo:photos/premanand/premanand-13.jpg": 37,
+  "song:Badalo Mai Shambu": 38,
+  "photo:photos/shiv/shiv-01.jpg": 38
  },
- "counter": 37,
+ "counter": 38,
  "captions": [
-  "शिव में ही शांति है 🌙\n🎵 Saanjh Ki Aarti\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज गुरुवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -585,7 +598,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
-  "आज मंगलवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏"
+  "आज मंगलवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
+  "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏"
  ],
  "errors": [
   {
