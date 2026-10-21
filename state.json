@@ -527,6 +527,18 @@
    "media_id": "18133458481779718",
    "permalink": "https://www.instagram.com/reel/DewfvBwDpAb/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-22#0",
+   "at": "2026-10-22T04:33:13+05:30",
+   "song": "Shambu Ka Naam",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "शिव शम्भो",
+   "audio": "mp3",
+   "media_id": "18106720403575814",
+   "permalink": "https://www.instagram.com/reel/DexiuRXDAJu/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -559,7 +571,7 @@
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 41,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
-  "mantra:shiv:शिव शम्भो": 27,
+  "mantra:shiv:शिव शम्भो": 45,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 40,
   "song:Dil Se Tujhe Bulau Shyam Baba": 19,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
@@ -620,7 +632,7 @@
   "song:Om Uchharan": 24,
   "photo:photos/shiv/shiv-06.jpg": 24,
   "mantra:shiv:ॐ महादेवाय नमः": 40,
-  "bottom:मन को शांति दे — अपनों को भेजें": 38,
+  "bottom:मन को शांति दे — अपनों को भेजें": 45,
   "song:Saawan Aaya": 25,
   "mantra:shiv:ॐ नमः शिवाय": 43,
   "photo:photos/premanand/premanand-08.jpg": 26,
@@ -656,11 +668,11 @@
   "photo:photos/radha/radha-19.jpg": 41,
   "photo:photos/shiv/shiv-02.jpg": 42,
   "photo:photos/shiv/shiv-08.jpg": 43,
-  "photo:photos/radha/radha-16.jpg": 44
+  "photo:photos/radha/radha-16.jpg": 44,
+  "song:Shambu Ka Naam": 45
  },
- "counter": 44,
+ "counter": 45,
  "captions": [
-  "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शनिवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Badal Bole\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -679,7 +691,8 @@
   "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
-  "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
+  "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
+  "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय"
  ],
  "errors": [
   {
