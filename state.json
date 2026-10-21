@@ -491,6 +491,18 @@
    "media_id": "18434933275198021",
    "permalink": "https://www.instagram.com/reel/Deu99q5Co-S/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-21#1",
+   "at": "2026-10-21T05:32:46+05:30",
+   "song": "Kon Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-02.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "17931672771162916",
+   "permalink": "https://www.instagram.com/reel/DevEveOicXV/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -532,10 +544,10 @@
   "song:Thodi Der Sanwariya": 33,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 17,
-  "song:Kon Aaya": 6,
+  "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 6,
-  "mantra:shiv:हर हर महादेव": 31,
-  "bottom:भोले के भक्तों को भेजें": 32,
+  "mantra:shiv:हर हर महादेव": 42,
+  "bottom:भोले के भक्तों को भेजें": 42,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 7,
   "song:Radha Naam Tera": 8,
@@ -617,11 +629,11 @@
   "photo:photos/radha/radha-02.jpg": 39,
   "photo:photos/shiv/shiv-13.jpg": 40,
   "song:Radhe Radhe Gau Mai": 41,
-  "photo:photos/radha/radha-19.jpg": 41
+  "photo:photos/radha/radha-19.jpg": 41,
+  "photo:photos/shiv/shiv-02.jpg": 42
  },
- "counter": 41,
+ "counter": 42,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Rom Rom Mai Radhe\nराधे राधे 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -640,7 +652,8 @@
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Aao Radha Ko Pukare\nअपनों के साथ ज़रूर शेयर करें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
-  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे"
+  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
+  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
