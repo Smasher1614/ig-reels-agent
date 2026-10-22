@@ -551,6 +551,18 @@
    "media_id": "18119348264058864",
    "permalink": "https://www.instagram.com/reel/DexrRGVjklX/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-22#2",
+   "at": "2026-10-22T18:48:39+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-01.jpg",
+   "mantra": "जय श्री श्याम",
+   "audio": "mp3",
+   "media_id": "18116707679089896",
+   "permalink": "https://www.instagram.com/reel/DezEm__gcVw/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -580,12 +592,12 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 41,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 47,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 40,
-  "song:Dil Se Tujhe Bulau Shyam Baba": 19,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 47,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 4,
   "bottom:कमेंट में लिखें — {jaikara}": 46,
@@ -682,11 +694,12 @@
   "photo:photos/shiv/shiv-08.jpg": 43,
   "photo:photos/radha/radha-16.jpg": 44,
   "song:Shambu Ka Naam": 45,
-  "photo:photos/radha/radha-07.jpg": 46
+  "photo:photos/radha/radha-07.jpg": 46,
+  "photo:photos/khatushyam/khatushyam-01.jpg": 47,
+  "mantra:khatushyam:जय श्री श्याम": 47
  },
- "counter": 46,
+ "counter": 47,
  "captions": [
-  "शिव में ही शांति है 🌙\n🎵 Badal Bole\nकमेंट में लिखें: ॐ नमः शिवाय\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -705,7 +718,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे",
+  "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम"
  ],
  "errors": [
   {
