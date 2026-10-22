@@ -575,6 +575,18 @@
    "media_id": "17906858376664927",
    "permalink": "https://www.instagram.com/reel/DezGUWggsqK/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-23#0",
+   "at": "2026-10-23T04:47:22+05:30",
+   "song": "Mere Shyaam",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-09.jpg",
+   "mantra": "जय खाटू श्याम",
+   "audio": "mp3",
+   "media_id": "18229268989336548",
+   "permalink": "https://www.instagram.com/reel/De0JIHUilz2/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -611,8 +623,8 @@
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 40,
   "song:Dil Se Tujhe Bulau Shyam Baba": 47,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
-  "mantra:khatushyam:जय खाटू श्याम": 4,
-  "bottom:कमेंट में लिखें — {jaikara}": 46,
+  "mantra:khatushyam:जय खाटू श्याम": 49,
+  "bottom:कमेंट में लिखें — {jaikara}": 49,
   "song:Thodi Der Sanwariya": 33,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
   "mantra:sanwariya:सांवरिया सेठ की जय": 17,
@@ -644,7 +656,7 @@
   "song:Tere Bharose Sanwariya": 14,
   "photo:photos/sanwariya/sanwariya-03.jpg": 14,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 48,
-  "song:Mere Shyaam": 22,
+  "song:Mere Shyaam": 49,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 15,
   "song:Radhe Radhe Bol": 16,
@@ -709,11 +721,11 @@
   "photo:photos/radha/radha-07.jpg": 46,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 47,
-  "photo:photos/sanwariya/sanwariya-07.jpg": 48
+  "photo:photos/sanwariya/sanwariya-07.jpg": 48,
+  "photo:photos/khatushyam/khatushyam-09.jpg": 49
  },
- "counter": 48,
+ "counter": 49,
  "captions": [
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -732,7 +744,8 @@
   "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
-  "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
+  "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏"
  ],
  "errors": [
   {
