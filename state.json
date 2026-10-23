@@ -623,6 +623,18 @@
    "media_id": "17933531598406307",
    "permalink": "https://www.instagram.com/reel/De1pSyUD6RH/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-24#0",
+   "at": "2026-10-24T04:33:29+05:30",
+   "song": "Saavan Aa Gaya",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "18436490389183478",
+   "permalink": "https://www.instagram.com/reel/De2sTHqDXXL/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -667,7 +679,7 @@
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 42,
-  "bottom:भोले के भक्तों को भेजें": 42,
+  "bottom:भोले के भक्तों को भेजें": 53,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 7,
   "song:Radha Naam Tera": 44,
@@ -725,7 +737,7 @@
   "photo:photos/shiv/shiv-10.jpg": 27,
   "song:Saavan Aaya Bhole Aaye": 28,
   "photo:photos/shiv/shiv-09.jpg": 28,
-  "mantra:shiv:जय शिव शंकर": 34,
+  "mantra:shiv:जय शिव शंकर": 53,
   "song:Radha Naam Kirtan": 29,
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 30,
@@ -760,11 +772,11 @@
   "photo:photos/sanwariya/sanwariya-07.jpg": 48,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 51,
-  "photo:photos/khatushyam/khatushyam-11.jpg": 52
+  "photo:photos/khatushyam/khatushyam-11.jpg": 52,
+  "song:Saavan Aa Gaya": 53
  },
- "counter": 52,
+ "counter": 53,
  "captions": [
-  "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -783,7 +795,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
+  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
