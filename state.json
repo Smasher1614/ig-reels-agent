@@ -587,6 +587,18 @@
    "media_id": "18229268989336548",
    "permalink": "https://www.instagram.com/reel/De0JIHUilz2/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-23#1",
+   "at": "2026-10-23T05:30:56+05:30",
+   "song": "Sanwariya Muskura Dena",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-06.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "18337255843276698",
+   "permalink": "https://www.instagram.com/reel/De0OH3QE2LH/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -616,7 +628,7 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 47,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 50,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
@@ -627,7 +639,7 @@
   "bottom:कमेंट में लिखें — {jaikara}": 49,
   "song:Thodi Der Sanwariya": 33,
   "photo:photos/sanwariya/sanwariya-02.jpg": 5,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 17,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 50,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 6,
   "mantra:shiv:हर हर महादेव": 42,
@@ -638,7 +650,7 @@
   "photo:photos/radha/radha-05.jpg": 8,
   "mantra:radha:बरसाने वाली राधे": 46,
   "song:Sanwariya Mai Aa Gaya": 48,
-  "photo:photos/sanwariya/sanwariya-06.jpg": 9,
+  "photo:photos/sanwariya/sanwariya-06.jpg": 50,
   "mantra:sanwariya:मेरे सांवरिया": 21,
   "song:Jai Shambu": 10,
   "photo:photos/shiv/shiv-15.jpg": 10,
@@ -647,7 +659,7 @@
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 35,
-  "song:Sanwariya Muskura Dena": 12,
+  "song:Sanwariya Muskura Dena": 50,
   "photo:photos/sanwariya/sanwariya-04.jpg": 12,
   "mantra:sanwariya:जय श्री कृष्ण": 33,
   "song:Radhe Tere Dar Se": 13,
@@ -724,9 +736,8 @@
   "photo:photos/sanwariya/sanwariya-07.jpg": 48,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49
  },
- "counter": 49,
+ "counter": 50,
  "captions": [
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -745,7 +756,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
