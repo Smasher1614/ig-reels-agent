@@ -599,6 +599,18 @@
    "media_id": "18337255843276698",
    "permalink": "https://www.instagram.com/reel/De0OH3QE2LH/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-23#2",
+   "at": "2026-10-23T18:33:11+05:30",
+   "song": "Jai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-03.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "17900274891672089",
+   "permalink": "https://www.instagram.com/reel/De1no5-geb1/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -652,10 +664,10 @@
   "song:Sanwariya Mai Aa Gaya": 48,
   "photo:photos/sanwariya/sanwariya-06.jpg": 50,
   "mantra:sanwariya:मेरे सांवरिया": 21,
-  "song:Jai Shambu": 10,
+  "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
-  "mantra:shiv:बम बम भोले": 32,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 34,
+  "mantra:shiv:बम बम भोले": 51,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 51,
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 35,
@@ -734,11 +746,11 @@
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 47,
   "photo:photos/sanwariya/sanwariya-07.jpg": 48,
-  "photo:photos/khatushyam/khatushyam-09.jpg": 49
+  "photo:photos/khatushyam/khatushyam-09.jpg": 49,
+  "photo:photos/shiv/shiv-03.jpg": 51
  },
- "counter": 50,
+ "counter": 51,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज सोमवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
@@ -757,7 +769,8 @@
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
