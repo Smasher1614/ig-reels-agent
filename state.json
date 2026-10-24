@@ -671,6 +671,18 @@
    "media_id": "18393106390225450",
    "permalink": "https://www.instagram.com/reel/De4OGdok2I6/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-25#0",
+   "at": "2026-10-25T04:33:14+05:30",
+   "song": "Milne Aya Hu Sanwriya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-02.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "18076192670746830",
+   "permalink": "https://www.instagram.com/reel/De5RGdniYag/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -700,7 +712,7 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 50,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 57,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
@@ -710,7 +722,7 @@
   "mantra:khatushyam:जय खाटू श्याम": 49,
   "bottom:कमेंट में लिखें — {jaikara}": 56,
   "song:Thodi Der Sanwariya": 33,
-  "photo:photos/sanwariya/sanwariya-02.jpg": 5,
+  "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 50,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 6,
@@ -723,7 +735,7 @@
   "mantra:radha:बरसाने वाली राधे": 46,
   "song:Sanwariya Mai Aa Gaya": 48,
   "photo:photos/sanwariya/sanwariya-06.jpg": 50,
-  "mantra:sanwariya:मेरे सांवरिया": 21,
+  "mantra:sanwariya:मेरे सांवरिया": 57,
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 51,
@@ -746,7 +758,7 @@
   "song:Radhe Radhe Bol": 16,
   "photo:photos/radha/radha-08.jpg": 16,
   "mantra:radha:राधे राधे": 41,
-  "song:Milne Aya Hu Sanwriya": 17,
+  "song:Milne Aya Hu Sanwriya": 57,
   "song:Saanjh Ki Aarti": 43,
   "photo:photos/shiv/shiv-18.jpg": 18,
   "mantra:shiv:शिवोहम्": 54,
@@ -814,9 +826,8 @@
   "song:Radha Naam": 56,
   "photo:photos/radha/radha-09.jpg": 56
  },
- "counter": 56,
+ "counter": 57,
  "captions": [
-  "आज मंगलवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Aao Radha Ko Pukare\nअपनों के साथ ज़रूर शेयर करें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
@@ -835,7 +846,8 @@
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
-  "राधे राधे 🙏\nशनिवार की शुरुआत करें इस भजन के साथ — Radha Naam 🎵\nकमेंट में लिखें: राधे राधे"
+  "राधे राधे 🙏\nशनिवार की शुरुआत करें इस भजन के साथ — Radha Naam 🎵\nकमेंट में लिखें: राधे राधे",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nशरद पूर्णिमा की शुभकामनाएं 🌕"
  ],
  "errors": [
   {
