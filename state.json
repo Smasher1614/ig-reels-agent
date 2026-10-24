@@ -635,6 +635,18 @@
    "media_id": "18436490389183478",
    "permalink": "https://www.instagram.com/reel/De2sTHqDXXL/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-24#1",
+   "at": "2026-10-24T05:37:18+05:30",
+   "song": "Om Uchharan",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-06.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "18425095051156882",
+   "permalink": "https://www.instagram.com/reel/De2zourE5cb/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -668,7 +680,7 @@
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 40,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 54,
   "song:Dil Se Tujhe Bulau Shyam Baba": 52,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 49,
@@ -713,7 +725,7 @@
   "song:Milne Aya Hu Sanwriya": 17,
   "song:Saanjh Ki Aarti": 43,
   "photo:photos/shiv/shiv-18.jpg": 18,
-  "mantra:shiv:शिवोहम्": 38,
+  "mantra:shiv:शिवोहम्": 54,
   "bottom:आँखें बंद करें और बस सुनें": 43,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 19,
@@ -725,8 +737,8 @@
   "mantra:khatushyam:लखदातार की जय": 22,
   "song:Rom Rom Mai Radhe": 23,
   "photo:photos/radha/radha-14.jpg": 23,
-  "song:Om Uchharan": 24,
-  "photo:photos/shiv/shiv-06.jpg": 24,
+  "song:Om Uchharan": 54,
+  "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 40,
   "bottom:मन को शांति दे — अपनों को भेजें": 45,
   "song:Saawan Aaya": 25,
@@ -775,9 +787,8 @@
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
   "song:Saavan Aa Gaya": 53
  },
- "counter": 53,
+ "counter": 54,
  "captions": [
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
@@ -796,7 +807,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
-  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏"
+  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan"
  ],
  "errors": [
   {
