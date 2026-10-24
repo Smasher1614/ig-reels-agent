@@ -647,6 +647,18 @@
    "media_id": "18425095051156882",
    "permalink": "https://www.instagram.com/reel/De2zourE5cb/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-24#2",
+   "at": "2026-10-24T18:18:04+05:30",
+   "song": "Saawan Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-04.jpg",
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18130833298695773",
+   "permalink": "https://www.instagram.com/reel/De4KqSoAckS/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -726,7 +738,7 @@
   "song:Saanjh Ki Aarti": 43,
   "photo:photos/shiv/shiv-18.jpg": 18,
   "mantra:shiv:शिवोहम्": 54,
-  "bottom:आँखें बंद करें और बस सुनें": 43,
+  "bottom:आँखें बंद करें और बस सुनें": 55,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 19,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -739,9 +751,9 @@
   "photo:photos/radha/radha-14.jpg": 23,
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
-  "mantra:shiv:ॐ महादेवाय नमः": 40,
+  "mantra:shiv:ॐ महादेवाय नमः": 55,
   "bottom:मन को शांति दे — अपनों को भेजें": 45,
-  "song:Saawan Aaya": 25,
+  "song:Saawan Aaya": 55,
   "mantra:shiv:ॐ नमः शिवाय": 43,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 26,
@@ -785,11 +797,11 @@
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 51,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
-  "song:Saavan Aa Gaya": 53
+  "song:Saavan Aa Gaya": 53,
+  "photo:photos/shiv/shiv-04.jpg": 55
  },
- "counter": 54,
+ "counter": 55,
  "captions": [
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव\nनवरात्रि की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
@@ -808,7 +820,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
+  "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय"
  ],
  "errors": [
   {
