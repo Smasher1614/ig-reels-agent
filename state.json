@@ -683,6 +683,18 @@
    "media_id": "18076192670746830",
    "permalink": "https://www.instagram.com/reel/De5RGdniYag/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-25#1",
+   "at": "2026-10-25T05:33:03+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-02.jpg",
+   "mantra": "जय जय श्री राधे",
+   "audio": "mp3",
+   "media_id": "18119504275980734",
+   "permalink": "https://www.instagram.com/reel/De5X9AaGy8n/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -705,10 +717,10 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 37,
+  "song:Radha Naam Jap": 58,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 37,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 52,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 58,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
@@ -729,7 +741,7 @@
   "mantra:shiv:हर हर महादेव": 42,
   "bottom:भोले के भक्तों को भेजें": 53,
   "photo:photos/premanand/premanand-11.jpg": 7,
-  "mantra:premanand:जय जय श्री राधे": 7,
+  "mantra:premanand:जय जय श्री राधे": 58,
   "song:Radha Naam Tera": 44,
   "photo:photos/radha/radha-05.jpg": 8,
   "mantra:radha:बरसाने वाली राधे": 46,
@@ -824,11 +836,11 @@
   "song:Saavan Aa Gaya": 53,
   "photo:photos/shiv/shiv-04.jpg": 55,
   "song:Radha Naam": 56,
-  "photo:photos/radha/radha-09.jpg": 56
+  "photo:photos/radha/radha-09.jpg": 56,
+  "photo:photos/premanand/premanand-02.jpg": 58
  },
- "counter": 57,
+ "counter": 58,
  "captions": [
-  "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Aao Radha Ko Pukare\nअपनों के साथ ज़रूर शेयर करें 🙏\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय\nविजयादशमी की हार्दिक शुभकामनाएं 🙏",
   "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
@@ -847,7 +859,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
   "राधे राधे 🙏\nशनिवार की शुरुआत करें इस भजन के साथ — Radha Naam 🎵\nकमेंट में लिखें: राधे राधे",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nशरद पूर्णिमा की शुभकामनाएं 🌕"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nशरद पूर्णिमा की शुभकामनाएं 🌕",
+  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा\nशरद पूर्णिमा की शुभकामनाएं 🌕"
  ],
  "errors": [
   {
