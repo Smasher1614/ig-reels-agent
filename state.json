@@ -719,6 +719,18 @@
    "media_id": "18093459863676637",
    "permalink": "https://www.instagram.com/reel/De6y6BQEwaN/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-26#0",
+   "at": "2026-10-26T04:48:34+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-06.jpg",
+   "mantra": "लखदातार की जय",
+   "audio": "mp3",
+   "media_id": "18080138759552006",
+   "permalink": "https://www.instagram.com/reel/De73qT1E5k3/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -744,7 +756,7 @@
   "song:Radha Naam Jap": 58,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 37,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 58,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 61,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
@@ -753,7 +765,7 @@
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 54,
-  "song:Dil Se Tujhe Bulau Shyam Baba": 52,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 61,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 49,
   "bottom:कमेंट में लिखें — {jaikara}": 59,
@@ -806,7 +818,7 @@
   "song:Ghar Jesa Lagta Hai": 21,
   "photo:photos/sanwariya/sanwariya-05.jpg": 21,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
-  "mantra:khatushyam:लखदातार की जय": 22,
+  "mantra:khatushyam:लखदातार की जय": 61,
   "song:Rom Rom Mai Radhe": 23,
   "photo:photos/radha/radha-14.jpg": 23,
   "song:Om Uchharan": 54,
@@ -863,11 +875,11 @@
   "photo:photos/radha/radha-09.jpg": 56,
   "photo:photos/premanand/premanand-02.jpg": 58,
   "photo:photos/radha/radha-11.jpg": 59,
-  "photo:photos/khatushyam/khatushyam-02.jpg": 60
+  "photo:photos/khatushyam/khatushyam-02.jpg": 60,
+  "photo:photos/khatushyam/khatushyam-06.jpg": 61
  },
- "counter": 60,
+ "counter": 61,
  "captions": [
-  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -886,7 +898,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "राधे राधे 🙏\nरविवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Bol 🎵\nकमेंट में लिखें: राधे राधे\nशरद पूर्णिमा की शुभकामनाएं 🌕",
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕"
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
+  "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏"
  ],
  "errors": [
   {
