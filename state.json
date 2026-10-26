@@ -743,6 +743,18 @@
    "media_id": "18430132381197976",
    "permalink": "https://www.instagram.com/reel/De8AEWIAHTS/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-26#2",
+   "at": "2026-10-26T18:48:01+05:30",
+   "song": "Jhanda Uncha Rahe",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-14.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "18108920402193117",
+   "permalink": "https://www.instagram.com/reel/De9XukRmvJl/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -799,7 +811,7 @@
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 51,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 51,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 63,
   "song:Bas Radhe Radhe": 11,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 56,
@@ -849,9 +861,9 @@
   "song:Radha Naam Kirtan": 29,
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 30,
-  "photo:photos/shiv/shiv-14.jpg": 30,
-  "mantra:shiv:जय भोलेनाथ": 36,
-  "song:Jhanda Uncha Rahe": 31,
+  "photo:photos/shiv/shiv-14.jpg": 63,
+  "mantra:shiv:जय भोलेनाथ": 63,
+  "song:Jhanda Uncha Rahe": 63,
   "photo:photos/shiv/shiv-07.jpg": 31,
   "song:Saavan Ka Rang": 32,
   "photo:photos/shiv/shiv-17.jpg": 32,
@@ -890,9 +902,8 @@
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61
  },
- "counter": 62,
+ "counter": 63,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे",
@@ -911,7 +922,8 @@
   "राधे राधे 🙏\nरविवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Bol 🎵\nकमेंट में लिखें: राधे राधे\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
+  "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
