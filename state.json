@@ -767,6 +767,18 @@
    "media_id": "17954901606335727",
    "permalink": "https://www.instagram.com/reel/De9ZbhKAfd4/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-27#0",
+   "at": "2026-10-27T05:02:55+05:30",
+   "song": "Tere Bharose Sanwariya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-03.jpg",
+   "mantra": "जय श्री कृष्ण",
+   "audio": "mp3",
+   "media_id": "17977363883938427",
+   "permalink": "https://www.instagram.com/reel/De-eFWej-sy/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -796,7 +808,7 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 44,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 60,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 65,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
@@ -829,12 +841,12 @@
   "mantra:radha:श्री राधा रानी की जय": 56,
   "song:Sanwariya Muskura Dena": 50,
   "photo:photos/sanwariya/sanwariya-04.jpg": 12,
-  "mantra:sanwariya:जय श्री कृष्ण": 33,
+  "mantra:sanwariya:जय श्री कृष्ण": 65,
   "song:Radhe Tere Dar Se": 13,
   "photo:photos/radha/radha-17.jpg": 13,
   "mantra:radha:जय श्री राधे": 59,
-  "song:Tere Bharose Sanwariya": 14,
-  "photo:photos/sanwariya/sanwariya-03.jpg": 14,
+  "song:Tere Bharose Sanwariya": 65,
+  "photo:photos/sanwariya/sanwariya-03.jpg": 65,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 48,
   "song:Mere Shyaam": 60,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
@@ -915,9 +927,8 @@
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
   "photo:photos/radha/radha-18.jpg": 64
  },
- "counter": 64,
+ "counter": 65,
  "captions": [
-  "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -936,7 +947,8 @@
   "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
+  "जय श्री सांवलिया सेठ 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Tere Bharose Sanwariya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
