@@ -731,6 +731,18 @@
    "media_id": "18080138759552006",
    "permalink": "https://www.instagram.com/reel/De73qT1E5k3/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-26#1",
+   "at": "2026-10-26T06:02:02+05:30",
+   "song": "Badal Bole",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-18.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18430132381197976",
+   "permalink": "https://www.instagram.com/reel/De8AEWIAHTS/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -774,7 +786,7 @@
   "mantra:sanwariya:सांवरिया सेठ की जय": 50,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 6,
-  "mantra:shiv:हर हर महादेव": 42,
+  "mantra:shiv:हर हर महादेव": 62,
   "bottom:भोले के भक्तों को भेजें": 53,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
@@ -808,7 +820,7 @@
   "mantra:radha:राधे राधे": 41,
   "song:Milne Aya Hu Sanwriya": 57,
   "song:Saanjh Ki Aarti": 43,
-  "photo:photos/shiv/shiv-18.jpg": 18,
+  "photo:photos/shiv/shiv-18.jpg": 62,
   "mantra:shiv:शिवोहम्": 54,
   "bottom:आँखें बंद करें और बस सुनें": 55,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
@@ -824,12 +836,12 @@
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 55,
-  "bottom:मन को शांति दे — अपनों को भेजें": 45,
+  "bottom:मन को शांति दे — अपनों को भेजें": 62,
   "song:Saawan Aaya": 55,
   "mantra:shiv:ॐ नमः शिवाय": 43,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 26,
-  "song:Badal Bole": 27,
+  "song:Badal Bole": 62,
   "photo:photos/shiv/shiv-10.jpg": 27,
   "song:Saavan Aaya Bhole Aaye": 28,
   "photo:photos/shiv/shiv-09.jpg": 28,
@@ -878,9 +890,8 @@
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61
  },
- "counter": 61,
+ "counter": 62,
  "captions": [
-  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "शिव में ही शांति है 🌙\n🎵 Shambu Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
@@ -899,7 +910,8 @@
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "राधे राधे 🙏\nरविवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Bol 🎵\nकमेंट में लिखें: राधे राधे\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
-  "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏"
+  "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole"
  ],
  "errors": [
   {
