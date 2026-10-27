@@ -791,6 +791,18 @@
    "media_id": "18127838047904987",
    "permalink": "https://www.instagram.com/reel/De-k_a0D38-/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-27#2",
+   "at": "2026-10-27T18:17:25+05:30",
+   "song": "Rom Rom Mai Radhe",
+   "deity": "radha",
+   "photo": "photos/radha/radha-12.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18144531517717299",
+   "permalink": "https://www.instagram.com/reel/De_5AdjDxbe/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -819,7 +831,7 @@
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 66,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
-  "mantra:radha:राधे कृष्ण": 44,
+  "mantra:radha:राधे कृष्ण": 67,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 65,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
@@ -828,7 +840,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 61,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 49,
-  "bottom:कमेंट में लिखें — {jaikara}": 64,
+  "bottom:कमेंट में लिखें — {jaikara}": 67,
   "song:Thodi Der Sanwariya": 33,
   "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 50,
@@ -879,7 +891,7 @@
   "photo:photos/sanwariya/sanwariya-05.jpg": 21,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
   "mantra:khatushyam:लखदातार की जय": 61,
-  "song:Rom Rom Mai Radhe": 23,
+  "song:Rom Rom Mai Radhe": 67,
   "photo:photos/radha/radha-14.jpg": 23,
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
@@ -937,11 +949,11 @@
   "photo:photos/radha/radha-11.jpg": 59,
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
-  "photo:photos/radha/radha-18.jpg": 64
+  "photo:photos/radha/radha-18.jpg": 64,
+  "photo:photos/radha/radha-12.jpg": 67
  },
- "counter": 66,
+ "counter": 67,
  "captions": [
-  "जय श्री श्याम 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -960,7 +972,8 @@
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
   "जय श्री सांवलिया सेठ 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Tere Bharose Sanwariya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Rom Rom Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
