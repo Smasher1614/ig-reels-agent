@@ -803,6 +803,18 @@
    "media_id": "18144531517717299",
    "permalink": "https://www.instagram.com/reel/De_5AdjDxbe/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-27#3",
+   "at": "2026-10-27T18:48:45+05:30",
+   "song": "Kawad Chale",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-05.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "17985138690147796",
+   "permalink": "https://www.instagram.com/reel/De_8m4MjtSO/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -845,9 +857,9 @@
   "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 50,
   "song:Kon Aaya": 42,
-  "photo:photos/shiv/shiv-05.jpg": 6,
+  "photo:photos/shiv/shiv-05.jpg": 68,
   "mantra:shiv:हर हर महादेव": 62,
-  "bottom:भोले के भक्तों को भेजें": 53,
+  "bottom:भोले के भक्तों को भेजें": 68,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
   "song:Radha Naam Tera": 44,
@@ -858,7 +870,7 @@
   "mantra:sanwariya:मेरे सांवरिया": 57,
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
-  "mantra:shiv:बम बम भोले": 51,
+  "mantra:shiv:बम बम भोले": 68,
   "bottom:कमेंट में लिखें — हर हर महादेव": 63,
   "song:Bas Radhe Radhe": 64,
   "photo:photos/radha/radha-15.jpg": 11,
@@ -908,7 +920,7 @@
   "mantra:shiv:जय शिव शंकर": 53,
   "song:Radha Naam Kirtan": 29,
   "photo:photos/radha/radha-03.jpg": 29,
-  "song:Kawad Chale": 30,
+  "song:Kawad Chale": 68,
   "photo:photos/shiv/shiv-14.jpg": 63,
   "mantra:shiv:जय भोलेनाथ": 63,
   "song:Jhanda Uncha Rahe": 63,
@@ -952,9 +964,8 @@
   "photo:photos/radha/radha-18.jpg": 64,
   "photo:photos/radha/radha-12.jpg": 67
  },
- "counter": 67,
+ "counter": 68,
  "captions": [
-  "जय श्री सांवलिया सेठ 🙏\nगुरुवार की शुरुआत करें इस भजन के साथ — Sanwariya Mai Aa Gaya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
@@ -973,7 +984,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
   "जय श्री सांवलिया सेठ 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Tere Bharose Sanwariya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Rom Rom Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Rom Rom Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
