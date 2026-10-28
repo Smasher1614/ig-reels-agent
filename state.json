@@ -851,6 +851,18 @@
    "media_id": "18116834657048827",
    "permalink": "https://www.instagram.com/reel/DfCd2JNCrDF/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-28#3",
+   "at": "2026-10-28T18:48:11+05:30",
+   "song": "Radhe Tere Dar Se",
+   "deity": "radha",
+   "photo": "photos/radha/radha-04.jpg",
+   "mantra": "श्री राधा रानी की जय",
+   "audio": "mp3",
+   "media_id": "18126695423513274",
+   "permalink": "https://www.instagram.com/reel/DfChVLoAo4o/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -880,7 +892,7 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 2,
   "mantra:radha:राधे कृष्ण": 67,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 69,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 72,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
@@ -910,11 +922,11 @@
   "bottom:कमेंट में लिखें — हर हर महादेव": 63,
   "song:Bas Radhe Radhe": 64,
   "photo:photos/radha/radha-15.jpg": 11,
-  "mantra:radha:श्री राधा रानी की जय": 56,
+  "mantra:radha:श्री राधा रानी की जय": 72,
   "song:Sanwariya Muskura Dena": 50,
   "photo:photos/sanwariya/sanwariya-04.jpg": 66,
   "mantra:sanwariya:जय श्री कृष्ण": 65,
-  "song:Radhe Tere Dar Se": 13,
+  "song:Radhe Tere Dar Se": 72,
   "photo:photos/radha/radha-17.jpg": 13,
   "mantra:radha:जय श्री राधे": 59,
   "song:Tere Bharose Sanwariya": 65,
@@ -999,11 +1011,11 @@
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
   "photo:photos/radha/radha-18.jpg": 64,
   "photo:photos/radha/radha-12.jpg": 67,
-  "photo:photos/radha/radha-13.jpg": 70
+  "photo:photos/radha/radha-13.jpg": 70,
+  "photo:photos/radha/radha-04.jpg": 72
  },
- "counter": 71,
+ "counter": 72,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
@@ -1022,7 +1034,8 @@
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Thodi Der Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
-  "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏"
+  "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
+  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
  ],
  "errors": [
   {
