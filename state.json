@@ -839,6 +839,18 @@
    "media_id": "18635924776017365",
    "permalink": "https://www.instagram.com/reel/DfBICUdkquJ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-28#2",
+   "at": "2026-10-28T18:17:47+05:30",
+   "song": "Sanwariya Mai Aa Gaya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-07.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "18116834657048827",
+   "permalink": "https://www.instagram.com/reel/DfCd2JNCrDF/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -876,7 +888,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 61,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 49,
-  "bottom:कमेंट में लिखें — {jaikara}": 67,
+  "bottom:कमेंट में लिखें — {jaikara}": 71,
   "song:Thodi Der Sanwariya": 69,
   "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 69,
@@ -889,9 +901,9 @@
   "song:Radha Naam Tera": 44,
   "photo:photos/radha/radha-05.jpg": 8,
   "mantra:radha:बरसाने वाली राधे": 70,
-  "song:Sanwariya Mai Aa Gaya": 48,
+  "song:Sanwariya Mai Aa Gaya": 71,
   "photo:photos/sanwariya/sanwariya-06.jpg": 50,
-  "mantra:sanwariya:मेरे सांवरिया": 57,
+  "mantra:sanwariya:मेरे सांवरिया": 71,
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 68,
@@ -973,7 +985,7 @@
   "photo:photos/radha/radha-07.jpg": 46,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 47,
-  "photo:photos/sanwariya/sanwariya-07.jpg": 48,
+  "photo:photos/sanwariya/sanwariya-07.jpg": 71,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 51,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
@@ -989,9 +1001,8 @@
   "photo:photos/radha/radha-12.jpg": 67,
   "photo:photos/radha/radha-13.jpg": 70
  },
- "counter": 70,
+ "counter": 71,
  "captions": [
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
@@ -1010,7 +1021,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Rom Rom Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Thodi Der Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
+  "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏"
  ],
  "errors": [
   {
