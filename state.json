@@ -863,6 +863,18 @@
    "media_id": "18126695423513274",
    "permalink": "https://www.instagram.com/reel/DfChVLoAo4o/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-29#0",
+   "at": "2026-10-29T04:48:48+05:30",
+   "song": "Saavan Aaya Bhole Aaye",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-09.jpg",
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "18118231177789435",
+   "permalink": "https://www.instagram.com/reel/DfDmEirD3Gu/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -919,7 +931,7 @@
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 10,
   "mantra:shiv:बम बम भोले": 68,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 63,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 73,
   "song:Bas Radhe Radhe": 64,
   "photo:photos/radha/radha-15.jpg": 11,
   "mantra:radha:श्री राधा रानी की जय": 72,
@@ -963,9 +975,9 @@
   "mantra:premanand:राधा नाम जप": 26,
   "song:Badal Bole": 62,
   "photo:photos/shiv/shiv-10.jpg": 27,
-  "song:Saavan Aaya Bhole Aaye": 28,
-  "photo:photos/shiv/shiv-09.jpg": 28,
-  "mantra:shiv:जय शिव शंकर": 53,
+  "song:Saavan Aaya Bhole Aaye": 73,
+  "photo:photos/shiv/shiv-09.jpg": 73,
+  "mantra:shiv:जय शिव शंकर": 73,
   "song:Radha Naam Kirtan": 29,
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 68,
@@ -1014,9 +1026,8 @@
   "photo:photos/radha/radha-13.jpg": 70,
   "photo:photos/radha/radha-04.jpg": 72
  },
- "counter": 72,
+ "counter": 73,
  "captions": [
-  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aa Gaya\nजय भोलेनाथ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
   "राधे राधे 🙏\nशनिवार की शुरुआत करें इस भजन के साथ — Radha Naam 🎵\nकमेंट में लिखें: राधे राधे",
@@ -1035,7 +1046,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Thodi Der Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
-  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
+  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
+  "आज गुरुवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
