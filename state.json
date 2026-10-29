@@ -911,6 +911,18 @@
    "media_id": "18140179366653006",
    "permalink": "https://www.instagram.com/reel/DfFGICDAK8-/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-30#0",
+   "at": "2026-10-30T04:47:47+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-12.jpg",
+   "mantra": "श्री राधा",
+   "audio": "mp3",
+   "media_id": "17901695517607608",
+   "permalink": "https://www.instagram.com/reel/DfGKwMPlKrM/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -933,10 +945,10 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 58,
+  "song:Radha Naam Jap": 77,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 37,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 74,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 77,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 67,
@@ -994,7 +1006,7 @@
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 60,
   "photo:photos/premanand/premanand-09.jpg": 20,
-  "mantra:premanand:श्री राधा": 20,
+  "mantra:premanand:श्री राधा": 77,
   "song:Ghar Jesa Lagta Hai": 66,
   "photo:photos/sanwariya/sanwariya-05.jpg": 74,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
@@ -1060,11 +1072,11 @@
   "photo:photos/radha/radha-18.jpg": 64,
   "photo:photos/radha/radha-12.jpg": 67,
   "photo:photos/radha/radha-13.jpg": 70,
-  "photo:photos/radha/radha-04.jpg": 72
+  "photo:photos/radha/radha-04.jpg": 72,
+  "photo:photos/premanand/premanand-12.jpg": 77
  },
- "counter": 76,
+ "counter": 77,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Milne Aya Hu Sanwriya\nकमेंट में लिखें: जय श्री सांवलिया सेठ\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "राधे राधे 🙏\nरविवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Bol 🎵\nकमेंट में लिखें: राधे राधे\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
@@ -1083,7 +1095,8 @@
   "आज गुरुवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Gau Mai\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏"
  ],
  "errors": [
   {
