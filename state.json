@@ -959,6 +959,18 @@
    "media_id": "17887434408624852",
    "permalink": "https://www.instagram.com/reel/DfHq9JgFWku/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-31#0",
+   "at": "2026-10-31T04:47:42+05:30",
+   "song": "Saavan Ka Rang",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-11.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "17949162822358219",
+   "permalink": "https://www.instagram.com/reel/DfIvhWGiopP/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1002,8 +1014,8 @@
   "mantra:sanwariya:सांवरिया सेठ की जय": 69,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 68,
-  "mantra:shiv:हर हर महादेव": 62,
-  "bottom:भोले के भक्तों को भेजें": 68,
+  "mantra:shiv:हर हर महादेव": 81,
+  "bottom:भोले के भक्तों को भेजें": 81,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
   "song:Radha Naam Tera": 78,
@@ -1069,11 +1081,11 @@
   "mantra:shiv:जय भोलेनाथ": 63,
   "song:Jhanda Uncha Rahe": 63,
   "photo:photos/shiv/shiv-07.jpg": 31,
-  "song:Saavan Ka Rang": 32,
+  "song:Saavan Ka Rang": 81,
   "photo:photos/shiv/shiv-17.jpg": 32,
   "photo:photos/sanwariya/sanwariya-01.jpg": 69,
   "song:Kafila Mahdev Ka": 34,
-  "photo:photos/shiv/shiv-11.jpg": 34,
+  "photo:photos/shiv/shiv-11.jpg": 81,
   "song:Teri Yaad Mai Radhe": 70,
   "photo:photos/radha/radha-20.jpg": 35,
   "song:Shambu Ki Sawari": 36,
@@ -1113,9 +1125,8 @@
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
   "photo:photos/radha/radha-06.jpg": 80
  },
- "counter": 80,
+ "counter": 81,
  "captions": [
-  "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
@@ -1134,7 +1145,8 @@
   "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
