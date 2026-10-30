@@ -947,6 +947,18 @@
    "media_id": "18093290198485587",
    "permalink": "https://www.instagram.com/reel/DfHnb_KjQak/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-30#3",
+   "at": "2026-10-30T18:48:28+05:30",
+   "song": "Radha Naam Kirtan",
+   "deity": "radha",
+   "photo": "photos/radha/radha-06.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "17887434408624852",
+   "permalink": "https://www.instagram.com/reel/DfHq9JgFWku/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -972,10 +984,10 @@
   "song:Radha Naam Jap": 77,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 37,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 77,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 80,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 75,
-  "mantra:radha:राधे कृष्ण": 67,
+  "mantra:radha:राधे कृष्ण": 80,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 79,
   "song:Pahli Chai Shiv Ka Naam": 40,
   "photo:photos/shiv/shiv-12.jpg": 3,
@@ -1050,7 +1062,7 @@
   "song:Saavan Aaya Bhole Aaye": 73,
   "photo:photos/shiv/shiv-09.jpg": 73,
   "mantra:shiv:जय शिव शंकर": 73,
-  "song:Radha Naam Kirtan": 29,
+  "song:Radha Naam Kirtan": 80,
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 68,
   "photo:photos/shiv/shiv-14.jpg": 63,
@@ -1098,11 +1110,11 @@
   "photo:photos/radha/radha-13.jpg": 70,
   "photo:photos/radha/radha-04.jpg": 72,
   "photo:photos/premanand/premanand-12.jpg": 77,
-  "photo:photos/khatushyam/khatushyam-03.jpg": 79
+  "photo:photos/khatushyam/khatushyam-03.jpg": 79,
+  "photo:photos/radha/radha-06.jpg": 80
  },
- "counter": 79,
+ "counter": 80,
  "captions": [
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
@@ -1121,7 +1133,8 @@
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏",
-  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम"
+  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
