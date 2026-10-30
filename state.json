@@ -923,6 +923,18 @@
    "media_id": "17901695517607608",
    "permalink": "https://www.instagram.com/reel/DfGKwMPlKrM/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-30#1",
+   "at": "2026-10-30T05:32:46+05:30",
+   "song": "Radha Naam Tera",
+   "deity": "radha",
+   "photo": "photos/radha/radha-08.jpg",
+   "mantra": "राधे राधे",
+   "audio": "mp3",
+   "media_id": "18372619540210345",
+   "permalink": "https://www.instagram.com/reel/DfGP5k_jSLV/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -960,7 +972,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 61,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 49,
-  "bottom:कमेंट में लिखें — {jaikara}": 75,
+  "bottom:कमेंट में लिखें — {jaikara}": 78,
   "song:Thodi Der Sanwariya": 69,
   "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 69,
@@ -970,7 +982,7 @@
   "bottom:भोले के भक्तों को भेजें": 68,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
-  "song:Radha Naam Tera": 44,
+  "song:Radha Naam Tera": 78,
   "photo:photos/radha/radha-05.jpg": 8,
   "mantra:radha:बरसाने वाली राधे": 70,
   "song:Sanwariya Mai Aa Gaya": 71,
@@ -996,8 +1008,8 @@
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 52,
   "song:Radhe Radhe Bol": 59,
-  "photo:photos/radha/radha-08.jpg": 16,
-  "mantra:radha:राधे राधे": 64,
+  "photo:photos/radha/radha-08.jpg": 78,
+  "mantra:radha:राधे राधे": 78,
   "song:Milne Aya Hu Sanwriya": 76,
   "song:Saanjh Ki Aarti": 43,
   "photo:photos/shiv/shiv-18.jpg": 62,
@@ -1075,9 +1087,8 @@
   "photo:photos/radha/radha-04.jpg": 72,
   "photo:photos/premanand/premanand-12.jpg": 77
  },
- "counter": 77,
+ "counter": 78,
  "captions": [
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "राधे राधे 🙏\nरविवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Bol 🎵\nकमेंट में लिखें: राधे राधे\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏\nशरद पूर्णिमा की शुभकामनाएं 🌕",
   "आज सोमवार है — खाटू श्याम जी को याद करें 🌼\n🎵 Dil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
@@ -1096,7 +1107,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Gau Mai\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏"
+  "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
+  "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏"
  ],
  "errors": [
   {
