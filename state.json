@@ -971,6 +971,18 @@
    "media_id": "17949162822358219",
    "permalink": "https://www.instagram.com/reel/DfIvhWGiopP/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-31#1",
+   "at": "2026-10-31T05:47:41+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-15.jpg",
+   "mantra": "जय खाटू श्याम",
+   "audio": "mp3",
+   "media_id": "18190260181413593",
+   "permalink": "https://www.instagram.com/reel/DfI2Zq9ABkb/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1005,10 +1017,10 @@
   "photo:photos/shiv/shiv-12.jpg": 3,
   "mantra:shiv:शिव शम्भो": 45,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 54,
-  "song:Dil Se Tujhe Bulau Shyam Baba": 61,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 82,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
-  "mantra:khatushyam:जय खाटू श्याम": 49,
-  "bottom:कमेंट में लिखें — {jaikara}": 78,
+  "mantra:khatushyam:जय खाटू श्याम": 82,
+  "bottom:कमेंट में लिखें — {jaikara}": 82,
   "song:Thodi Der Sanwariya": 69,
   "photo:photos/sanwariya/sanwariya-02.jpg": 57,
   "mantra:sanwariya:सांवरिया सेठ की जय": 69,
@@ -1123,11 +1135,11 @@
   "photo:photos/radha/radha-04.jpg": 72,
   "photo:photos/premanand/premanand-12.jpg": 77,
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
-  "photo:photos/radha/radha-06.jpg": 80
+  "photo:photos/radha/radha-06.jpg": 80,
+  "photo:photos/khatushyam/khatushyam-15.jpg": 82
  },
- "counter": 81,
+ "counter": 82,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
   "जय श्री सांवलिया सेठ 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Tere Bharose Sanwariya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -1146,7 +1158,8 @@
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏"
+  "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏"
  ],
  "errors": [
   {
