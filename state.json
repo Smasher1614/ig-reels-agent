@@ -983,6 +983,18 @@
    "media_id": "18190260181413593",
    "permalink": "https://www.instagram.com/reel/DfI2Zq9ABkb/",
    "host": "release"
+  },
+  {
+   "slot": "2026-10-31#2",
+   "at": "2026-10-31T18:17:45+05:30",
+   "song": "Mandir Wali Subah",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-12.jpg",
+   "mantra": "ॐ नमः शिवाय",
+   "audio": "mp3",
+   "media_id": "17939364471122474",
+   "permalink": "https://www.instagram.com/reel/DfKMPEhFGfz/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1014,9 +1026,9 @@
   "mantra:radha:राधे कृष्ण": 80,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 79,
   "song:Pahli Chai Shiv Ka Naam": 40,
-  "photo:photos/shiv/shiv-12.jpg": 3,
+  "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 45,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 54,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 83,
   "song:Dil Se Tujhe Bulau Shyam Baba": 82,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
@@ -1078,7 +1090,7 @@
   "mantra:shiv:ॐ महादेवाय नमः": 55,
   "bottom:मन को शांति दे — अपनों को भेजें": 62,
   "song:Saawan Aaya": 55,
-  "mantra:shiv:ॐ नमः शिवाय": 43,
+  "mantra:shiv:ॐ नमः शिवाय": 83,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 26,
   "song:Badal Bole": 62,
@@ -1136,11 +1148,11 @@
   "photo:photos/premanand/premanand-12.jpg": 77,
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
   "photo:photos/radha/radha-06.jpg": 80,
-  "photo:photos/khatushyam/khatushyam-15.jpg": 82
+  "photo:photos/khatushyam/khatushyam-15.jpg": 82,
+  "song:Mandir Wali Subah": 83
  },
- "counter": 82,
+ "counter": 83,
  "captions": [
-  "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Jhanda Uncha Rahe\nजय भोलेनाथ 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
   "जय श्री सांवलिया सेठ 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Tere Bharose Sanwariya 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -1159,7 +1171,8 @@
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Mandir Wali Subah"
  ],
  "errors": [
   {
