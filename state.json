@@ -1055,6 +1055,18 @@
    "media_id": "18106453796285470",
    "permalink": "https://www.instagram.com/reel/DfM0dOmDoCu/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-02#0",
+   "at": "2026-11-02T04:32:48+05:30",
+   "song": "Saanjh Ki Aarti",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-15.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "17964646890236072",
+   "permalink": "https://www.instagram.com/reel/DfN3Z3nj4es/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1109,7 +1121,7 @@
   "photo:photos/sanwariya/sanwariya-06.jpg": 76,
   "mantra:sanwariya:मेरे सांवरिया": 71,
   "song:Jai Shambu": 51,
-  "photo:photos/shiv/shiv-15.jpg": 10,
+  "photo:photos/shiv/shiv-15.jpg": 89,
   "mantra:shiv:बम बम भोले": 68,
   "bottom:कमेंट में लिखें — हर हर महादेव": 73,
   "song:Bas Radhe Radhe": 64,
@@ -1131,9 +1143,9 @@
   "photo:photos/radha/radha-08.jpg": 78,
   "mantra:radha:राधे राधे": 78,
   "song:Milne Aya Hu Sanwriya": 76,
-  "song:Saanjh Ki Aarti": 43,
+  "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
-  "mantra:shiv:शिवोहम्": 54,
+  "mantra:shiv:शिवोहम्": 89,
   "bottom:आँखें बंद करें और बस सुनें": 87,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 60,
@@ -1148,7 +1160,7 @@
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 55,
-  "bottom:मन को शांति दे — अपनों को भेजें": 62,
+  "bottom:मन को शांति दे — अपनों को भेजें": 89,
   "song:Saawan Aaya": 55,
   "mantra:shiv:ॐ नमः शिवाय": 83,
   "photo:photos/premanand/premanand-08.jpg": 26,
@@ -1212,9 +1224,8 @@
   "song:Mandir Wali Subah": 83,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86
  },
- "counter": 88,
+ "counter": 89,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Thodi Der Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -1233,7 +1244,8 @@
   "मन को शांति देने वाला भजन 🎶 Aao Radha Ko Pukare\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti"
  ],
  "errors": [
   {
