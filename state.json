@@ -1043,6 +1043,18 @@
    "media_id": "18195653680394981",
    "permalink": "https://www.instagram.com/reel/DfMyyr4ijFi/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-01#3",
+   "at": "2026-11-01T18:47:48+05:30",
+   "song": "Radha Naam",
+   "deity": "radha",
+   "photo": "photos/radha/radha-14.jpg",
+   "mantra": "श्री राधा रानी की जय",
+   "audio": "mp3",
+   "media_id": "18106453796285470",
+   "permalink": "https://www.instagram.com/reel/DfM0dOmDoCu/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1072,7 +1084,7 @@
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 80,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 84,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 88,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
@@ -1102,7 +1114,7 @@
   "bottom:कमेंट में लिखें — हर हर महादेव": 73,
   "song:Bas Radhe Radhe": 64,
   "photo:photos/radha/radha-15.jpg": 85,
-  "mantra:radha:श्री राधा रानी की जय": 72,
+  "mantra:radha:श्री राधा रानी की जय": 88,
   "song:Sanwariya Muskura Dena": 74,
   "photo:photos/sanwariya/sanwariya-04.jpg": 66,
   "mantra:sanwariya:जय श्री कृष्ण": 74,
@@ -1132,7 +1144,7 @@
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
   "mantra:khatushyam:लखदातार की जय": 61,
   "song:Rom Rom Mai Radhe": 67,
-  "photo:photos/radha/radha-14.jpg": 23,
+  "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 55,
@@ -1183,7 +1195,7 @@
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
   "song:Saavan Aa Gaya": 53,
   "photo:photos/shiv/shiv-04.jpg": 55,
-  "song:Radha Naam": 56,
+  "song:Radha Naam": 88,
   "photo:photos/radha/radha-09.jpg": 56,
   "photo:photos/premanand/premanand-02.jpg": 58,
   "photo:photos/radha/radha-11.jpg": 59,
@@ -1200,9 +1212,8 @@
   "song:Mandir Wali Subah": 83,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86
  },
- "counter": 87,
+ "counter": 88,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Thodi Der Sanwariya\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
@@ -1221,7 +1232,8 @@
   "आज शनिवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Aao Radha Ko Pukare\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏"
+  "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
