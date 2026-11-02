@@ -1067,6 +1067,18 @@
    "media_id": "17964646890236072",
    "permalink": "https://www.instagram.com/reel/DfN3Z3nj4es/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-02#1",
+   "at": "2026-11-02T05:47:50+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-05.jpg",
+   "mantra": "राधा नाम जप",
+   "audio": "mp3",
+   "media_id": "18119965232048834",
+   "permalink": "https://www.instagram.com/reel/DfOAAusjmnY/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1089,10 +1101,10 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 77,
+  "song:Radha Naam Jap": 90,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 37,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 85,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 90,
   "song:Radha": 46,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 80,
@@ -1164,7 +1176,7 @@
   "song:Saawan Aaya": 55,
   "mantra:shiv:ॐ नमः शिवाय": 83,
   "photo:photos/premanand/premanand-08.jpg": 26,
-  "mantra:premanand:राधा नाम जप": 26,
+  "mantra:premanand:राधा नाम जप": 90,
   "song:Badal Bole": 62,
   "photo:photos/shiv/shiv-10.jpg": 27,
   "song:Saavan Aaya Bhole Aaye": 73,
@@ -1222,11 +1234,11 @@
   "photo:photos/radha/radha-06.jpg": 80,
   "photo:photos/khatushyam/khatushyam-15.jpg": 82,
   "song:Mandir Wali Subah": 83,
-  "photo:photos/khatushyam/khatushyam-07.jpg": 86
+  "photo:photos/khatushyam/khatushyam-07.jpg": 86,
+  "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 89,
+ "counter": 90,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Teri Yaad Mai Radhe\nकमेंट में लिखें: राधे राधे",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Sanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "आज गुरुवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
@@ -1245,7 +1257,8 @@
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
+  "आज सोमवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏"
  ],
  "errors": [
   {
