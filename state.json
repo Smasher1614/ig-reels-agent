@@ -1091,6 +1091,18 @@
    "media_id": "18149299465559340",
    "permalink": "https://www.instagram.com/reel/DfPV26Pjs04/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-02#3",
+   "at": "2026-11-02T18:49:21+05:30",
+   "song": "Shambu Ka Naam",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18160589455511512",
+   "permalink": "https://www.instagram.com/reel/DfPZcWjiWKF/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1124,7 +1136,7 @@
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 83,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 92,
   "song:Dil Se Tujhe Bulau Shyam Baba": 82,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
@@ -1183,7 +1195,7 @@
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
-  "mantra:shiv:ॐ महादेवाय नमः": 55,
+  "mantra:shiv:ॐ महादेवाय नमः": 92,
   "bottom:मन को शांति दे — अपनों को भेजें": 89,
   "song:Saawan Aaya": 55,
   "mantra:shiv:ॐ नमः शिवाय": 83,
@@ -1221,7 +1233,7 @@
   "photo:photos/shiv/shiv-02.jpg": 42,
   "photo:photos/shiv/shiv-08.jpg": 43,
   "photo:photos/radha/radha-16.jpg": 44,
-  "song:Shambu Ka Naam": 45,
+  "song:Shambu Ka Naam": 92,
   "photo:photos/radha/radha-07.jpg": 46,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 79,
@@ -1249,9 +1261,8 @@
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 91,
+ "counter": 92,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "आज गुरुवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "मन को शांति देने वाला भजन 🎶 Radhe Radhe Gau Mai\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -1270,7 +1281,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "आज सोमवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
-  "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
+  "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Shambu Ka Naam"
  ],
  "errors": [
   {
