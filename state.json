@@ -1139,6 +1139,18 @@
    "media_id": "18150175699559132",
    "permalink": "https://www.instagram.com/reel/DfR6m7QCBuI/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-03#3",
+   "at": "2026-11-03T18:47:45+05:30",
+   "song": "Badalo Mai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-13.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18131195842795442",
+   "permalink": "https://www.instagram.com/reel/DfR-Ddil26j/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1182,7 +1194,7 @@
   "mantra:sanwariya:सांवरिया सेठ की जय": 84,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 68,
-  "mantra:shiv:हर हर महादेव": 81,
+  "mantra:shiv:हर हर महादेव": 96,
   "bottom:भोले के भक्तों को भेजें": 81,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
@@ -1218,7 +1230,7 @@
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
   "mantra:shiv:शिवोहम्": 89,
-  "bottom:आँखें बंद करें और बस सुनें": 87,
+  "bottom:आँखें बंद करें और बस सुनें": 96,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 60,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -1259,11 +1271,11 @@
   "song:Shambu Ki Sawari": 36,
   "photo:photos/shiv/shiv-16.jpg": 36,
   "photo:photos/premanand/premanand-13.jpg": 37,
-  "song:Badalo Mai Shambu": 38,
+  "song:Badalo Mai Shambu": 96,
   "photo:photos/shiv/shiv-01.jpg": 38,
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 39,
-  "photo:photos/shiv/shiv-13.jpg": 40,
+  "photo:photos/shiv/shiv-13.jpg": 96,
   "song:Radhe Radhe Gau Mai": 75,
   "photo:photos/radha/radha-19.jpg": 41,
   "photo:photos/shiv/shiv-02.jpg": 42,
@@ -1297,9 +1309,8 @@
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 95,
+ "counter": 96,
  "captions": [
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
@@ -1318,7 +1329,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Shambu Ka Naam",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu"
  ],
  "errors": [
   {
