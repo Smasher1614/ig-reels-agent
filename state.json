@@ -1151,6 +1151,18 @@
    "media_id": "18131195842795442",
    "permalink": "https://www.instagram.com/reel/DfR-Ddil26j/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-04#0",
+   "at": "2026-11-04T04:33:58+05:30",
+   "song": "Sanwariya Muskura Dena",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-05.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "17972581062161090",
+   "permalink": "https://www.instagram.com/reel/DfTBIVfnMRl/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1180,7 +1192,7 @@
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 80,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 93,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 97,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
@@ -1191,7 +1203,7 @@
   "bottom:कमेंट में लिखें — {jaikara}": 95,
   "song:Thodi Der Sanwariya": 93,
   "photo:photos/sanwariya/sanwariya-02.jpg": 94,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 84,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 97,
   "song:Kon Aaya": 42,
   "photo:photos/shiv/shiv-05.jpg": 68,
   "mantra:shiv:हर हर महादेव": 96,
@@ -1211,7 +1223,7 @@
   "song:Bas Radhe Radhe": 64,
   "photo:photos/radha/radha-15.jpg": 85,
   "mantra:radha:श्री राधा रानी की जय": 88,
-  "song:Sanwariya Muskura Dena": 74,
+  "song:Sanwariya Muskura Dena": 97,
   "photo:photos/sanwariya/sanwariya-04.jpg": 93,
   "mantra:sanwariya:जय श्री कृष्ण": 94,
   "song:Radhe Tere Dar Se": 72,
@@ -1236,7 +1248,7 @@
   "photo:photos/premanand/premanand-09.jpg": 20,
   "mantra:premanand:श्री राधा": 77,
   "song:Ghar Jesa Lagta Hai": 84,
-  "photo:photos/sanwariya/sanwariya-05.jpg": 74,
+  "photo:photos/sanwariya/sanwariya-05.jpg": 97,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
   "mantra:khatushyam:लखदातार की जय": 61,
   "song:Rom Rom Mai Radhe": 67,
@@ -1309,9 +1321,8 @@
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 96,
+ "counter": 97,
  "captions": [
-  "आज शुक्रवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज शुक्रवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha Naam Tera\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -1330,7 +1341,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
