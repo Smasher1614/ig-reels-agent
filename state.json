@@ -1175,6 +1175,18 @@
    "media_id": "18075217850728901",
    "permalink": "https://www.instagram.com/reel/DfTH34sAAur/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-04#2",
+   "at": "2026-11-04T18:17:41+05:30",
+   "song": "Milne Aya Hu Sanwriya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-07.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "18013199493004703",
+   "permalink": "https://www.instagram.com/reel/DfUfZ-CgACQ/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1212,7 +1224,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 82,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 95,
+  "bottom:कमेंट में लिखें — {jaikara}": 99,
   "song:Thodi Der Sanwariya": 93,
   "photo:photos/sanwariya/sanwariya-02.jpg": 94,
   "mantra:sanwariya:सांवरिया सेठ की जय": 97,
@@ -1227,7 +1239,7 @@
   "mantra:radha:बरसाने वाली राधे": 85,
   "song:Sanwariya Mai Aa Gaya": 95,
   "photo:photos/sanwariya/sanwariya-06.jpg": 76,
-  "mantra:sanwariya:मेरे सांवरिया": 93,
+  "mantra:sanwariya:मेरे सांवरिया": 99,
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 89,
   "mantra:shiv:बम बम भोले": 68,
@@ -1250,7 +1262,7 @@
   "song:Radhe Radhe Bol": 59,
   "photo:photos/radha/radha-08.jpg": 78,
   "mantra:radha:राधे राधे": 98,
-  "song:Milne Aya Hu Sanwriya": 76,
+  "song:Milne Aya Hu Sanwriya": 99,
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
   "mantra:shiv:शिवोहम्": 89,
@@ -1309,7 +1321,7 @@
   "photo:photos/radha/radha-07.jpg": 46,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 79,
-  "photo:photos/sanwariya/sanwariya-07.jpg": 71,
+  "photo:photos/sanwariya/sanwariya-07.jpg": 99,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 51,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
@@ -1333,9 +1345,8 @@
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 98,
+ "counter": 99,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Mere Shyaam\nखाटू श्याम जी की कृपा आप पर सदा बनी रहे 🙏\nजय श्री श्याम",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
@@ -1354,7 +1365,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏"
+  "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
+  "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
