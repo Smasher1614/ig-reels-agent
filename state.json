@@ -1187,6 +1187,18 @@
    "media_id": "18013199493004703",
    "permalink": "https://www.instagram.com/reel/DfUfZ-CgACQ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-04#3",
+   "at": "2026-11-04T18:47:49+05:30",
+   "song": "Kon Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-07.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "18076493309468488",
+   "permalink": "https://www.instagram.com/reel/DfUi2RWAh8A/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1228,7 +1240,7 @@
   "song:Thodi Der Sanwariya": 93,
   "photo:photos/sanwariya/sanwariya-02.jpg": 94,
   "mantra:sanwariya:सांवरिया सेठ की जय": 97,
-  "song:Kon Aaya": 42,
+  "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 68,
   "mantra:shiv:हर हर महादेव": 96,
   "bottom:भोले के भक्तों को भेजें": 81,
@@ -1243,7 +1255,7 @@
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 89,
   "mantra:shiv:बम बम भोले": 68,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 73,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 100,
   "song:Bas Radhe Radhe": 98,
   "photo:photos/radha/radha-15.jpg": 85,
   "mantra:radha:श्री राधा रानी की जय": 88,
@@ -1294,9 +1306,9 @@
   "photo:photos/radha/radha-03.jpg": 29,
   "song:Kawad Chale": 68,
   "photo:photos/shiv/shiv-14.jpg": 63,
-  "mantra:shiv:जय भोलेनाथ": 63,
+  "mantra:shiv:जय भोलेनाथ": 100,
   "song:Jhanda Uncha Rahe": 63,
-  "photo:photos/shiv/shiv-07.jpg": 31,
+  "photo:photos/shiv/shiv-07.jpg": 100,
   "song:Saavan Ka Rang": 81,
   "photo:photos/shiv/shiv-17.jpg": 87,
   "photo:photos/sanwariya/sanwariya-01.jpg": 95,
@@ -1345,9 +1357,8 @@
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90
  },
- "counter": 99,
+ "counter": 100,
  "captions": [
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam Kirtan\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Mandir Wali Subah",
@@ -1366,7 +1377,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
-  "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ"
+  "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
+  "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
