@@ -1235,6 +1235,18 @@
    "media_id": "17918881470263807",
    "permalink": "https://www.instagram.com/reel/DfXEUUYnMQR/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-05#3",
+   "at": "2026-11-05T18:47:53+05:30",
+   "song": "Shambu Ki Sawari",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-08.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18108051965525205",
+   "permalink": "https://www.instagram.com/reel/DfXHqrCjtl-/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1279,7 +1291,7 @@
   "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 68,
   "mantra:shiv:हर हर महादेव": 96,
-  "bottom:भोले के भक्तों को भेजें": 81,
+  "bottom:भोले के भक्तों को भेजें": 104,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 58,
   "song:Radha Naam Tera": 78,
@@ -1290,7 +1302,7 @@
   "mantra:sanwariya:मेरे सांवरिया": 99,
   "song:Jai Shambu": 51,
   "photo:photos/shiv/shiv-15.jpg": 89,
-  "mantra:shiv:बम बम भोले": 68,
+  "mantra:shiv:बम बम भोले": 104,
   "bottom:कमेंट में लिखें — हर हर महादेव": 100,
   "song:Bas Radhe Radhe": 98,
   "photo:photos/radha/radha-15.jpg": 85,
@@ -1352,7 +1364,7 @@
   "photo:photos/shiv/shiv-11.jpg": 81,
   "song:Teri Yaad Mai Radhe": 70,
   "photo:photos/radha/radha-20.jpg": 91,
-  "song:Shambu Ki Sawari": 36,
+  "song:Shambu Ki Sawari": 104,
   "photo:photos/shiv/shiv-16.jpg": 36,
   "photo:photos/premanand/premanand-13.jpg": 37,
   "song:Badalo Mai Shambu": 96,
@@ -1363,7 +1375,7 @@
   "song:Radhe Radhe Gau Mai": 75,
   "photo:photos/radha/radha-19.jpg": 98,
   "photo:photos/shiv/shiv-02.jpg": 42,
-  "photo:photos/shiv/shiv-08.jpg": 43,
+  "photo:photos/shiv/shiv-08.jpg": 104,
   "photo:photos/radha/radha-16.jpg": 44,
   "song:Shambu Ka Naam": 92,
   "photo:photos/radha/radha-07.jpg": 46,
@@ -1394,9 +1406,8 @@
   "photo:photos/premanand/premanand-05.jpg": 90,
   "photo:photos/premanand/premanand-16.jpg": 103
  },
- "counter": 103,
+ "counter": 104,
  "captions": [
-  "आज शनिवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Aao Radha Ko Pukare\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
@@ -1415,7 +1426,8 @@
   "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा"
+  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
