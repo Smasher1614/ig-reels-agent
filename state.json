@@ -1223,6 +1223,18 @@
    "media_id": "18180843637437624",
    "permalink": "https://www.instagram.com/reel/DfVsqeZDz1q/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-05#2",
+   "at": "2026-11-05T18:18:46+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-16.jpg",
+   "mantra": "राधा राधा",
+   "audio": "mp3",
+   "media_id": "17918881470263807",
+   "permalink": "https://www.instagram.com/reel/DfXEUUYnMQR/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1245,9 +1257,9 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 90,
+  "song:Radha Naam Jap": 103,
   "photo:photos/premanand/premanand-19.jpg": 1,
-  "mantra:premanand:राधा राधा": 37,
+  "mantra:premanand:राधा राधा": 103,
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 102,
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
@@ -1260,7 +1272,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 82,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 99,
+  "bottom:कमेंट में लिखें — {jaikara}": 103,
   "song:Thodi Der Sanwariya": 93,
   "photo:photos/sanwariya/sanwariya-02.jpg": 94,
   "mantra:sanwariya:सांवरिया सेठ की जय": 97,
@@ -1379,11 +1391,11 @@
   "photo:photos/khatushyam/khatushyam-15.jpg": 82,
   "song:Mandir Wali Subah": 83,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
-  "photo:photos/premanand/premanand-05.jpg": 90
+  "photo:photos/premanand/premanand-05.jpg": 90,
+  "photo:photos/premanand/premanand-16.jpg": 103
  },
- "counter": 102,
+ "counter": 103,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Mandir Wali Subah",
   "आज शनिवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Ghar Jesa Lagta Hai\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Aao Radha Ko Pukare\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -1402,7 +1414,8 @@
   "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
+  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा"
  ],
  "errors": [
   {
