@@ -1271,6 +1271,18 @@
    "media_id": "18121549192944620",
    "permalink": "https://www.instagram.com/reel/DfYSi5cFRjn/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-06#2",
+   "at": "2026-11-06T18:18:18+05:30",
+   "song": "Saawan Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-10.jpg",
+   "mantra": "ॐ नमः शिवाय",
+   "audio": "mp3",
+   "media_id": "18093978878697806",
+   "permalink": "https://www.instagram.com/reel/DfZpETSGyHr/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1364,13 +1376,13 @@
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 92,
-  "bottom:मन को शांति दे — अपनों को भेजें": 89,
-  "song:Saawan Aaya": 55,
-  "mantra:shiv:ॐ नमः शिवाय": 83,
+  "bottom:मन को शांति दे — अपनों को भेजें": 107,
+  "song:Saawan Aaya": 107,
+  "mantra:shiv:ॐ नमः शिवाय": 107,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
   "song:Badal Bole": 62,
-  "photo:photos/shiv/shiv-10.jpg": 27,
+  "photo:photos/shiv/shiv-10.jpg": 107,
   "song:Saavan Aaya Bhole Aaye": 73,
   "photo:photos/shiv/shiv-09.jpg": 73,
   "mantra:shiv:जय शिव शंकर": 73,
@@ -1432,9 +1444,8 @@
   "photo:photos/khatushyam/khatushyam-19.jpg": 105,
   "photo:photos/khatushyam/khatushyam-14.jpg": 106
  },
- "counter": 106,
+ "counter": 107,
  "captions": [
-  "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "आज सोमवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
@@ -1453,7 +1464,8 @@
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nधनतेरस की शुभकामनाएं 🪔",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏\nधनतेरस की शुभकामनाएं 🪔"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏\nधनतेरस की शुभकामनाएं 🪔",
+  "आज शुक्रवार — कुछ पल महादेव के साथ 🕉️\n🎵 Saawan Aaya\nमन शांत हो तो अपनों को भी भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔"
  ],
  "errors": [
   {
