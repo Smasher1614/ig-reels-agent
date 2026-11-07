@@ -1343,6 +1343,18 @@
    "media_id": "17972133792192997",
    "permalink": "https://www.instagram.com/reel/DfcROdBCVGE/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-08#0",
+   "at": "2026-11-08T04:33:00+05:30",
+   "song": "Radhe Radhe Bol",
+   "deity": "radha",
+   "photo": "photos/radha/radha-05.jpg",
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "18114401206885767",
+   "permalink": "https://www.instagram.com/reel/DfdUNcPlkKR/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1380,7 +1392,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 111,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 109,
+  "bottom:कमेंट में लिखें — {jaikara}": 113,
   "song:Thodi Der Sanwariya": 93,
   "photo:photos/sanwariya/sanwariya-02.jpg": 94,
   "mantra:sanwariya:सांवरिया सेठ की जय": 97,
@@ -1391,8 +1403,8 @@
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 78,
-  "photo:photos/radha/radha-05.jpg": 8,
-  "mantra:radha:बरसाने वाली राधे": 85,
+  "photo:photos/radha/radha-05.jpg": 113,
+  "mantra:radha:बरसाने वाली राधे": 113,
   "song:Sanwariya Mai Aa Gaya": 95,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 99,
@@ -1415,7 +1427,7 @@
   "song:Mere Shyaam": 106,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 86,
-  "song:Radhe Radhe Bol": 59,
+  "song:Radhe Radhe Bol": 113,
   "photo:photos/radha/radha-08.jpg": 78,
   "mantra:radha:राधे राधे": 98,
   "song:Milne Aya Hu Sanwriya": 99,
@@ -1505,9 +1517,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 112,
+ "counter": 113,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
@@ -1526,7 +1537,8 @@
   "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
-  "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏"
+  "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔"
  ],
  "errors": [
   {
