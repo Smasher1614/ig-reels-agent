@@ -1307,6 +1307,18 @@
    "media_id": "17942582763384477",
    "permalink": "https://www.instagram.com/reel/DfayZvXEb4y/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-07#1",
+   "at": "2026-11-07T05:32:22+05:30",
+   "song": "Radha Naam Jap",
+   "deity": "premanand",
+   "photo": "photos/premanand/premanand-04.jpg",
+   "mantra": "जय जय श्री राधे",
+   "audio": "mp3",
+   "media_id": "17909850687332677",
+   "permalink": "https://www.instagram.com/reel/Dfa2NnAEWNW/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1329,14 +1341,14 @@
   "2026-10-13#3": 2
  },
  "last_used": {
-  "song:Radha Naam Jap": 103,
+  "song:Radha Naam Jap": 110,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 106,
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 101,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 105,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 110,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
@@ -1353,7 +1365,7 @@
   "mantra:shiv:हर हर महादेव": 96,
   "bottom:भोले के भक्तों को भेजें": 104,
   "photo:photos/premanand/premanand-11.jpg": 7,
-  "mantra:premanand:जय जय श्री राधे": 58,
+  "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 78,
   "photo:photos/radha/radha-05.jpg": 8,
   "mantra:radha:बरसाने वाली राधे": 85,
@@ -1466,11 +1478,11 @@
   "photo:photos/premanand/premanand-05.jpg": 90,
   "photo:photos/premanand/premanand-16.jpg": 103,
   "photo:photos/khatushyam/khatushyam-19.jpg": 105,
-  "photo:photos/khatushyam/khatushyam-14.jpg": 106
+  "photo:photos/khatushyam/khatushyam-14.jpg": 106,
+  "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 109,
+ "counter": 110,
  "captions": [
-  "आज सोमवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Shambu Ka Naam",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
@@ -1489,7 +1501,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "आज शुक्रवार — कुछ पल महादेव के साथ 🕉️\n🎵 Saawan Aaya\nमन शांत हो तो अपनों को भी भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
-  "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ"
+  "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
+  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा"
  ],
  "errors": [
   {
