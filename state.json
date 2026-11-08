@@ -1367,6 +1367,18 @@
    "media_id": "17957391216272288",
    "permalink": "https://www.instagram.com/reel/DfdbCsjAAsg/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-08#2",
+   "at": "2026-11-08T18:17:35+05:30",
+   "song": "Radhe Radhe Gau Mai",
+   "deity": "radha",
+   "photo": "photos/radha/radha-03.jpg",
+   "mantra": "श्री राधा रानी की जय",
+   "audio": "mp3",
+   "media_id": "18156668845533932",
+   "permalink": "https://www.instagram.com/reel/Dfeyk-xFfLI/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1396,7 +1408,7 @@
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 101,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 110,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 115,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
@@ -1426,7 +1438,7 @@
   "bottom:कमेंट में लिखें — हर हर महादेव": 114,
   "song:Bas Radhe Radhe": 98,
   "photo:photos/radha/radha-15.jpg": 85,
-  "mantra:radha:श्री राधा रानी की जय": 88,
+  "mantra:radha:श्री राधा रानी की जय": 115,
   "song:Sanwariya Muskura Dena": 97,
   "photo:photos/sanwariya/sanwariya-04.jpg": 109,
   "mantra:sanwariya:जय श्री कृष्ण": 102,
@@ -1471,7 +1483,7 @@
   "photo:photos/shiv/shiv-09.jpg": 73,
   "mantra:shiv:जय शिव शंकर": 108,
   "song:Radha Naam Kirtan": 80,
-  "photo:photos/radha/radha-03.jpg": 29,
+  "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 114,
   "photo:photos/shiv/shiv-14.jpg": 114,
   "mantra:shiv:जय भोलेनाथ": 114,
@@ -1492,7 +1504,7 @@
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 39,
   "photo:photos/shiv/shiv-13.jpg": 96,
-  "song:Radhe Radhe Gau Mai": 75,
+  "song:Radhe Radhe Gau Mai": 115,
   "photo:photos/radha/radha-19.jpg": 98,
   "photo:photos/shiv/shiv-02.jpg": 42,
   "photo:photos/shiv/shiv-08.jpg": 104,
@@ -1529,9 +1541,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 114,
+ "counter": 115,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
@@ -1550,7 +1561,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔"
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔"
  ],
  "errors": [
   {
