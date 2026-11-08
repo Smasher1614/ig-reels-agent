@@ -1391,6 +1391,18 @@
    "media_id": "17915417037288455",
    "permalink": "https://www.instagram.com/reel/Dfe2IwcnFus/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-09#0",
+   "at": "2026-11-09T04:33:40+05:30",
+   "song": "Thodi Der Sanwariya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-02.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "18101741726452856",
+   "permalink": "https://www.instagram.com/reel/Dff5FZgjJWz/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1428,10 +1440,10 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 111,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 113,
-  "song:Thodi Der Sanwariya": 93,
-  "photo:photos/sanwariya/sanwariya-02.jpg": 94,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 97,
+  "bottom:कमेंट में लिखें — {jaikara}": 117,
+  "song:Thodi Der Sanwariya": 117,
+  "photo:photos/sanwariya/sanwariya-02.jpg": 117,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 117,
   "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 68,
   "mantra:shiv:हर हर महादेव": 112,
@@ -1553,9 +1565,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 116,
+ "counter": 117,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
@@ -1574,7 +1585,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
-  "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔"
+  "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏"
  ],
  "errors": [
   {
