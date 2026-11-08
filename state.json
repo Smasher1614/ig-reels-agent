@@ -1355,6 +1355,18 @@
    "media_id": "18114401206885767",
    "permalink": "https://www.instagram.com/reel/DfdUNcPlkKR/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-08#1",
+   "at": "2026-11-08T05:32:40+05:30",
+   "song": "Kawad Chale",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-14.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "17957391216272288",
+   "permalink": "https://www.instagram.com/reel/DfdbCsjAAsg/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1411,7 +1423,7 @@
   "song:Jai Shambu": 108,
   "photo:photos/shiv/shiv-15.jpg": 89,
   "mantra:shiv:बम बम भोले": 104,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 108,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 114,
   "song:Bas Radhe Radhe": 98,
   "photo:photos/radha/radha-15.jpg": 85,
   "mantra:radha:श्री राधा रानी की जय": 88,
@@ -1460,9 +1472,9 @@
   "mantra:shiv:जय शिव शंकर": 108,
   "song:Radha Naam Kirtan": 80,
   "photo:photos/radha/radha-03.jpg": 29,
-  "song:Kawad Chale": 68,
-  "photo:photos/shiv/shiv-14.jpg": 63,
-  "mantra:shiv:जय भोलेनाथ": 100,
+  "song:Kawad Chale": 114,
+  "photo:photos/shiv/shiv-14.jpg": 114,
+  "mantra:shiv:जय भोलेनाथ": 114,
   "song:Jhanda Uncha Rahe": 63,
   "photo:photos/shiv/shiv-07.jpg": 100,
   "song:Saavan Ka Rang": 81,
@@ -1517,9 +1529,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 113,
+ "counter": 114,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badalo Mai Shambu",
   "भक्ति में ही शक्ति है 🙏\n🎵 Sanwariya Muskura Dena\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -1538,7 +1549,8 @@
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔"
  ],
  "errors": [
   {
