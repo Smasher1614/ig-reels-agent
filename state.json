@@ -1439,6 +1439,18 @@
    "media_id": "18486683557129036",
    "permalink": "https://www.instagram.com/reel/Dfha0ZQiaWi/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-10#0",
+   "at": "2026-11-10T04:47:23+05:30",
+   "song": "Sanwariya Mai Aa Gaya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-01.jpg",
+   "mantra": "मेरे सांवरिया",
+   "audio": "mp3",
+   "media_id": "18175678285459255",
+   "permalink": "https://www.instagram.com/reel/DfifcxMFO-i/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1476,7 +1488,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 111,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 117,
+  "bottom:कमेंट में लिखें — {jaikara}": 121,
   "song:Thodi Der Sanwariya": 117,
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
   "mantra:sanwariya:सांवरिया सेठ की जय": 117,
@@ -1489,9 +1501,9 @@
   "song:Radha Naam Tera": 116,
   "photo:photos/radha/radha-05.jpg": 113,
   "mantra:radha:बरसाने वाली राधे": 113,
-  "song:Sanwariya Mai Aa Gaya": 95,
+  "song:Sanwariya Mai Aa Gaya": 121,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
-  "mantra:sanwariya:मेरे सांवरिया": 99,
+  "mantra:sanwariya:मेरे सांवरिया": 121,
   "song:Jai Shambu": 108,
   "photo:photos/shiv/shiv-15.jpg": 89,
   "mantra:shiv:बम बम भोले": 104,
@@ -1551,7 +1563,7 @@
   "photo:photos/shiv/shiv-07.jpg": 100,
   "song:Saavan Ka Rang": 81,
   "photo:photos/shiv/shiv-17.jpg": 87,
-  "photo:photos/sanwariya/sanwariya-01.jpg": 95,
+  "photo:photos/sanwariya/sanwariya-01.jpg": 121,
   "song:Kafila Mahdev Ka": 34,
   "photo:photos/shiv/shiv-11.jpg": 81,
   "song:Teri Yaad Mai Radhe": 120,
@@ -1601,9 +1613,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 120,
+ "counter": 121,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव",
@@ -1622,7 +1633,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏"
  ],
  "errors": [
   {
