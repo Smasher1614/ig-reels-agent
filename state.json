@@ -1403,6 +1403,18 @@
    "media_id": "18101741726452856",
    "permalink": "https://www.instagram.com/reel/Dff5FZgjJWz/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-09#1",
+   "at": "2026-11-09T05:32:59+05:30",
+   "song": "Radha Naam Kirtan",
+   "deity": "radha",
+   "photo": "photos/radha/radha-07.jpg",
+   "mantra": "राधे राधे",
+   "audio": "mp3",
+   "media_id": "17995594770115232",
+   "permalink": "https://www.instagram.com/reel/Dff_3niHNgy/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1432,7 +1444,7 @@
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 101,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 115,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 118,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 87,
@@ -1477,7 +1489,7 @@
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 86,
   "song:Radhe Radhe Bol": 113,
   "photo:photos/radha/radha-08.jpg": 78,
-  "mantra:radha:राधे राधे": 98,
+  "mantra:radha:राधे राधे": 118,
   "song:Milne Aya Hu Sanwriya": 99,
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
@@ -1506,7 +1518,7 @@
   "song:Saavan Aaya Bhole Aaye": 73,
   "photo:photos/shiv/shiv-09.jpg": 73,
   "mantra:shiv:जय शिव शंकर": 108,
-  "song:Radha Naam Kirtan": 80,
+  "song:Radha Naam Kirtan": 118,
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 114,
   "photo:photos/shiv/shiv-14.jpg": 114,
@@ -1534,7 +1546,7 @@
   "photo:photos/shiv/shiv-08.jpg": 104,
   "photo:photos/radha/radha-16.jpg": 44,
   "song:Shambu Ka Naam": 92,
-  "photo:photos/radha/radha-07.jpg": 46,
+  "photo:photos/radha/radha-07.jpg": 118,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 111,
   "photo:photos/sanwariya/sanwariya-07.jpg": 99,
@@ -1565,9 +1577,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 117,
+ "counter": 118,
  "captions": [
-  "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -1586,7 +1597,8 @@
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
+  "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
  ],
  "errors": [
   {
