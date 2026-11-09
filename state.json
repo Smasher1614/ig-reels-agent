@@ -1415,6 +1415,18 @@
    "media_id": "17995594770115232",
    "permalink": "https://www.instagram.com/reel/Dff_3niHNgy/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-09#2",
+   "at": "2026-11-09T18:33:07+05:30",
+   "song": "Badal Bole",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-05.jpg",
+   "mantra": "शिव शम्भो",
+   "audio": "mp3",
+   "media_id": "18112502408158874",
+   "permalink": "https://www.instagram.com/reel/DfhZJvZDg60/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1447,8 +1459,8 @@
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 118,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
-  "mantra:shiv:शिव शम्भो": 87,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 92,
+  "mantra:shiv:शिव शम्भो": 119,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 119,
   "song:Dil Se Tujhe Bulau Shyam Baba": 111,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
   "mantra:khatushyam:जय खाटू श्याम": 82,
@@ -1457,7 +1469,7 @@
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
   "mantra:sanwariya:सांवरिया सेठ की जय": 117,
   "song:Kon Aaya": 100,
-  "photo:photos/shiv/shiv-05.jpg": 68,
+  "photo:photos/shiv/shiv-05.jpg": 119,
   "mantra:shiv:हर हर महादेव": 112,
   "bottom:भोले के भक्तों को भेजें": 112,
   "photo:photos/premanand/premanand-11.jpg": 7,
@@ -1513,7 +1525,7 @@
   "mantra:shiv:ॐ नमः शिवाय": 107,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
-  "song:Badal Bole": 62,
+  "song:Badal Bole": 119,
   "photo:photos/shiv/shiv-10.jpg": 107,
   "song:Saavan Aaya Bhole Aaye": 73,
   "photo:photos/shiv/shiv-09.jpg": 73,
@@ -1577,9 +1589,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 118,
+ "counter": 119,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Milne Aya Hu Sanwriya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Kon Aaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
@@ -1598,7 +1609,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
-  "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
+  "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole"
  ],
  "errors": [
   {
