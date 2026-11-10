@@ -1463,6 +1463,18 @@
    "media_id": "18077694473752580",
    "permalink": "https://www.instagram.com/reel/DfimVLdlPd7/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-10#2",
+   "at": "2026-11-10T18:18:19+05:30",
+   "song": "Radhe Tere Dar Se",
+   "deity": "radha",
+   "photo": "photos/radha/radha-12.jpg",
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "18127590910875372",
+   "permalink": "https://www.instagram.com/reel/Dfj8QW0Jb63/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1492,7 +1504,7 @@
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 120,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 118,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 123,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 119,
@@ -1512,7 +1524,7 @@
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 116,
   "photo:photos/radha/radha-05.jpg": 113,
-  "mantra:radha:बरसाने वाली राधे": 113,
+  "mantra:radha:बरसाने वाली राधे": 123,
   "song:Sanwariya Mai Aa Gaya": 121,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 121,
@@ -1526,7 +1538,7 @@
   "song:Sanwariya Muskura Dena": 97,
   "photo:photos/sanwariya/sanwariya-04.jpg": 109,
   "mantra:sanwariya:जय श्री कृष्ण": 102,
-  "song:Radhe Tere Dar Se": 72,
+  "song:Radhe Tere Dar Se": 123,
   "photo:photos/radha/radha-17.jpg": 116,
   "mantra:radha:जय श्री राधे": 116,
   "song:Tere Bharose Sanwariya": 109,
@@ -1610,7 +1622,7 @@
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
   "photo:photos/radha/radha-18.jpg": 120,
-  "photo:photos/radha/radha-12.jpg": 67,
+  "photo:photos/radha/radha-12.jpg": 123,
   "photo:photos/radha/radha-13.jpg": 70,
   "photo:photos/radha/radha-04.jpg": 72,
   "photo:photos/premanand/premanand-12.jpg": 77,
@@ -1625,9 +1637,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 122,
+ "counter": 123,
  "captions": [
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏\nधनतेरस की शुभकामनाएं 🪔",
@@ -1646,7 +1657,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jhanda Uncha Rahe\nकमेंट में लिखें: हर हर महादेव"
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jhanda Uncha Rahe\nकमेंट में लिखें: हर हर महादेव",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Tere Dar Se\nकमेंट में लिखें: राधे राधे"
  ],
  "errors": [
   {
