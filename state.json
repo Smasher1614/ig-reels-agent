@@ -1487,6 +1487,18 @@
    "media_id": "18121635152286136",
    "permalink": "https://www.instagram.com/reel/Dfj_j80CpfU/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-11#0",
+   "at": "2026-11-11T04:33:53+05:30",
+   "song": "Mere Shyaam",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-05.jpg",
+   "mantra": "जय खाटू श्याम",
+   "audio": "mp3",
+   "media_id": "18099512000407680",
+   "permalink": "https://www.instagram.com/reel/DflCsS-iaIj/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1523,8 +1535,8 @@
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 119,
   "song:Dil Se Tujhe Bulau Shyam Baba": 111,
   "photo:photos/khatushyam/khatushyam-10.jpg": 4,
-  "mantra:khatushyam:जय खाटू श्याम": 82,
-  "bottom:कमेंट में लिखें — {jaikara}": 121,
+  "mantra:khatushyam:जय खाटू श्याम": 125,
+  "bottom:कमेंट में लिखें — {jaikara}": 125,
   "song:Thodi Der Sanwariya": 117,
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
   "mantra:sanwariya:सांवरिया सेठ की जय": 117,
@@ -1556,7 +1568,7 @@
   "song:Tere Bharose Sanwariya": 109,
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 109,
-  "song:Mere Shyaam": 106,
+  "song:Mere Shyaam": 125,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 86,
   "song:Radhe Radhe Bol": 113,
@@ -1647,11 +1659,11 @@
   "photo:photos/premanand/premanand-16.jpg": 103,
   "photo:photos/khatushyam/khatushyam-19.jpg": 105,
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
-  "photo:photos/premanand/premanand-04.jpg": 110
+  "photo:photos/premanand/premanand-04.jpg": 110,
+  "photo:photos/khatushyam/khatushyam-05.jpg": 125
  },
- "counter": 124,
+ "counter": 125,
  "captions": [
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "आज शुक्रवार — कुछ पल महादेव के साथ 🕉️\n🎵 Saawan Aaya\nमन शांत हो तो अपनों को भी भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
@@ -1670,7 +1682,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jhanda Uncha Rahe\nकमेंट में लिखें: हर हर महादेव",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Tere Dar Se\nकमेंट में लिखें: राधे राधे",
-  "मन को शांति देने वाला भजन 🎶 Sanwariya Muskura Dena\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ"
+  "मन को शांति देने वाला भजन 🎶 Sanwariya Muskura Dena\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
