@@ -1451,6 +1451,18 @@
    "media_id": "18175678285459255",
    "permalink": "https://www.instagram.com/reel/DfifcxMFO-i/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-10#1",
+   "at": "2026-11-10T05:47:31+05:30",
+   "song": "Jhanda Uncha Rahe",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-09.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18077694473752580",
+   "permalink": "https://www.instagram.com/reel/DfimVLdlPd7/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1495,7 +1507,7 @@
   "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 119,
   "mantra:shiv:हर हर महादेव": 112,
-  "bottom:भोले के भक्तों को भेजें": 112,
+  "bottom:भोले के भक्तों को भेजें": 122,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 116,
@@ -1506,7 +1518,7 @@
   "mantra:sanwariya:मेरे सांवरिया": 121,
   "song:Jai Shambu": 108,
   "photo:photos/shiv/shiv-15.jpg": 89,
-  "mantra:shiv:बम बम भोले": 104,
+  "mantra:shiv:बम बम भोले": 122,
   "bottom:कमेंट में लिखें — हर हर महादेव": 114,
   "song:Bas Radhe Radhe": 98,
   "photo:photos/radha/radha-15.jpg": 85,
@@ -1552,14 +1564,14 @@
   "song:Badal Bole": 119,
   "photo:photos/shiv/shiv-10.jpg": 107,
   "song:Saavan Aaya Bhole Aaye": 73,
-  "photo:photos/shiv/shiv-09.jpg": 73,
+  "photo:photos/shiv/shiv-09.jpg": 122,
   "mantra:shiv:जय शिव शंकर": 108,
   "song:Radha Naam Kirtan": 118,
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 114,
   "photo:photos/shiv/shiv-14.jpg": 114,
   "mantra:shiv:जय भोलेनाथ": 114,
-  "song:Jhanda Uncha Rahe": 63,
+  "song:Jhanda Uncha Rahe": 122,
   "photo:photos/shiv/shiv-07.jpg": 100,
   "song:Saavan Ka Rang": 81,
   "photo:photos/shiv/shiv-17.jpg": 87,
@@ -1613,9 +1625,8 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110
  },
- "counter": 121,
+ "counter": 122,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Shambu Ki Sawari\nकमेंट में लिखें: हर हर महादेव",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Dil Se Tujhe Bulau Shyam Baba\nअपनों के साथ ज़रूर शेयर करें 🙏\nधनतेरस की शुभकामनाएं 🪔",
@@ -1634,7 +1645,8 @@
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jhanda Uncha Rahe\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
