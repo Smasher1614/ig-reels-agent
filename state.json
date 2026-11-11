@@ -1511,6 +1511,18 @@
    "media_id": "18229959334328224",
    "permalink": "https://www.instagram.com/reel/DflJdf8Dm3m/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-11#2",
+   "at": "2026-11-11T18:17:19+05:30",
+   "song": "Mandir Wali Subah",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-01.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "18107873411529779",
+   "permalink": "https://www.instagram.com/reel/Dfmg7VnFTpf/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1589,8 +1601,8 @@
   "song:Milne Aya Hu Sanwriya": 99,
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
-  "mantra:shiv:शिवोहम्": 89,
-  "bottom:आँखें बंद करें और बस सुनें": 96,
+  "mantra:shiv:शिवोहम्": 127,
+  "bottom:आँखें बंद करें और बस सुनें": 127,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 105,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -1632,7 +1644,7 @@
   "photo:photos/shiv/shiv-16.jpg": 108,
   "photo:photos/premanand/premanand-13.jpg": 37,
   "song:Badalo Mai Shambu": 96,
-  "photo:photos/shiv/shiv-01.jpg": 38,
+  "photo:photos/shiv/shiv-01.jpg": 127,
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 39,
   "photo:photos/shiv/shiv-13.jpg": 96,
@@ -1665,7 +1677,7 @@
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
   "photo:photos/radha/radha-06.jpg": 80,
   "photo:photos/khatushyam/khatushyam-15.jpg": 82,
-  "song:Mandir Wali Subah": 83,
+  "song:Mandir Wali Subah": 127,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90,
   "photo:photos/premanand/premanand-16.jpg": 103,
@@ -1674,9 +1686,8 @@
   "photo:photos/premanand/premanand-04.jpg": 110,
   "photo:photos/khatushyam/khatushyam-05.jpg": 125
  },
- "counter": 126,
+ "counter": 127,
  "captions": [
-  "आज शुक्रवार — कुछ पल महादेव के साथ 🕉️\n🎵 Saawan Aaya\nमन शांत हो तो अपनों को भी भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "बम बम भोले 🔱\n🎵 Jai Shambu\nपूरा भजन सुनें और अपनों को भेजें 🙏\nधनतेरस की शुभकामनाएं 🪔",
   "मन को शांति देने वाला भजन 🎶 Tere Bharose Sanwariya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
@@ -1695,7 +1706,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Tere Dar Se\nकमेंट में लिखें: राधे राधे",
   "मन को शांति देने वाला भजन 🎶 Sanwariya Muskura Dena\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏"
+  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
+  "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Mandir Wali Subah\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
