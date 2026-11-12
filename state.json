@@ -1547,6 +1547,18 @@
    "media_id": "18111987101337463",
    "permalink": "https://www.instagram.com/reel/DfnnZwtEfZJ/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-12#1",
+   "at": "2026-11-12T05:32:21+05:30",
+   "song": "Ghar Jesa Lagta Hai",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-05.jpg",
+   "mantra": "जय श्री सांवलिया सेठ",
+   "audio": "mp3",
+   "media_id": "18176658664460604",
+   "permalink": "https://www.instagram.com/reel/DfnuL7PmYyD/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1572,7 +1584,7 @@
   "song:Radha Naam Jap": 110,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 124,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 130,
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 120,
@@ -1615,7 +1627,7 @@
   "mantra:radha:जय श्री राधे": 116,
   "song:Tere Bharose Sanwariya": 109,
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
-  "mantra:sanwariya:जय श्री सांवलिया सेठ": 109,
+  "mantra:sanwariya:जय श्री सांवलिया सेठ": 130,
   "song:Mere Shyaam": 125,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 86,
@@ -1631,8 +1643,8 @@
   "mantra:khatushyam:श्याम बाबा की जय": 105,
   "photo:photos/premanand/premanand-09.jpg": 20,
   "mantra:premanand:श्री राधा": 77,
-  "song:Ghar Jesa Lagta Hai": 102,
-  "photo:photos/sanwariya/sanwariya-05.jpg": 97,
+  "song:Ghar Jesa Lagta Hai": 130,
+  "photo:photos/sanwariya/sanwariya-05.jpg": 130,
   "photo:photos/khatushyam/khatushyam-18.jpg": 22,
   "mantra:khatushyam:लखदातार की जय": 106,
   "song:Rom Rom Mai Radhe": 101,
@@ -1710,9 +1722,8 @@
   "photo:photos/premanand/premanand-04.jpg": 110,
   "photo:photos/khatushyam/khatushyam-05.jpg": 125
  },
- "counter": 129,
+ "counter": 130,
  "captions": [
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
@@ -1731,7 +1742,8 @@
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Mandir Wali Subah\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
-  "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏"
+  "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
