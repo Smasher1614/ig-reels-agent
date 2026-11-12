@@ -1571,6 +1571,18 @@
    "media_id": "17979224808136722",
    "permalink": "https://www.instagram.com/reel/DfpFuxynKxM/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-12#3",
+   "at": "2026-11-12T18:48:22+05:30",
+   "song": "Badalo Mai Shambu",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18048436175827474",
+   "permalink": "https://www.instagram.com/reel/DfpJRDaDNhn/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1663,8 +1675,8 @@
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 54,
   "photo:photos/shiv/shiv-06.jpg": 54,
-  "mantra:shiv:ॐ महादेवाय नमः": 92,
-  "bottom:मन को शांति दे — अपनों को भेजें": 107,
+  "mantra:shiv:ॐ महादेवाय नमः": 132,
+  "bottom:मन को शांति दे — अपनों को भेजें": 132,
   "song:Saawan Aaya": 107,
   "mantra:shiv:ॐ नमः शिवाय": 107,
   "photo:photos/premanand/premanand-08.jpg": 26,
@@ -1691,7 +1703,7 @@
   "song:Shambu Ki Sawari": 104,
   "photo:photos/shiv/shiv-16.jpg": 108,
   "photo:photos/premanand/premanand-13.jpg": 37,
-  "song:Badalo Mai Shambu": 96,
+  "song:Badalo Mai Shambu": 132,
   "photo:photos/shiv/shiv-01.jpg": 127,
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 39,
@@ -1735,9 +1747,8 @@
   "photo:photos/khatushyam/khatushyam-05.jpg": 125,
   "photo:photos/premanand/premanand-01.jpg": 131
  },
- "counter": 131,
+ "counter": 132,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Bol\nअपनों के साथ ज़रूर शेयर करें 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
@@ -1756,7 +1767,8 @@
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा"
+  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
+  "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
