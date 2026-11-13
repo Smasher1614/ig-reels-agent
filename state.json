@@ -1631,6 +1631,18 @@
    "media_id": "18137172079675213",
    "permalink": "https://www.instagram.com/reel/Dfrt-3vFDYV/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-14#0",
+   "at": "2026-11-14T04:47:38+05:30",
+   "song": "Shambu Ka Naam",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-02.jpg",
+   "mantra": "शिव शम्भो",
+   "audio": "mp3",
+   "media_id": "18117585581150894",
+   "permalink": "https://www.instagram.com/reel/DfsynIbCInd/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1663,7 +1675,7 @@
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 133,
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
-  "mantra:shiv:शिव शम्भो": 119,
+  "mantra:shiv:शिव शम्भो": 137,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 135,
   "song:Dil Se Tujhe Bulau Shyam Baba": 133,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
@@ -1710,7 +1722,7 @@
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 135,
   "mantra:shiv:शिवोहम्": 127,
-  "bottom:आँखें बंद करें और बस सुनें": 127,
+  "bottom:आँखें बंद करें और बस सुनें": 137,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 136,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -1758,10 +1770,10 @@
   "photo:photos/shiv/shiv-13.jpg": 96,
   "song:Radhe Radhe Gau Mai": 115,
   "photo:photos/radha/radha-19.jpg": 98,
-  "photo:photos/shiv/shiv-02.jpg": 42,
+  "photo:photos/shiv/shiv-02.jpg": 137,
   "photo:photos/shiv/shiv-08.jpg": 104,
   "photo:photos/radha/radha-16.jpg": 44,
-  "song:Shambu Ka Naam": 92,
+  "song:Shambu Ka Naam": 137,
   "photo:photos/radha/radha-07.jpg": 118,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 111,
@@ -1796,9 +1808,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 136,
+ "counter": 137,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
@@ -1817,7 +1828,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏",
   "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय",
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "आज शनिवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
