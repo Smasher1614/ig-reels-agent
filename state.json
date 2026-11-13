@@ -1619,6 +1619,18 @@
    "media_id": "17928118524204184",
    "permalink": "https://www.instagram.com/reel/DfrqlO_AYPy/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-13#3",
+   "at": "2026-11-13T18:47:42+05:30",
+   "song": "Mere Shyaam",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-16.jpg",
+   "mantra": "श्याम बाबा की जय",
+   "audio": "mp3",
+   "media_id": "18137172079675213",
+   "permalink": "https://www.instagram.com/reel/Dfrt-3vFDYV/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1656,7 +1668,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 133,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 125,
-  "bottom:कमेंट में लिखें — {jaikara}": 131,
+  "bottom:कमेंट में लिखें — {jaikara}": 136,
   "song:Thodi Der Sanwariya": 117,
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
@@ -1688,7 +1700,7 @@
   "song:Tere Bharose Sanwariya": 109,
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 130,
-  "song:Mere Shyaam": 125,
+  "song:Mere Shyaam": 136,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 133,
   "song:Radhe Radhe Bol": 113,
@@ -1700,7 +1712,7 @@
   "mantra:shiv:शिवोहम्": 127,
   "bottom:आँखें बंद करें और बस सुनें": 127,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
-  "mantra:khatushyam:श्याम बाबा की जय": 105,
+  "mantra:khatushyam:श्याम बाबा की जय": 136,
   "photo:photos/premanand/premanand-09.jpg": 20,
   "mantra:premanand:श्री राधा": 131,
   "song:Ghar Jesa Lagta Hai": 130,
@@ -1781,11 +1793,11 @@
   "photo:photos/khatushyam/khatushyam-14.jpg": 106,
   "photo:photos/premanand/premanand-04.jpg": 110,
   "photo:photos/khatushyam/khatushyam-05.jpg": 125,
-  "photo:photos/premanand/premanand-01.jpg": 131
+  "photo:photos/premanand/premanand-01.jpg": 131,
+  "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 135,
+ "counter": 136,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
@@ -1804,7 +1816,8 @@
   "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏",
-  "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय"
+  "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय",
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
