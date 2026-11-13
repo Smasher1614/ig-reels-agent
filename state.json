@@ -1607,6 +1607,18 @@
    "media_id": "17945924775371277",
    "permalink": "https://www.instagram.com/reel/DfqTFkcnPH1/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-13#2",
+   "at": "2026-11-13T18:17:50+05:30",
+   "song": "Om Uchharan",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-18.jpg",
+   "mantra": "ॐ नमः शिवाय",
+   "audio": "mp3",
+   "media_id": "17928118524204184",
+   "permalink": "https://www.instagram.com/reel/DfrqlO_AYPy/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1640,7 +1652,7 @@
   "song:Pahli Chai Shiv Ka Naam": 87,
   "photo:photos/shiv/shiv-12.jpg": 83,
   "mantra:shiv:शिव शम्भो": 119,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 119,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 135,
   "song:Dil Se Tujhe Bulau Shyam Baba": 133,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 125,
@@ -1684,7 +1696,7 @@
   "mantra:radha:राधे राधे": 118,
   "song:Milne Aya Hu Sanwriya": 134,
   "song:Saanjh Ki Aarti": 89,
-  "photo:photos/shiv/shiv-18.jpg": 62,
+  "photo:photos/shiv/shiv-18.jpg": 135,
   "mantra:shiv:शिवोहम्": 127,
   "bottom:आँखें बंद करें और बस सुनें": 127,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
@@ -1697,12 +1709,12 @@
   "mantra:khatushyam:लखदातार की जय": 106,
   "song:Rom Rom Mai Radhe": 101,
   "photo:photos/radha/radha-14.jpg": 88,
-  "song:Om Uchharan": 54,
+  "song:Om Uchharan": 135,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 132,
   "bottom:मन को शांति दे — अपनों को भेजें": 132,
   "song:Saawan Aaya": 107,
-  "mantra:shiv:ॐ नमः शिवाय": 107,
+  "mantra:shiv:ॐ नमः शिवाय": 135,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
   "song:Badal Bole": 119,
@@ -1771,9 +1783,8 @@
   "photo:photos/khatushyam/khatushyam-05.jpg": 125,
   "photo:photos/premanand/premanand-01.jpg": 131
  },
- "counter": 134,
+ "counter": 135,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -1792,7 +1803,8 @@
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
-  "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏"
+  "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏",
+  "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय"
  ],
  "errors": [
   {
