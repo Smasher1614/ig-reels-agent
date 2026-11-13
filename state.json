@@ -1595,6 +1595,18 @@
    "media_id": "17993629914081701",
    "permalink": "https://www.instagram.com/reel/DfqMKnnE-Qd/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-13#1",
+   "at": "2026-11-13T05:33:45+05:30",
+   "song": "Milne Aya Hu Sanwriya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-07.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "17945924775371277",
+   "permalink": "https://www.instagram.com/reel/DfqTFkcnPH1/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1620,7 +1632,7 @@
   "song:Radha Naam Jap": 131,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 130,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 134,
   "song:Radha": 91,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 120,
@@ -1635,7 +1647,7 @@
   "bottom:कमेंट में लिखें — {jaikara}": 131,
   "song:Thodi Der Sanwariya": 117,
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 117,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 134,
   "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 119,
   "mantra:shiv:हर हर महादेव": 128,
@@ -1670,7 +1682,7 @@
   "song:Radhe Radhe Bol": 113,
   "photo:photos/radha/radha-08.jpg": 78,
   "mantra:radha:राधे राधे": 118,
-  "song:Milne Aya Hu Sanwriya": 99,
+  "song:Milne Aya Hu Sanwriya": 134,
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 62,
   "mantra:shiv:शिवोहम्": 127,
@@ -1729,7 +1741,7 @@
   "photo:photos/radha/radha-07.jpg": 118,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 111,
-  "photo:photos/sanwariya/sanwariya-07.jpg": 99,
+  "photo:photos/sanwariya/sanwariya-07.jpg": 134,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 112,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
@@ -1759,9 +1771,8 @@
   "photo:photos/khatushyam/khatushyam-05.jpg": 125,
   "photo:photos/premanand/premanand-01.jpg": 131
  },
- "counter": 133,
+ "counter": 134,
  "captions": [
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Kawad Chale\nजय भोलेनाथ 🙏\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Radhe Gau Mai\nकमेंट में लिखें: राधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Tera\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे\nदीपावली की हार्दिक शुभकामनाएं 🪔",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
@@ -1780,7 +1791,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
+  "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏"
  ],
  "errors": [
   {
