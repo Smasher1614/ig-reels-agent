@@ -1655,6 +1655,18 @@
    "media_id": "17917146681502197",
    "permalink": "https://www.instagram.com/reel/Dfs3166gG1f/",
    "host": "branch"
+  },
+  {
+   "slot": "2026-11-14#2",
+   "at": "2026-11-14T18:17:22+05:30",
+   "song": "Saawan Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-07.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "17916663549542132",
+   "permalink": "https://www.instagram.com/reel/DfuPUuflX9l/",
+   "host": "branch"
   }
  ],
  "skipped": [
@@ -1733,7 +1745,7 @@
   "song:Milne Aya Hu Sanwriya": 134,
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 135,
-  "mantra:shiv:शिवोहम्": 127,
+  "mantra:shiv:शिवोहम्": 139,
   "bottom:आँखें बंद करें और बस सुनें": 137,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 136,
@@ -1748,8 +1760,8 @@
   "song:Om Uchharan": 135,
   "photo:photos/shiv/shiv-06.jpg": 54,
   "mantra:shiv:ॐ महादेवाय नमः": 132,
-  "bottom:मन को शांति दे — अपनों को भेजें": 132,
-  "song:Saawan Aaya": 107,
+  "bottom:मन को शांति दे — अपनों को भेजें": 139,
+  "song:Saawan Aaya": 139,
   "mantra:shiv:ॐ नमः शिवाय": 135,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
@@ -1764,7 +1776,7 @@
   "photo:photos/shiv/shiv-14.jpg": 114,
   "mantra:shiv:जय भोलेनाथ": 129,
   "song:Jhanda Uncha Rahe": 122,
-  "photo:photos/shiv/shiv-07.jpg": 100,
+  "photo:photos/shiv/shiv-07.jpg": 139,
   "song:Saavan Ka Rang": 129,
   "photo:photos/shiv/shiv-17.jpg": 129,
   "photo:photos/sanwariya/sanwariya-01.jpg": 121,
@@ -1820,9 +1832,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 138,
+ "counter": 139,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Badal Bole",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Mai Aa Gaya\nजय श्री सांवलिया सेठ 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jhanda Uncha Rahe\nकमेंट में लिखें: हर हर महादेव",
@@ -1841,7 +1852,8 @@
   "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज शनिवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam\nराधे राधे 🙏",
+  "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय"
  ],
  "errors": [
   {
