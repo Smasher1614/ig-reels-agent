@@ -1715,6 +1715,18 @@
    "media_id": "17948501835364354",
    "permalink": "https://www.instagram.com/reel/Dfw14WWFHAQ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-15#3",
+   "at": "2026-11-15T18:47:13+05:30",
+   "song": "Saavan Aa Gaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-08.jpg",
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "17983167699136326",
+   "permalink": "https://www.instagram.com/reel/Dfw3iZAiZPG/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1759,7 +1771,7 @@
   "song:Kon Aaya": 100,
   "photo:photos/shiv/shiv-05.jpg": 119,
   "mantra:shiv:हर हर महादेव": 128,
-  "bottom:भोले के भक्तों को भेजें": 128,
+  "bottom:भोले के भक्तों को भेजें": 144,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 116,
@@ -1817,7 +1829,7 @@
   "photo:photos/shiv/shiv-10.jpg": 107,
   "song:Saavan Aaya Bhole Aaye": 128,
   "photo:photos/shiv/shiv-09.jpg": 122,
-  "mantra:shiv:जय शिव शंकर": 126,
+  "mantra:shiv:जय शिव शंकर": 144,
   "song:Radha Naam Kirtan": 118,
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 114,
@@ -1843,7 +1855,7 @@
   "song:Radhe Radhe Gau Mai": 115,
   "photo:photos/radha/radha-19.jpg": 98,
   "photo:photos/shiv/shiv-02.jpg": 137,
-  "photo:photos/shiv/shiv-08.jpg": 104,
+  "photo:photos/shiv/shiv-08.jpg": 144,
   "photo:photos/radha/radha-16.jpg": 44,
   "song:Shambu Ka Naam": 137,
   "photo:photos/radha/radha-07.jpg": 118,
@@ -1853,7 +1865,7 @@
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 112,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
-  "song:Saavan Aa Gaya": 112,
+  "song:Saavan Aa Gaya": 144,
   "photo:photos/shiv/shiv-04.jpg": 55,
   "song:Radha Naam": 138,
   "photo:photos/radha/radha-09.jpg": 56,
@@ -1880,9 +1892,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 143,
+ "counter": 144,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Sanwariya Muskura Dena\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Mandir Wali Subah\nमन शांत हो तो अपनों को भी भेजें 🙏",
@@ -1901,7 +1912,8 @@
   "आज शनिवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏"
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
