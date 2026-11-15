@@ -1703,6 +1703,18 @@
    "media_id": "18390718861225645",
    "permalink": "https://www.instagram.com/reel/DfveVc_AvWy/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-15#2",
+   "at": "2026-11-15T18:33:04+05:30",
+   "song": "Jai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-06.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "17948501835364354",
+   "permalink": "https://www.instagram.com/reel/Dfw14WWFHAQ/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1756,10 +1768,10 @@
   "song:Sanwariya Mai Aa Gaya": 121,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
-  "song:Jai Shambu": 108,
+  "song:Jai Shambu": 143,
   "photo:photos/shiv/shiv-15.jpg": 89,
-  "mantra:shiv:बम बम भोले": 122,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 126,
+  "mantra:shiv:बम बम भोले": 143,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 143,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 85,
   "mantra:radha:श्री राधा रानी की जय": 138,
@@ -1794,7 +1806,7 @@
   "song:Rom Rom Mai Radhe": 141,
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 135,
-  "photo:photos/shiv/shiv-06.jpg": 54,
+  "photo:photos/shiv/shiv-06.jpg": 143,
   "mantra:shiv:ॐ महादेवाय नमः": 132,
   "bottom:मन को शांति दे — अपनों को भेजें": 139,
   "song:Saawan Aaya": 139,
@@ -1868,9 +1880,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 142,
+ "counter": 143,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Radhe Tere Dar Se\nकमेंट में लिखें: राधे राधे",
   "मन को शांति देने वाला भजन 🎶 Sanwariya Muskura Dena\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
@@ -1889,7 +1900,8 @@
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
   "आज शनिवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
-  "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏"
+  "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
+  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
