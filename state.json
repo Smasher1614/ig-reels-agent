@@ -1763,6 +1763,18 @@
    "media_id": "18130684733510924",
    "permalink": "https://www.instagram.com/reel/DfzY8yNEl44/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-16#3",
+   "at": "2026-11-16T18:47:55+05:30",
+   "song": "Kawad Chale",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-14.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18044809232703740",
+   "permalink": "https://www.instagram.com/reel/DfzcZKxCRDd/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1818,8 +1830,8 @@
   "mantra:sanwariya:मेरे सांवरिया": 142,
   "song:Jai Shambu": 143,
   "photo:photos/shiv/shiv-15.jpg": 147,
-  "mantra:shiv:बम बम भोले": 143,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 143,
+  "mantra:shiv:बम बम भोले": 148,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 148,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 85,
   "mantra:radha:श्री राधा रानी की जय": 138,
@@ -1868,8 +1880,8 @@
   "mantra:shiv:जय शिव शंकर": 144,
   "song:Radha Naam Kirtan": 118,
   "photo:photos/radha/radha-03.jpg": 115,
-  "song:Kawad Chale": 114,
-  "photo:photos/shiv/shiv-14.jpg": 114,
+  "song:Kawad Chale": 148,
+  "photo:photos/shiv/shiv-14.jpg": 148,
   "mantra:shiv:जय भोलेनाथ": 147,
   "song:Jhanda Uncha Rahe": 122,
   "photo:photos/shiv/shiv-07.jpg": 139,
@@ -1928,9 +1940,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 147,
+ "counter": 148,
  "captions": [
-  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
@@ -1949,7 +1960,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
-  "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏"
+  "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
+  "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
