@@ -1739,6 +1739,18 @@
    "media_id": "18582019408075886",
    "permalink": "https://www.instagram.com/reel/Dfx6j3Nju72/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-16#1",
+   "at": "2026-11-16T05:48:11+05:30",
+   "song": "Radha",
+   "deity": "radha",
+   "photo": "photos/radha/radha-09.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18037051088890363",
+   "permalink": "https://www.instagram.com/reel/DfyDH7fDkkK/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1764,10 +1776,10 @@
   "song:Radha Naam Jap": 131,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 140,
-  "song:Radha": 91,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 146,
+  "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 75,
-  "mantra:radha:राधे कृष्ण": 120,
+  "mantra:radha:राधे कृष्ण": 146,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 142,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
@@ -1880,7 +1892,7 @@
   "song:Saavan Aa Gaya": 144,
   "photo:photos/shiv/shiv-04.jpg": 55,
   "song:Radha Naam": 138,
-  "photo:photos/radha/radha-09.jpg": 56,
+  "photo:photos/radha/radha-09.jpg": 146,
   "photo:photos/premanand/premanand-02.jpg": 58,
   "photo:photos/radha/radha-11.jpg": 138,
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
@@ -1904,9 +1916,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 145,
+ "counter": 146,
  "captions": [
-  "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Mandir Wali Subah\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "आज बुधवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Aaya Bhole Aaye\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Saavan Ka Rang\nपूरा भजन सुनें और अपनों को भेजें 🙏",
@@ -1925,7 +1936,8 @@
   "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव",
-  "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय"
+  "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
+  "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏"
  ],
  "errors": [
   {
