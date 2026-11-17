@@ -1787,6 +1787,18 @@
    "media_id": "17916175335489343",
    "permalink": "https://www.instagram.com/reel/Df0hFJjETsN/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-17#1",
+   "at": "2026-11-17T05:47:52+05:30",
+   "song": "Kafila Mahdev Ka",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-16.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18111311236943172",
+   "permalink": "https://www.instagram.com/reel/Df0n7jkEUVz/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1816,7 +1828,7 @@
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 75,
   "mantra:radha:राधे कृष्ण": 146,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 147,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 150,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 137,
@@ -1830,7 +1842,7 @@
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
-  "mantra:shiv:हर हर महादेव": 145,
+  "mantra:shiv:हर हर महादेव": 150,
   "bottom:भोले के भक्तों को भेजें": 149,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
@@ -1900,12 +1912,12 @@
   "song:Saavan Ka Rang": 129,
   "photo:photos/shiv/shiv-17.jpg": 129,
   "photo:photos/sanwariya/sanwariya-01.jpg": 121,
-  "song:Kafila Mahdev Ka": 126,
+  "song:Kafila Mahdev Ka": 150,
   "photo:photos/shiv/shiv-11.jpg": 128,
   "song:Teri Yaad Mai Radhe": 120,
   "photo:photos/radha/radha-20.jpg": 91,
   "song:Shambu Ki Sawari": 149,
-  "photo:photos/shiv/shiv-16.jpg": 108,
+  "photo:photos/shiv/shiv-16.jpg": 150,
   "photo:photos/premanand/premanand-13.jpg": 37,
   "song:Badalo Mai Shambu": 132,
   "photo:photos/shiv/shiv-01.jpg": 127,
@@ -1952,9 +1964,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 149,
+ "counter": 150,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Ghar Jesa Lagta Hai\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
@@ -1973,7 +1984,8 @@
   "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏"
+  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
+  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
