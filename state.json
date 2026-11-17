@@ -1823,6 +1823,18 @@
    "media_id": "18091234667301165",
    "permalink": "https://www.instagram.com/reel/Df2BRYIDTlk/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-18#0",
+   "at": "2026-11-18T04:48:11+05:30",
+   "song": "Radhe Radhe Gau Mai",
+   "deity": "radha",
+   "photo": "photos/radha/radha-06.jpg",
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "18112851893243836",
+   "permalink": "https://www.instagram.com/reel/Df3F47PnKix/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1860,7 +1872,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 133,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 125,
-  "bottom:कमेंट में लिखें — {jaikara}": 141,
+  "bottom:कमेंट में लिखें — {jaikara}": 153,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 117,
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
@@ -1872,7 +1884,7 @@
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 116,
   "photo:photos/radha/radha-05.jpg": 113,
-  "mantra:radha:बरसाने वाली राधे": 123,
+  "mantra:radha:बरसाने वाली राधे": 153,
   "song:Sanwariya Mai Aa Gaya": 121,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
@@ -1948,7 +1960,7 @@
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 141,
   "photo:photos/shiv/shiv-13.jpg": 152,
-  "song:Radhe Radhe Gau Mai": 115,
+  "song:Radhe Radhe Gau Mai": 153,
   "photo:photos/radha/radha-19.jpg": 98,
   "photo:photos/shiv/shiv-02.jpg": 137,
   "photo:photos/shiv/shiv-08.jpg": 144,
@@ -1975,7 +1987,7 @@
   "photo:photos/radha/radha-04.jpg": 72,
   "photo:photos/premanand/premanand-12.jpg": 77,
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
-  "photo:photos/radha/radha-06.jpg": 80,
+  "photo:photos/radha/radha-06.jpg": 153,
   "photo:photos/khatushyam/khatushyam-15.jpg": 82,
   "song:Mandir Wali Subah": 127,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
@@ -1988,9 +2000,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 152,
+ "counter": 153,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏",
   "शिव में ही शांति है 🌙\n🎵 Om Uchharan\nकमेंट में लिखें: ॐ नमः शिवाय",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -2009,7 +2020,8 @@
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badal Bole\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti"
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Gau Mai\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
