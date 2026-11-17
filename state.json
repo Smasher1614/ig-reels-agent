@@ -1799,6 +1799,18 @@
    "media_id": "18111311236943172",
    "permalink": "https://www.instagram.com/reel/Df0n7jkEUVz/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-17#2",
+   "at": "2026-11-17T18:18:36+05:30",
+   "song": "Badal Bole",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-09.jpg",
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18170019727422094",
+   "permalink": "https://www.instagram.com/reel/Df191weDxNg/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1878,7 +1890,7 @@
   "song:Saanjh Ki Aarti": 89,
   "photo:photos/shiv/shiv-18.jpg": 135,
   "mantra:shiv:शिवोहम्": 139,
-  "bottom:आँखें बंद करें और बस सुनें": 137,
+  "bottom:आँखें बंद करें और बस सुनें": 151,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 136,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -1891,16 +1903,16 @@
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 135,
   "photo:photos/shiv/shiv-06.jpg": 143,
-  "mantra:shiv:ॐ महादेवाय नमः": 132,
+  "mantra:shiv:ॐ महादेवाय नमः": 151,
   "bottom:मन को शांति दे — अपनों को भेजें": 139,
   "song:Saawan Aaya": 139,
   "mantra:shiv:ॐ नमः शिवाय": 135,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
-  "song:Badal Bole": 119,
+  "song:Badal Bole": 151,
   "photo:photos/shiv/shiv-10.jpg": 107,
   "song:Saavan Aaya Bhole Aaye": 128,
-  "photo:photos/shiv/shiv-09.jpg": 122,
+  "photo:photos/shiv/shiv-09.jpg": 151,
   "mantra:shiv:जय शिव शंकर": 149,
   "song:Radha Naam Kirtan": 118,
   "photo:photos/radha/radha-03.jpg": 115,
@@ -1964,9 +1976,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 150,
+ "counter": 151,
  "captions": [
-  "हर साँस में राधा नाम 🙏\n🎵 Radha Naam Jap\nदो पल आँखें बंद करें और साथ में जपें — राधा राधा",
   "आज गुरुवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nDil Se Tujhe Bulau Shyam Baba\nजय श्री श्याम 🙏",
   "आज शुक्रवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Milne Aya Hu Sanwriya\nजय श्री सांवलिया सेठ 🙏",
@@ -1985,7 +1996,8 @@
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
-  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏"
+  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
+  "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badal Bole\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
