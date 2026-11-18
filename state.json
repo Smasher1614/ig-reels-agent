@@ -1859,6 +1859,18 @@
    "media_id": "18640863532055108",
    "permalink": "https://www.instagram.com/reel/Df4iCmaAXXj/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-18#3",
+   "at": "2026-11-18T18:48:23+05:30",
+   "song": "Badalo Mai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-17.jpg",
+   "mantra": "शिव शम्भो",
+   "audio": "mp3",
+   "media_id": "18108956498525517",
+   "permalink": "https://www.instagram.com/reel/Df4mC92ihnP/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1891,8 +1903,8 @@
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 155,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
-  "mantra:shiv:शिव शम्भो": 137,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 145,
+  "mantra:shiv:शिव शम्भो": 156,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 156,
   "song:Dil Se Tujhe Bulau Shyam Baba": 133,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 125,
@@ -1970,7 +1982,7 @@
   "song:Jhanda Uncha Rahe": 122,
   "photo:photos/shiv/shiv-07.jpg": 139,
   "song:Saavan Ka Rang": 129,
-  "photo:photos/shiv/shiv-17.jpg": 129,
+  "photo:photos/shiv/shiv-17.jpg": 156,
   "photo:photos/sanwariya/sanwariya-01.jpg": 121,
   "song:Kafila Mahdev Ka": 150,
   "photo:photos/shiv/shiv-11.jpg": 128,
@@ -1979,7 +1991,7 @@
   "song:Shambu Ki Sawari": 149,
   "photo:photos/shiv/shiv-16.jpg": 150,
   "photo:photos/premanand/premanand-13.jpg": 37,
-  "song:Badalo Mai Shambu": 132,
+  "song:Badalo Mai Shambu": 156,
   "photo:photos/shiv/shiv-01.jpg": 127,
   "song:Aao Radha Ko Pukare": 85,
   "photo:photos/radha/radha-02.jpg": 141,
@@ -2024,9 +2036,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 155,
+ "counter": 156,
  "captions": [
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज शनिवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam\nराधे राधे 🙏",
   "शिव में ही शांति है 🌙\n🎵 Saawan Aaya\nकमेंट में लिखें: ॐ नमः शिवाय",
@@ -2045,7 +2056,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Gau Mai\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Tere Bharose Sanwariya\nजय श्री सांवलिया सेठ 🙏",
-  "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radhe Radhe Bol\nराधे राधे 🙏"
+  "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radhe Radhe Bol\nराधे राधे 🙏",
+  "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
