@@ -1907,6 +1907,18 @@
    "media_id": "18414700576093759",
    "permalink": "https://www.instagram.com/reel/Df7HR-gCd4S/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-19#3",
+   "at": "2026-11-19T18:47:52+05:30",
+   "song": "Radha Naam Tera",
+   "deity": "radha",
+   "photo": "photos/radha/radha-20.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18134513878683115",
+   "permalink": "https://www.instagram.com/reel/Df7Kxw6is7l/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1935,8 +1947,8 @@
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 159,
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
-  "mantra:radha:राधे कृष्ण": 146,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 155,
+  "mantra:radha:राधे कृष्ण": 160,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 160,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
@@ -1954,7 +1966,7 @@
   "bottom:भोले के भक्तों को भेजें": 149,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
-  "song:Radha Naam Tera": 116,
+  "song:Radha Naam Tera": 160,
   "photo:photos/radha/radha-05.jpg": 113,
   "mantra:radha:बरसाने वाली राधे": 153,
   "song:Sanwariya Mai Aa Gaya": 121,
@@ -2023,7 +2035,7 @@
   "song:Kafila Mahdev Ka": 150,
   "photo:photos/shiv/shiv-11.jpg": 128,
   "song:Teri Yaad Mai Radhe": 159,
-  "photo:photos/radha/radha-20.jpg": 91,
+  "photo:photos/radha/radha-20.jpg": 160,
   "song:Shambu Ki Sawari": 149,
   "photo:photos/shiv/shiv-16.jpg": 150,
   "photo:photos/premanand/premanand-13.jpg": 37,
@@ -2072,9 +2084,8 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136
  },
- "counter": 159,
+ "counter": 160,
  "captions": [
-  "आज शनिवार है — श्री राधा रानी को याद करें 🌼\n🎵 Bas Radhe Radhe\nराधे राधे 🙏",
   "मन को शांति देने वाला भजन 🎶 Rom Rom Mai Radhe\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏",
@@ -2093,7 +2104,8 @@
   "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam Kirtan\nराधे राधे 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे"
  ],
  "errors": [
   {
