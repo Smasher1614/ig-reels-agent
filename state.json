@@ -1955,6 +1955,18 @@
    "media_id": "18135555793822769",
    "permalink": "https://www.instagram.com/reel/Df9t_LpHM_F/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-20#3",
+   "at": "2026-11-20T18:48:29+05:30",
+   "song": "Radhe Tere Dar Se",
+   "deity": "radha",
+   "photo": null,
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "18129630607893861",
+   "permalink": "https://www.instagram.com/reel/Df9vqMknJUr/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1984,7 +1996,7 @@
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 160,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 164,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
@@ -2004,7 +2016,7 @@
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
   "photo:photos/radha/radha-05.jpg": 113,
-  "mantra:radha:बरसाने वाली राधे": 153,
+  "mantra:radha:बरसाने वाली राधे": 164,
   "song:Sanwariya Mai Aa Gaya": 121,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
@@ -2018,7 +2030,7 @@
   "song:Sanwariya Muskura Dena": 124,
   "photo:photos/sanwariya/sanwariya-04.jpg": 142,
   "mantra:sanwariya:जय श्री कृष्ण": 154,
-  "song:Radhe Tere Dar Se": 123,
+  "song:Radhe Tere Dar Se": 164,
   "photo:photos/radha/radha-17.jpg": 116,
   "mantra:radha:जय श्री राधे": 157,
   "song:Tere Bharose Sanwariya": 154,
@@ -2121,9 +2133,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 163,
+ "counter": 164,
  "captions": [
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
@@ -2142,7 +2153,8 @@
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय"
+  "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
+  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
  ],
  "errors": [
   {
