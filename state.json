@@ -1943,6 +1943,18 @@
    "media_id": "17873063922663012",
    "permalink": "https://www.instagram.com/reel/Df8XUdhj2FH/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-20#2",
+   "at": "2026-11-20T18:34:00+05:30",
+   "song": "Mandir Wali Subah",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-11.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18135555793822769",
+   "permalink": "https://www.instagram.com/reel/Df9t_LpHM_F/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1986,7 +1998,7 @@
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
-  "mantra:shiv:हर हर महादेव": 150,
+  "mantra:shiv:हर हर महादेव": 163,
   "bottom:भोले के भक्तों को भेजें": 149,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
@@ -2036,7 +2048,7 @@
   "song:Om Uchharan": 158,
   "photo:photos/shiv/shiv-06.jpg": 143,
   "mantra:shiv:ॐ महादेवाय नमः": 151,
-  "bottom:मन को शांति दे — अपनों को भेजें": 152,
+  "bottom:मन को शांति दे — अपनों को भेजें": 163,
   "song:Saawan Aaya": 139,
   "mantra:shiv:ॐ नमः शिवाय": 152,
   "photo:photos/premanand/premanand-08.jpg": 26,
@@ -2057,7 +2069,7 @@
   "photo:photos/shiv/shiv-17.jpg": 156,
   "photo:photos/sanwariya/sanwariya-01.jpg": 121,
   "song:Kafila Mahdev Ka": 150,
-  "photo:photos/shiv/shiv-11.jpg": 128,
+  "photo:photos/shiv/shiv-11.jpg": 163,
   "song:Teri Yaad Mai Radhe": 159,
   "photo:photos/radha/radha-20.jpg": 160,
   "song:Shambu Ki Sawari": 149,
@@ -2097,7 +2109,7 @@
   "photo:photos/khatushyam/khatushyam-03.jpg": 79,
   "photo:photos/radha/radha-06.jpg": 153,
   "photo:photos/khatushyam/khatushyam-15.jpg": 82,
-  "song:Mandir Wali Subah": 127,
+  "song:Mandir Wali Subah": 163,
   "photo:photos/khatushyam/khatushyam-07.jpg": 86,
   "photo:photos/premanand/premanand-05.jpg": 90,
   "photo:photos/premanand/premanand-16.jpg": 103,
@@ -2109,9 +2121,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 162,
+ "counter": 163,
  "captions": [
-  "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
@@ -2130,7 +2141,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय"
  ],
  "errors": [
   {
