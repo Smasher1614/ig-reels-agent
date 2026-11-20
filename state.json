@@ -1967,6 +1967,18 @@
    "media_id": "18129630607893861",
    "permalink": "https://www.instagram.com/reel/Df9vqMknJUr/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-21#0",
+   "at": "2026-11-21T04:47:37+05:30",
+   "song": "Jhanda Uncha Rahe",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-02.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "18320542471304816",
+   "permalink": "https://www.instagram.com/reel/Df-0OCtlakM/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2023,7 +2035,7 @@
   "song:Jai Shambu": 143,
   "photo:photos/shiv/shiv-15.jpg": 147,
   "mantra:shiv:बम बम भोले": 148,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 148,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 165,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 155,
   "mantra:radha:श्री राधा रानी की जय": 155,
@@ -2074,8 +2086,8 @@
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 148,
   "photo:photos/shiv/shiv-14.jpg": 148,
-  "mantra:shiv:जय भोलेनाथ": 147,
-  "song:Jhanda Uncha Rahe": 122,
+  "mantra:shiv:जय भोलेनाथ": 165,
+  "song:Jhanda Uncha Rahe": 165,
   "photo:photos/shiv/shiv-07.jpg": 139,
   "song:Saavan Ka Rang": 129,
   "photo:photos/shiv/shiv-17.jpg": 156,
@@ -2094,7 +2106,7 @@
   "photo:photos/shiv/shiv-13.jpg": 152,
   "song:Radhe Radhe Gau Mai": 153,
   "photo:photos/radha/radha-19.jpg": 98,
-  "photo:photos/shiv/shiv-02.jpg": 137,
+  "photo:photos/shiv/shiv-02.jpg": 165,
   "photo:photos/shiv/shiv-08.jpg": 144,
   "photo:photos/radha/radha-16.jpg": 159,
   "song:Shambu Ka Naam": 137,
@@ -2133,9 +2145,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 164,
+ "counter": 165,
  "captions": [
-  "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
   "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
@@ -2154,7 +2165,8 @@
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
-  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
+  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
+  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
