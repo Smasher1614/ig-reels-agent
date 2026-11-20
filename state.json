@@ -1931,6 +1931,18 @@
    "media_id": "18415806907088323",
    "permalink": "https://www.instagram.com/reel/Df8NvqyARdL/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-20#1",
+   "at": "2026-11-20T05:56:35+05:30",
+   "song": "Mere Shyaam",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-18.jpg",
+   "mantra": "जय श्री श्याम",
+   "audio": "mp3",
+   "media_id": "17873063922663012",
+   "permalink": "https://www.instagram.com/reel/Df8XUdhj2FH/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -1956,7 +1968,7 @@
   "song:Radha Naam Jap": 131,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 159,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 162,
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
@@ -2000,7 +2012,7 @@
   "song:Tere Bharose Sanwariya": 154,
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 130,
-  "song:Mere Shyaam": 136,
+  "song:Mere Shyaam": 162,
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 133,
   "song:Radhe Radhe Bol": 155,
@@ -2017,7 +2029,7 @@
   "mantra:premanand:श्री राधा": 131,
   "song:Ghar Jesa Lagta Hai": 130,
   "photo:photos/sanwariya/sanwariya-05.jpg": 130,
-  "photo:photos/khatushyam/khatushyam-18.jpg": 22,
+  "photo:photos/khatushyam/khatushyam-18.jpg": 162,
   "mantra:khatushyam:लखदातार की जय": 161,
   "song:Rom Rom Mai Radhe": 141,
   "photo:photos/radha/radha-14.jpg": 88,
@@ -2064,7 +2076,7 @@
   "song:Shambu Ka Naam": 137,
   "photo:photos/radha/radha-07.jpg": 118,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
-  "mantra:khatushyam:जय श्री श्याम": 111,
+  "mantra:khatushyam:जय श्री श्याम": 162,
   "photo:photos/sanwariya/sanwariya-07.jpg": 134,
   "photo:photos/khatushyam/khatushyam-09.jpg": 49,
   "photo:photos/shiv/shiv-03.jpg": 112,
@@ -2097,9 +2109,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 161,
+ "counter": 162,
  "captions": [
-  "आज रविवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Thodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "आज रविवार — भोलेनाथ के नाम 🔱\n🎵 Jai Shambu\nजय भोलेनाथ 🙏",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aa Gaya\nकमेंट में लिखें: हर हर महादेव",
   "शिव में ही शांति है 🌙\n🎵 Pahli Chai Shiv Ka Naam\nकमेंट में लिखें: ॐ नमः शिवाय",
@@ -2118,7 +2129,8 @@
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
-  "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम"
+  "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
+  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
