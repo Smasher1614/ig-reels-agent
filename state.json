@@ -1991,6 +1991,18 @@
    "media_id": "18133800517878551",
    "permalink": "https://www.instagram.com/reel/Df-5bE6HIqh/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-21#2",
+   "at": "2026-11-21T18:17:56+05:30",
+   "song": "Radha Naam",
+   "deity": "radha",
+   "photo": "photos/radha/radha-08.jpg",
+   "mantra": "श्री राधा रानी की जय",
+   "audio": "mp3",
+   "media_id": "17995200957114506",
+   "permalink": "https://www.instagram.com/reel/DgAQ8dwD3c0/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2028,7 +2040,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 161,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 125,
-  "bottom:कमेंट में लिखें — {jaikara}": 161,
+  "bottom:कमेंट में लिखें — {jaikara}": 167,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
@@ -2050,7 +2062,7 @@
   "bottom:कमेंट में लिखें — हर हर महादेव": 165,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 155,
-  "mantra:radha:श्री राधा रानी की जय": 155,
+  "mantra:radha:श्री राधा रानी की जय": 167,
   "song:Sanwariya Muskura Dena": 124,
   "photo:photos/sanwariya/sanwariya-04.jpg": 142,
   "mantra:sanwariya:जय श्री कृष्ण": 154,
@@ -2064,7 +2076,7 @@
   "photo:photos/khatushyam/khatushyam-04.jpg": 15,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 133,
   "song:Radhe Radhe Bol": 155,
-  "photo:photos/radha/radha-08.jpg": 78,
+  "photo:photos/radha/radha-08.jpg": 167,
   "mantra:radha:राधे राधे": 159,
   "song:Milne Aya Hu Sanwriya": 134,
   "song:Saanjh Ki Aarti": 152,
@@ -2131,7 +2143,7 @@
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
   "song:Saavan Aa Gaya": 144,
   "photo:photos/shiv/shiv-04.jpg": 55,
-  "song:Radha Naam": 138,
+  "song:Radha Naam": 167,
   "photo:photos/radha/radha-09.jpg": 146,
   "photo:photos/premanand/premanand-02.jpg": 58,
   "photo:photos/radha/radha-11.jpg": 138,
@@ -2157,9 +2169,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 166,
+ "counter": 167,
  "captions": [
-  "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
@@ -2178,7 +2189,8 @@
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏"
+  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
