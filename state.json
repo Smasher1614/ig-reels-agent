@@ -2015,6 +2015,18 @@
    "media_id": "18099759827407058",
    "permalink": "https://www.instagram.com/reel/DgAUVSODOfg/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-22#0",
+   "at": "2026-11-22T04:33:03+05:30",
+   "song": "Saavan Aaya Bhole Aaye",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "17917986474490636",
+   "permalink": "https://www.instagram.com/reel/DgBXWRpEoWH/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2044,7 +2056,7 @@
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 164,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 169,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
@@ -2115,9 +2127,9 @@
   "mantra:premanand:राधा नाम जप": 90,
   "song:Badal Bole": 151,
   "photo:photos/shiv/shiv-10.jpg": 166,
-  "song:Saavan Aaya Bhole Aaye": 128,
+  "song:Saavan Aaya Bhole Aaye": 169,
   "photo:photos/shiv/shiv-09.jpg": 151,
-  "mantra:shiv:जय शिव शंकर": 149,
+  "mantra:shiv:जय शिव शंकर": 169,
   "song:Radha Naam Kirtan": 157,
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 148,
@@ -2181,9 +2193,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 168,
+ "counter": 169,
  "captions": [
-  "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badal Bole\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
@@ -2202,7 +2213,8 @@
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम"
+  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
