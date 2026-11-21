@@ -2003,6 +2003,18 @@
    "media_id": "17995200957114506",
    "permalink": "https://www.instagram.com/reel/DgAQ8dwD3c0/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-21#3",
+   "at": "2026-11-21T18:47:26+05:30",
+   "song": "Dil Se Tujhe Bulau Shyam Baba",
+   "deity": "khatushyam",
+   "photo": "photos/khatushyam/khatushyam-04.jpg",
+   "mantra": "जय खाटू श्याम",
+   "audio": "mp3",
+   "media_id": "18099759827407058",
+   "permalink": "https://www.instagram.com/reel/DgAUVSODOfg/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2028,7 +2040,7 @@
   "song:Radha Naam Jap": 131,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 162,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 168,
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
@@ -2037,9 +2049,9 @@
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 156,
-  "song:Dil Se Tujhe Bulau Shyam Baba": 161,
+  "song:Dil Se Tujhe Bulau Shyam Baba": 168,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
-  "mantra:khatushyam:जय खाटू श्याम": 125,
+  "mantra:khatushyam:जय खाटू श्याम": 168,
   "bottom:कमेंट में लिखें — {jaikara}": 167,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
@@ -2073,7 +2085,7 @@
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 130,
   "song:Mere Shyaam": 162,
-  "photo:photos/khatushyam/khatushyam-04.jpg": 15,
+  "photo:photos/khatushyam/khatushyam-04.jpg": 168,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 133,
   "song:Radhe Radhe Bol": 155,
   "photo:photos/radha/radha-08.jpg": 167,
@@ -2169,9 +2181,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 167,
+ "counter": 168,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Kafila Mahdev Ka\nजय भोलेनाथ 🙏",
   "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badal Bole\nमन शांत हो तो अपनों को भी भेजें 🙏",
@@ -2190,7 +2201,8 @@
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम"
  ],
  "errors": [
   {
