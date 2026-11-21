@@ -1979,6 +1979,18 @@
    "media_id": "18320542471304816",
    "permalink": "https://www.instagram.com/reel/Df-0OCtlakM/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-21#1",
+   "at": "2026-11-21T05:33:07+05:30",
+   "song": "Saavan Ka Rang",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-10.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18133800517878551",
+   "permalink": "https://www.instagram.com/reel/Df-5bE6HIqh/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2023,7 +2035,7 @@
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
   "mantra:shiv:हर हर महादेव": 163,
-  "bottom:भोले के भक्तों को भेजें": 149,
+  "bottom:भोले के भक्तों को भेजें": 166,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
@@ -2034,7 +2046,7 @@
   "mantra:sanwariya:मेरे सांवरिया": 142,
   "song:Jai Shambu": 143,
   "photo:photos/shiv/shiv-15.jpg": 147,
-  "mantra:shiv:बम बम भोले": 148,
+  "mantra:shiv:बम बम भोले": 166,
   "bottom:कमेंट में लिखें — हर हर महादेव": 165,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 155,
@@ -2078,7 +2090,7 @@
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 90,
   "song:Badal Bole": 151,
-  "photo:photos/shiv/shiv-10.jpg": 107,
+  "photo:photos/shiv/shiv-10.jpg": 166,
   "song:Saavan Aaya Bhole Aaye": 128,
   "photo:photos/shiv/shiv-09.jpg": 151,
   "mantra:shiv:जय शिव शंकर": 149,
@@ -2089,7 +2101,7 @@
   "mantra:shiv:जय भोलेनाथ": 165,
   "song:Jhanda Uncha Rahe": 165,
   "photo:photos/shiv/shiv-07.jpg": 139,
-  "song:Saavan Ka Rang": 129,
+  "song:Saavan Ka Rang": 166,
   "photo:photos/shiv/shiv-17.jpg": 156,
   "photo:photos/sanwariya/sanwariya-01.jpg": 121,
   "song:Kafila Mahdev Ka": 150,
@@ -2145,9 +2157,8 @@
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161
  },
- "counter": 165,
+ "counter": 166,
  "captions": [
-  "आज सोमवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radha\nराधे राधे 🙏",
   "आज सोमवार — भोलेनाथ के नाम 🔱\n🎵 Kon Aaya\nजय भोलेनाथ 🙏",
   "बम बम भोले 🔱\n🎵 Kawad Chale\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज मंगलवार — भोलेनाथ के नाम 🔱\n🎵 Shambu Ki Sawari\nजय भोलेनाथ 🙏",
@@ -2166,7 +2177,8 @@
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
-  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏"
+  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏"
  ],
  "errors": [
   {
