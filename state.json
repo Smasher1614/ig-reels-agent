@@ -2063,6 +2063,18 @@
    "media_id": "18014976908994864",
    "permalink": "https://www.instagram.com/reel/DgC5HjCklp4/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-23#0",
+   "at": "2026-11-23T04:33:50+05:30",
+   "song": "Sanwariya Mai Aa Gaya",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-01.jpg",
+   "mantra": "जय श्री सांवलिया सेठ",
+   "audio": "mp3",
+   "media_id": "18339244369263869",
+   "permalink": "https://www.instagram.com/reel/DgD8OGrCdHn/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2092,7 +2104,7 @@
   "song:Radha": 146,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 169,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 173,
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
@@ -2113,7 +2125,7 @@
   "song:Radha Naam Tera": 160,
   "photo:photos/radha/radha-05.jpg": 113,
   "mantra:radha:बरसाने वाली राधे": 164,
-  "song:Sanwariya Mai Aa Gaya": 121,
+  "song:Sanwariya Mai Aa Gaya": 173,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
   "song:Jai Shambu": 143,
@@ -2131,7 +2143,7 @@
   "mantra:radha:जय श्री राधे": 157,
   "song:Tere Bharose Sanwariya": 154,
   "photo:photos/sanwariya/sanwariya-03.jpg": 124,
-  "mantra:sanwariya:जय श्री सांवलिया सेठ": 130,
+  "mantra:sanwariya:जय श्री सांवलिया सेठ": 173,
   "song:Mere Shyaam": 172,
   "photo:photos/khatushyam/khatushyam-04.jpg": 168,
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 172,
@@ -2175,7 +2187,7 @@
   "photo:photos/shiv/shiv-07.jpg": 139,
   "song:Saavan Ka Rang": 166,
   "photo:photos/shiv/shiv-17.jpg": 156,
-  "photo:photos/sanwariya/sanwariya-01.jpg": 121,
+  "photo:photos/sanwariya/sanwariya-01.jpg": 173,
   "song:Kafila Mahdev Ka": 150,
   "photo:photos/shiv/shiv-11.jpg": 163,
   "song:Teri Yaad Mai Radhe": 159,
@@ -2230,9 +2242,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 172,
+ "counter": 173,
  "captions": [
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Gau Mai\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Tere Bharose Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "आज बुधवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radhe Radhe Bol\nराधे राधे 🙏",
   "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
@@ -2251,7 +2262,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव",
   "आज रविवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
+  "मन को शांति देने वाला भजन 🎶 Sanwariya Mai Aa Gaya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
