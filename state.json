@@ -2039,6 +2039,18 @@
    "media_id": "17939062530403385",
    "permalink": "https://www.instagram.com/reel/DgBf4Z7DrhD/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-22#2",
+   "at": "2026-11-22T18:33:37+05:30",
+   "song": "Shambu Ka Naam",
+   "deity": "shiv",
+   "photo": null,
+   "mantra": "ॐ महादेवाय नमः",
+   "audio": "mp3",
+   "media_id": "18114284903267197",
+   "permalink": "https://www.instagram.com/reel/DgC3iEIktRt/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2072,7 +2084,7 @@
   "song:Pahli Chai Shiv Ka Naam": 145,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 156,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 171,
   "song:Dil Se Tujhe Bulau Shyam Baba": 168,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 168,
@@ -2131,7 +2143,7 @@
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 158,
   "photo:photos/shiv/shiv-06.jpg": 143,
-  "mantra:shiv:ॐ महादेवाय नमः": 151,
+  "mantra:shiv:ॐ महादेवाय नमः": 171,
   "bottom:मन को शांति दे — अपनों को भेजें": 163,
   "song:Saawan Aaya": 139,
   "mantra:shiv:ॐ नमः शिवाय": 152,
@@ -2169,7 +2181,7 @@
   "photo:photos/shiv/shiv-02.jpg": 165,
   "photo:photos/shiv/shiv-08.jpg": 144,
   "photo:photos/radha/radha-16.jpg": 159,
-  "song:Shambu Ka Naam": 137,
+  "song:Shambu Ka Naam": 171,
   "photo:photos/radha/radha-07.jpg": 118,
   "photo:photos/khatushyam/khatushyam-01.jpg": 47,
   "mantra:khatushyam:जय श्री श्याम": 162,
@@ -2206,9 +2218,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 170,
+ "counter": 171,
  "captions": [
-  "आज मंगलवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badal Bole\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Saanjh Ki Aarti",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radhe Radhe Gau Mai\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "आज बुधवार है — श्री सांवलिया सेठ को याद करें 🌼\n🎵 Tere Bharose Sanwariya\nजय श्री सांवलिया सेठ 🙏",
@@ -2227,7 +2238,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव",
-  "आज रविवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏"
+  "आज रविवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
+  "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
