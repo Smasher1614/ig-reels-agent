@@ -2111,6 +2111,18 @@
    "media_id": "18093670535504977",
    "permalink": "https://www.instagram.com/reel/DgFd5ZuiWLu/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-24#0",
+   "at": "2026-11-24T04:38:03+05:30",
+   "song": "Radha",
+   "deity": "radha",
+   "photo": "photos/radha/radha-05.jpg",
+   "mantra": "राधे राधे",
+   "audio": "mp3",
+   "media_id": "17915041542571562",
+   "permalink": "https://www.instagram.com/reel/DgGhgbrHLoX/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2136,8 +2148,8 @@
   "song:Radha Naam Jap": 170,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 172,
-  "song:Radha": 146,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 177,
+  "song:Radha": 177,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 173,
@@ -2159,7 +2171,7 @@
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
-  "photo:photos/radha/radha-05.jpg": 113,
+  "photo:photos/radha/radha-05.jpg": 177,
   "mantra:radha:बरसाने वाली राधे": 164,
   "song:Sanwariya Mai Aa Gaya": 173,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
@@ -2185,7 +2197,7 @@
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 172,
   "song:Radhe Radhe Bol": 155,
   "photo:photos/radha/radha-08.jpg": 167,
-  "mantra:radha:राधे राधे": 159,
+  "mantra:radha:राधे राधे": 177,
   "song:Milne Aya Hu Sanwriya": 134,
   "song:Saanjh Ki Aarti": 152,
   "photo:photos/shiv/shiv-18.jpg": 158,
@@ -2278,9 +2290,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 176,
+ "counter": 177,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam Kirtan\nराधे राधे 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
@@ -2299,7 +2310,8 @@
   "मन को शांति देने वाला भजन 🎶 Sanwariya Mai Aa Gaya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏",
-  "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏"
+  "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
