@@ -2099,6 +2099,18 @@
    "media_id": "17967857142246448",
    "permalink": "https://www.instagram.com/reel/DgFZys3H7kj/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-23#3",
+   "at": "2026-11-23T18:47:22+05:30",
+   "song": "Pahli Chai Shiv Ka Naam",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-06.jpg",
+   "mantra": "ॐ नमः शिवाय",
+   "audio": "mp3",
+   "media_id": "18093670535504977",
+   "permalink": "https://www.instagram.com/reel/DgFd5ZuiWLu/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2129,7 +2141,7 @@
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 160,
   "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 173,
-  "song:Pahli Chai Shiv Ka Naam": 145,
+  "song:Pahli Chai Shiv Ka Naam": 176,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
   "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 171,
@@ -2178,7 +2190,7 @@
   "song:Saanjh Ki Aarti": 152,
   "photo:photos/shiv/shiv-18.jpg": 158,
   "mantra:shiv:शिवोहम्": 158,
-  "bottom:आँखें बंद करें और बस सुनें": 158,
+  "bottom:आँखें बंद करें और बस सुनें": 176,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 136,
   "photo:photos/premanand/premanand-09.jpg": 20,
@@ -2190,11 +2202,11 @@
   "song:Rom Rom Mai Radhe": 141,
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 158,
-  "photo:photos/shiv/shiv-06.jpg": 143,
+  "photo:photos/shiv/shiv-06.jpg": 176,
   "mantra:shiv:ॐ महादेवाय नमः": 171,
   "bottom:मन को शांति दे — अपनों को भेजें": 163,
   "song:Saawan Aaya": 139,
-  "mantra:shiv:ॐ नमः शिवाय": 152,
+  "mantra:shiv:ॐ नमः शिवाय": 176,
   "photo:photos/premanand/premanand-08.jpg": 26,
   "mantra:premanand:राधा नाम जप": 170,
   "song:Badal Bole": 151,
@@ -2266,9 +2278,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 175,
+ "counter": 176,
  "captions": [
-  "आज बुधवार — कुछ पल महादेव के साथ 🕉️\n🎵 Badalo Mai Shambu\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nRadha Naam Kirtan\nराधे राधे 🙏",
   "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
@@ -2287,7 +2298,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
   "मन को शांति देने वाला भजन 🎶 Sanwariya Mai Aa Gaya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏",
+  "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏"
  ],
  "errors": [
   {
