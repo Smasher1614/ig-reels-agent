@@ -2135,6 +2135,18 @@
    "media_id": "18117337145590179",
    "permalink": "https://www.instagram.com/reel/DgGoGUiFMHJ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-24#2",
+   "at": "2026-11-24T18:18:27+05:30",
+   "song": "Radhe Radhe Gau Mai",
+   "deity": "radha",
+   "photo": "photos/radha/radha-03.jpg",
+   "mantra": "राधे कृष्ण",
+   "audio": "mp3",
+   "media_id": "18119060027040446",
+   "permalink": "https://www.instagram.com/reel/DgH_Yc6glQG/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2163,8 +2175,8 @@
   "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 177,
   "song:Radha": 177,
   "photo:photos/radha/radha-10.jpg": 157,
-  "mantra:radha:राधे कृष्ण": 160,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 173,
+  "mantra:radha:राधे कृष्ण": 179,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 179,
   "song:Pahli Chai Shiv Ka Naam": 176,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 156,
@@ -2239,7 +2251,7 @@
   "photo:photos/shiv/shiv-09.jpg": 151,
   "mantra:shiv:जय शिव शंकर": 169,
   "song:Radha Naam Kirtan": 157,
-  "photo:photos/radha/radha-03.jpg": 115,
+  "photo:photos/radha/radha-03.jpg": 179,
   "song:Kawad Chale": 148,
   "photo:photos/shiv/shiv-14.jpg": 148,
   "mantra:shiv:जय भोलेनाथ": 178,
@@ -2260,7 +2272,7 @@
   "song:Aao Radha Ko Pukare": 175,
   "photo:photos/radha/radha-02.jpg": 141,
   "photo:photos/shiv/shiv-13.jpg": 152,
-  "song:Radhe Radhe Gau Mai": 153,
+  "song:Radhe Radhe Gau Mai": 179,
   "photo:photos/radha/radha-19.jpg": 175,
   "photo:photos/shiv/shiv-02.jpg": 165,
   "photo:photos/shiv/shiv-08.jpg": 144,
@@ -2302,9 +2314,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 178,
+ "counter": 179,
  "captions": [
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -2323,7 +2334,8 @@
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏",
   "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏"
+  "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏",
+  "राधे राधे 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे"
  ],
  "errors": [
   {
