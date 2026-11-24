@@ -2123,6 +2123,18 @@
    "media_id": "17915041542571562",
    "permalink": "https://www.instagram.com/reel/DgGhgbrHLoX/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-24#1",
+   "at": "2026-11-24T05:35:34+05:30",
+   "song": "Shambu Ki Sawari",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-01.jpg",
+   "mantra": "जय भोलेनाथ",
+   "audio": "mp3",
+   "media_id": "18117337145590179",
+   "permalink": "https://www.instagram.com/reel/DgGoGUiFMHJ/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2167,7 +2179,7 @@
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
   "mantra:shiv:हर हर महादेव": 174,
-  "bottom:भोले के भक्तों को भेजें": 166,
+  "bottom:भोले के भक्तों को भेजें": 178,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
@@ -2230,7 +2242,7 @@
   "photo:photos/radha/radha-03.jpg": 115,
   "song:Kawad Chale": 148,
   "photo:photos/shiv/shiv-14.jpg": 148,
-  "mantra:shiv:जय भोलेनाथ": 165,
+  "mantra:shiv:जय भोलेनाथ": 178,
   "song:Jhanda Uncha Rahe": 165,
   "photo:photos/shiv/shiv-07.jpg": 174,
   "song:Saavan Ka Rang": 166,
@@ -2240,11 +2252,11 @@
   "photo:photos/shiv/shiv-11.jpg": 163,
   "song:Teri Yaad Mai Radhe": 159,
   "photo:photos/radha/radha-20.jpg": 160,
-  "song:Shambu Ki Sawari": 149,
+  "song:Shambu Ki Sawari": 178,
   "photo:photos/shiv/shiv-16.jpg": 150,
   "photo:photos/premanand/premanand-13.jpg": 37,
   "song:Badalo Mai Shambu": 156,
-  "photo:photos/shiv/shiv-01.jpg": 127,
+  "photo:photos/shiv/shiv-01.jpg": 178,
   "song:Aao Radha Ko Pukare": 175,
   "photo:photos/radha/radha-02.jpg": 141,
   "photo:photos/shiv/shiv-13.jpg": 152,
@@ -2290,9 +2302,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 177,
+ "counter": 178,
  "captions": [
-  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nTeri Yaad Mai Radhe\nराधे राधे 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
@@ -2311,7 +2322,8 @@
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏",
   "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
-  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏"
  ],
  "errors": [
   {
