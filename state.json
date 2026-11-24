@@ -2147,6 +2147,18 @@
    "media_id": "18119060027040446",
    "permalink": "https://www.instagram.com/reel/DgH_Yc6glQG/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-24#3",
+   "at": "2026-11-24T18:47:46+05:30",
+   "song": "Jai Shambu",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-08.jpg",
+   "mantra": "बम बम भोले",
+   "audio": "mp3",
+   "media_id": "18012865967779213",
+   "permalink": "https://www.instagram.com/reel/DgICvXxj__s/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2200,10 +2212,10 @@
   "song:Sanwariya Mai Aa Gaya": 173,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
-  "song:Jai Shambu": 143,
+  "song:Jai Shambu": 180,
   "photo:photos/shiv/shiv-15.jpg": 147,
-  "mantra:shiv:बम बम भोले": 166,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 174,
+  "mantra:shiv:बम बम भोले": 180,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 180,
   "song:Bas Radhe Radhe": 140,
   "photo:photos/radha/radha-15.jpg": 155,
   "mantra:radha:श्री राधा रानी की जय": 167,
@@ -2275,7 +2287,7 @@
   "song:Radhe Radhe Gau Mai": 179,
   "photo:photos/radha/radha-19.jpg": 175,
   "photo:photos/shiv/shiv-02.jpg": 165,
-  "photo:photos/shiv/shiv-08.jpg": 144,
+  "photo:photos/shiv/shiv-08.jpg": 180,
   "photo:photos/radha/radha-16.jpg": 159,
   "song:Shambu Ka Naam": 171,
   "photo:photos/radha/radha-07.jpg": 118,
@@ -2314,9 +2326,8 @@
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
   "photo:photos/premanand/premanand-03.jpg": 170
  },
- "counter": 179,
+ "counter": 180,
  "captions": [
-  "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
   "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
@@ -2335,7 +2346,8 @@
   "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏",
-  "राधे राधे 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे"
+  "राधे राधे 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
