@@ -2159,6 +2159,18 @@
    "media_id": "18012865967779213",
    "permalink": "https://www.instagram.com/reel/DgICvXxj__s/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-25#0",
+   "at": "2026-11-25T04:33:26+05:30",
+   "song": "Rom Rom Mai Radhe",
+   "deity": "radha",
+   "photo": "photos/radha/radha-01.jpg",
+   "mantra": "बरसाने वाली राधे",
+   "audio": "mp3",
+   "media_id": "18024576464728985",
+   "permalink": "https://www.instagram.com/reel/DgJFwhpGTfX/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2196,7 +2208,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 168,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 168,
-  "bottom:कमेंट में लिखें — {jaikara}": 175,
+  "bottom:कमेंट में लिखें — {jaikara}": 181,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
   "mantra:sanwariya:सांवरिया सेठ की जय": 134,
@@ -2208,7 +2220,7 @@
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
   "photo:photos/radha/radha-05.jpg": 177,
-  "mantra:radha:बरसाने वाली राधे": 164,
+  "mantra:radha:बरसाने वाली राधे": 181,
   "song:Sanwariya Mai Aa Gaya": 173,
   "photo:photos/sanwariya/sanwariya-06.jpg": 102,
   "mantra:sanwariya:मेरे सांवरिया": 142,
@@ -2247,7 +2259,7 @@
   "photo:photos/sanwariya/sanwariya-05.jpg": 130,
   "photo:photos/khatushyam/khatushyam-18.jpg": 162,
   "mantra:khatushyam:लखदातार की जय": 161,
-  "song:Rom Rom Mai Radhe": 141,
+  "song:Rom Rom Mai Radhe": 181,
   "photo:photos/radha/radha-14.jpg": 88,
   "song:Om Uchharan": 158,
   "photo:photos/shiv/shiv-06.jpg": 176,
@@ -2324,11 +2336,11 @@
   "photo:photos/premanand/premanand-01.jpg": 131,
   "photo:photos/khatushyam/khatushyam-16.jpg": 136,
   "photo:photos/khatushyam/khatushyam-17.jpg": 161,
-  "photo:photos/premanand/premanand-03.jpg": 170
+  "photo:photos/premanand/premanand-03.jpg": 170,
+  "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 180,
+ "counter": 181,
  "captions": [
-  "जय श्री श्याम 🙏\nशुक्रवार की शुरुआत करें इस भजन के साथ — Dil Se Tujhe Bulau Shyam Baba 🎵\nकमेंट में लिखें: जय श्री श्याम",
   "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
@@ -2347,7 +2359,8 @@
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "राधे राधे 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव"
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
+  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Rom Rom Mai Radhe 🎵\nकमेंट में लिखें: राधे राधे"
  ],
  "errors": [
   {
