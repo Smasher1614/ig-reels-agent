@@ -2207,6 +2207,18 @@
    "media_id": "18045661745845825",
    "permalink": "https://www.instagram.com/reel/DgKnjvxiRWI/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-26#0",
+   "at": "2026-11-26T04:32:47+05:30",
+   "song": "Kafila Mahdev Ka",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-03.jpg",
+   "mantra": "जय शिव शंकर",
+   "audio": "mp3",
+   "media_id": "18101075546448531",
+   "permalink": "https://www.instagram.com/reel/DgLqf5JSvqy/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2251,7 +2263,7 @@
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
   "mantra:shiv:हर हर महादेव": 174,
-  "bottom:भोले के भक्तों को भेजें": 178,
+  "bottom:भोले के भक्तों को भेजें": 185,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
   "song:Radha Naam Tera": 160,
@@ -2309,7 +2321,7 @@
   "photo:photos/shiv/shiv-10.jpg": 166,
   "song:Saavan Aaya Bhole Aaye": 169,
   "photo:photos/shiv/shiv-09.jpg": 151,
-  "mantra:shiv:जय शिव शंकर": 169,
+  "mantra:shiv:जय शिव शंकर": 185,
   "song:Radha Naam Kirtan": 157,
   "photo:photos/radha/radha-03.jpg": 179,
   "song:Kawad Chale": 148,
@@ -2320,7 +2332,7 @@
   "song:Saavan Ka Rang": 166,
   "photo:photos/shiv/shiv-17.jpg": 156,
   "photo:photos/sanwariya/sanwariya-01.jpg": 173,
-  "song:Kafila Mahdev Ka": 150,
+  "song:Kafila Mahdev Ka": 185,
   "photo:photos/shiv/shiv-11.jpg": 163,
   "song:Teri Yaad Mai Radhe": 159,
   "photo:photos/radha/radha-20.jpg": 160,
@@ -2343,7 +2355,7 @@
   "mantra:khatushyam:जय श्री श्याम": 162,
   "photo:photos/sanwariya/sanwariya-07.jpg": 134,
   "photo:photos/khatushyam/khatushyam-09.jpg": 172,
-  "photo:photos/shiv/shiv-03.jpg": 112,
+  "photo:photos/shiv/shiv-03.jpg": 185,
   "photo:photos/khatushyam/khatushyam-11.jpg": 52,
   "song:Saavan Aa Gaya": 174,
   "photo:photos/shiv/shiv-04.jpg": 55,
@@ -2375,9 +2387,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 184,
+ "counter": 185,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
@@ -2396,7 +2407,8 @@
   "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Rom Rom Mai Radhe 🎵\nकमेंट में लिखें: राधे राधे",
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Ghar Jesa Lagta Hai 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Muskura Dena\nजय श्री सांवलिया सेठ 🙏",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
