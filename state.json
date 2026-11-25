@@ -2195,6 +2195,18 @@
    "media_id": "18650816326024140",
    "permalink": "https://www.instagram.com/reel/DgKkI-khR4O/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-25#3",
+   "at": "2026-11-25T18:47:58+05:30",
+   "song": "Bas Radhe Radhe",
+   "deity": "radha",
+   "photo": "photos/radha/radha-18.jpg",
+   "mantra": "श्री राधा रानी की जय",
+   "audio": "mp3",
+   "media_id": "18045661745845825",
+   "permalink": "https://www.instagram.com/reel/DgKnjvxiRWI/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2232,7 +2244,7 @@
   "song:Dil Se Tujhe Bulau Shyam Baba": 168,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 168,
-  "bottom:कमेंट में लिखें — {jaikara}": 181,
+  "bottom:कमेंट में लिखें — {jaikara}": 184,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
   "mantra:sanwariya:सांवरिया सेठ की जय": 182,
@@ -2252,9 +2264,9 @@
   "photo:photos/shiv/shiv-15.jpg": 147,
   "mantra:shiv:बम बम भोले": 180,
   "bottom:कमेंट में लिखें — हर हर महादेव": 180,
-  "song:Bas Radhe Radhe": 140,
+  "song:Bas Radhe Radhe": 184,
   "photo:photos/radha/radha-15.jpg": 155,
-  "mantra:radha:श्री राधा रानी की जय": 167,
+  "mantra:radha:श्री राधा रानी की जय": 184,
   "song:Sanwariya Muskura Dena": 183,
   "photo:photos/sanwariya/sanwariya-04.jpg": 142,
   "mantra:sanwariya:जय श्री कृष्ण": 154,
@@ -2341,7 +2353,7 @@
   "photo:photos/radha/radha-11.jpg": 138,
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
-  "photo:photos/radha/radha-18.jpg": 120,
+  "photo:photos/radha/radha-18.jpg": 184,
   "photo:photos/radha/radha-12.jpg": 123,
   "photo:photos/radha/radha-13.jpg": 140,
   "photo:photos/radha/radha-04.jpg": 72,
@@ -2363,9 +2375,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 183,
+ "counter": 184,
  "captions": [
-  "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -2384,7 +2395,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
   "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Rom Rom Mai Radhe 🎵\nकमेंट में लिखें: राधे राधे",
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Ghar Jesa Lagta Hai 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Muskura Dena\nजय श्री सांवलिया सेठ 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Muskura Dena\nजय श्री सांवलिया सेठ 🙏",
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏"
  ],
  "errors": [
   {
