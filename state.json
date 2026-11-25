@@ -2171,6 +2171,18 @@
    "media_id": "18024576464728985",
    "permalink": "https://www.instagram.com/reel/DgJFwhpGTfX/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-25#1",
+   "at": "2026-11-25T05:48:31+05:30",
+   "song": "Ghar Jesa Lagta Hai",
+   "deity": "sanwariya",
+   "photo": "photos/sanwariya/sanwariya-03.jpg",
+   "mantra": "सांवरिया सेठ की जय",
+   "audio": "mp3",
+   "media_id": "18126774571977854",
+   "permalink": "https://www.instagram.com/reel/DgJOW0aDIce/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2196,7 +2208,7 @@
   "song:Radha Naam Jap": 170,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 177,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 182,
   "song:Radha": 177,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 179,
@@ -2211,7 +2223,7 @@
   "bottom:कमेंट में लिखें — {jaikara}": 181,
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
-  "mantra:sanwariya:सांवरिया सेठ की जय": 134,
+  "mantra:sanwariya:सांवरिया सेठ की जय": 182,
   "song:Kon Aaya": 147,
   "photo:photos/shiv/shiv-05.jpg": 149,
   "mantra:shiv:हर हर महादेव": 174,
@@ -2238,7 +2250,7 @@
   "photo:photos/radha/radha-17.jpg": 116,
   "mantra:radha:जय श्री राधे": 175,
   "song:Tere Bharose Sanwariya": 154,
-  "photo:photos/sanwariya/sanwariya-03.jpg": 124,
+  "photo:photos/sanwariya/sanwariya-03.jpg": 182,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 173,
   "song:Mere Shyaam": 172,
   "photo:photos/khatushyam/khatushyam-04.jpg": 168,
@@ -2255,7 +2267,7 @@
   "mantra:khatushyam:श्याम बाबा की जय": 136,
   "photo:photos/premanand/premanand-09.jpg": 20,
   "mantra:premanand:श्री राधा": 131,
-  "song:Ghar Jesa Lagta Hai": 130,
+  "song:Ghar Jesa Lagta Hai": 182,
   "photo:photos/sanwariya/sanwariya-05.jpg": 130,
   "photo:photos/khatushyam/khatushyam-18.jpg": 162,
   "mantra:khatushyam:लखदातार की जय": 161,
@@ -2339,9 +2351,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 181,
+ "counter": 182,
  "captions": [
-  "खाटू श्याम जी का नाम लो, सब काम बनेंगे ✨\n🎵 Mere Shyaam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "शिव में ही शांति है 🌙\n🎵 Mandir Wali Subah\nकमेंट में लिखें: ॐ नमः शिवाय",
   "मन को शांति देने वाला भजन 🎶 Radhe Tere Dar Se\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "बम बम भोले 🔱\n🎵 Jhanda Uncha Rahe\nपूरा भजन सुनें और अपनों को भेजें 🙏",
@@ -2360,7 +2371,8 @@
   "बम बम भोले 🔱\n🎵 Shambu Ki Sawari\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "राधे राधे 🙏\nमंगलवार की शुरुआत करें इस भजन के साथ — Radhe Radhe Gau Mai 🎵\nकमेंट में लिखें: राधे राधे",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Jai Shambu\nकमेंट में लिखें: हर हर महादेव",
-  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Rom Rom Mai Radhe 🎵\nकमेंट में लिखें: राधे राधे"
+  "राधे राधे 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Rom Rom Mai Radhe 🎵\nकमेंट में लिखें: राधे राधे",
+  "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Ghar Jesa Lagta Hai 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ"
  ],
  "errors": [
   {
