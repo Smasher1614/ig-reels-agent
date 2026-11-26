@@ -2255,6 +2255,18 @@
    "media_id": "17996760126112564",
    "permalink": "https://www.instagram.com/reel/DgNMZAiuZKQ/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-27#0",
+   "at": "2026-11-27T04:47:47+05:30",
+   "song": "Teri Yaad Mai Radhe",
+   "deity": "radha",
+   "photo": "photos/radha/radha-14.jpg",
+   "mantra": "जय श्री राधे",
+   "audio": "mp3",
+   "media_id": "18151239616599415",
+   "permalink": "https://www.instagram.com/reel/DgORAaLvfVw/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2284,7 +2296,7 @@
   "song:Radha": 177,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 179,
-  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 183,
+  "bottom:रोज़ भक्ति के लिए फ़ॉलो करें": 189,
   "song:Pahli Chai Shiv Ka Naam": 176,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 187,
@@ -2320,7 +2332,7 @@
   "mantra:sanwariya:जय श्री कृष्ण": 188,
   "song:Radhe Tere Dar Se": 164,
   "photo:photos/radha/radha-17.jpg": 116,
-  "mantra:radha:जय श्री राधे": 175,
+  "mantra:radha:जय श्री राधे": 189,
   "song:Tere Bharose Sanwariya": 154,
   "photo:photos/sanwariya/sanwariya-03.jpg": 182,
   "mantra:sanwariya:जय श्री सांवलिया सेठ": 173,
@@ -2344,7 +2356,7 @@
   "photo:photos/khatushyam/khatushyam-18.jpg": 162,
   "mantra:khatushyam:लखदातार की जय": 161,
   "song:Rom Rom Mai Radhe": 181,
-  "photo:photos/radha/radha-14.jpg": 88,
+  "photo:photos/radha/radha-14.jpg": 189,
   "song:Om Uchharan": 158,
   "photo:photos/shiv/shiv-06.jpg": 176,
   "mantra:shiv:ॐ महादेवाय नमः": 171,
@@ -2370,7 +2382,7 @@
   "photo:photos/sanwariya/sanwariya-01.jpg": 173,
   "song:Kafila Mahdev Ka": 185,
   "photo:photos/shiv/shiv-11.jpg": 163,
-  "song:Teri Yaad Mai Radhe": 159,
+  "song:Teri Yaad Mai Radhe": 189,
   "photo:photos/radha/radha-20.jpg": 160,
   "song:Shambu Ki Sawari": 178,
   "photo:photos/shiv/shiv-16.jpg": 150,
@@ -2423,9 +2435,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 188,
+ "counter": 189,
  "captions": [
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव",
   "आज रविवार है — राधा नाम जप से दिन की शुरुआत करें 🌸\n🎵 Radha Naam Jap\nअपनों को भेजें 🙏",
   "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
@@ -2444,7 +2455,8 @@
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kon Aaya\nकमेंट में लिखें: हर हर महादेव",
   "शिव में ही शांति है 🌙\n🎵 Badalo Mai Shambu\nकमेंट में लिखें: ॐ नमः शिवाय",
-  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏"
+  "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
+  "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏"
  ],
  "errors": [
   {
