@@ -2219,6 +2219,18 @@
    "media_id": "18101075546448531",
    "permalink": "https://www.instagram.com/reel/DgLqf5JSvqy/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-26#1",
+   "at": "2026-11-26T05:47:56+05:30",
+   "song": "Kon Aaya",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-15.jpg",
+   "mantra": "हर हर महादेव",
+   "audio": "mp3",
+   "media_id": "18102454655099075",
+   "permalink": "https://www.instagram.com/reel/DgLzGNkAq6M/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2260,9 +2272,9 @@
   "song:Thodi Der Sanwariya": 142,
   "photo:photos/sanwariya/sanwariya-02.jpg": 154,
   "mantra:sanwariya:सांवरिया सेठ की जय": 182,
-  "song:Kon Aaya": 147,
+  "song:Kon Aaya": 186,
   "photo:photos/shiv/shiv-05.jpg": 149,
-  "mantra:shiv:हर हर महादेव": 174,
+  "mantra:shiv:हर हर महादेव": 186,
   "bottom:भोले के भक्तों को भेजें": 185,
   "photo:photos/premanand/premanand-11.jpg": 7,
   "mantra:premanand:जय जय श्री राधे": 110,
@@ -2273,9 +2285,9 @@
   "photo:photos/sanwariya/sanwariya-06.jpg": 183,
   "mantra:sanwariya:मेरे सांवरिया": 183,
   "song:Jai Shambu": 180,
-  "photo:photos/shiv/shiv-15.jpg": 147,
+  "photo:photos/shiv/shiv-15.jpg": 186,
   "mantra:shiv:बम बम भोले": 180,
-  "bottom:कमेंट में लिखें — हर हर महादेव": 180,
+  "bottom:कमेंट में लिखें — हर हर महादेव": 186,
   "song:Bas Radhe Radhe": 184,
   "photo:photos/radha/radha-15.jpg": 155,
   "mantra:radha:श्री राधा रानी की जय": 184,
@@ -2387,9 +2399,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 185,
+ "counter": 186,
  "captions": [
-  "आज शनिवार — भोलेनाथ के नाम 🔱\n🎵 Saavan Ka Rang\nजय भोलेनाथ 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha Naam\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "भक्ति में ही शक्ति है 🙏\n🎵 Dil Se Tujhe Bulau Shyam Baba\nकमेंट में लिखें: जय श्री श्याम",
   "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Saavan Aaya Bhole Aaye\nकमेंट में लिखें: हर हर महादेव",
@@ -2408,7 +2419,8 @@
   "जय श्री सांवलिया सेठ 🙏\nबुधवार की शुरुआत करें इस भजन के साथ — Ghar Jesa Lagta Hai 🎵\nकमेंट में लिखें: जय श्री सांवलिया सेठ",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nSanwariya Muskura Dena\nजय श्री सांवलिया सेठ 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nBas Radhe Radhe\nराधे राधे 🙏",
-  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव"
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kafila Mahdev Ka\nकमेंट में लिखें: हर हर महादेव",
+  "हर हर महादेव 🔱\nभोले के भक्तों, आवाज़ ऊँची करो! 🙌\n🎵 Kon Aaya\nकमेंट में लिखें: हर हर महादेव"
  ],
  "errors": [
   {
