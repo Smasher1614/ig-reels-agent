@@ -2279,6 +2279,18 @@
    "media_id": "18652448242051498",
    "permalink": "https://www.instagram.com/reel/DgOWMI0MCkp/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-27#2",
+   "at": "2026-11-27T18:17:46+05:30",
+   "song": "Radha Naam Kirtan",
+   "deity": "radha",
+   "photo": "photos/radha/radha-11.jpg",
+   "mantra": "राधे राधे",
+   "audio": "mp3",
+   "media_id": "18131805514872550",
+   "permalink": "https://www.instagram.com/reel/DgPts6HTM1g/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2304,7 +2316,7 @@
   "song:Radha Naam Jap": 170,
   "photo:photos/premanand/premanand-19.jpg": 1,
   "mantra:premanand:राधा राधा": 103,
-  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 188,
+  "bottom:अपनों को भेजें, सबका दिन मंगलमय हो": 191,
   "song:Radha": 177,
   "photo:photos/radha/radha-10.jpg": 157,
   "mantra:radha:राधे कृष्ण": 179,
@@ -2353,7 +2365,7 @@
   "mantra:khatushyam:हारे का सहारा बाबा श्याम हमारा": 172,
   "song:Radhe Radhe Bol": 155,
   "photo:photos/radha/radha-08.jpg": 167,
-  "mantra:radha:राधे राधे": 177,
+  "mantra:radha:राधे राधे": 191,
   "song:Milne Aya Hu Sanwriya": 190,
   "song:Saanjh Ki Aarti": 152,
   "photo:photos/shiv/shiv-18.jpg": 158,
@@ -2382,7 +2394,7 @@
   "song:Saavan Aaya Bhole Aaye": 169,
   "photo:photos/shiv/shiv-09.jpg": 151,
   "mantra:shiv:जय शिव शंकर": 185,
-  "song:Radha Naam Kirtan": 157,
+  "song:Radha Naam Kirtan": 191,
   "photo:photos/radha/radha-03.jpg": 179,
   "song:Kawad Chale": 148,
   "photo:photos/shiv/shiv-14.jpg": 148,
@@ -2422,7 +2434,7 @@
   "song:Radha Naam": 167,
   "photo:photos/radha/radha-09.jpg": 146,
   "photo:photos/premanand/premanand-02.jpg": 58,
-  "photo:photos/radha/radha-11.jpg": 138,
+  "photo:photos/radha/radha-11.jpg": 191,
   "photo:photos/khatushyam/khatushyam-02.jpg": 60,
   "photo:photos/khatushyam/khatushyam-06.jpg": 61,
   "photo:photos/radha/radha-18.jpg": 184,
@@ -2447,9 +2459,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 190,
+ "counter": 191,
  "captions": [
-  "आज रविवार — कुछ पल महादेव के साथ 🕉️\n🎵 Shambu Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nMere Shyaam\nजय श्री श्याम 🙏",
   "मन को शांति देने वाला भजन 🎶 Sanwariya Mai Aa Gaya\nश्री सांवलिया सेठ की कृपा आप पर सदा बनी रहे 🙏\nजय श्री सांवलिया सेठ",
   "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
@@ -2468,7 +2479,8 @@
   "शिव में ही शांति है 🌙\n🎵 Badalo Mai Shambu\nकमेंट में लिखें: ॐ नमः शिवाय",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nThodi Der Sanwariya\nजय श्री सांवलिया सेठ 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Teri Yaad Mai Radhe\nअपनों के साथ ज़रूर शेयर करें 🙏",
-  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏"
+  "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
+  "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे"
  ],
  "errors": [
   {
