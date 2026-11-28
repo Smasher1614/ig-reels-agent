@@ -2315,6 +2315,18 @@
    "media_id": "18128877844808257",
    "permalink": "https://www.instagram.com/reel/DgQ0G6ViGNP/",
    "host": "release"
+  },
+  {
+   "slot": "2026-11-28#1",
+   "at": "2026-11-28T05:47:40+05:30",
+   "song": "Om Uchharan",
+   "deity": "shiv",
+   "photo": "photos/shiv/shiv-14.jpg",
+   "mantra": "शिवोहम्",
+   "audio": "mp3",
+   "media_id": "18186631798436616",
+   "permalink": "https://www.instagram.com/reel/DgQ8pJCo5cR/",
+   "host": "release"
   }
  ],
  "skipped": [
@@ -2348,7 +2360,7 @@
   "song:Pahli Chai Shiv Ka Naam": 176,
   "photo:photos/shiv/shiv-12.jpg": 145,
   "mantra:shiv:शिव शम्भो": 187,
-  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 171,
+  "bottom:कमेंट में लिखें — ॐ नमः शिवाय": 194,
   "song:Dil Se Tujhe Bulau Shyam Baba": 168,
   "photo:photos/khatushyam/khatushyam-10.jpg": 133,
   "mantra:khatushyam:जय खाटू श्याम": 168,
@@ -2393,7 +2405,7 @@
   "song:Milne Aya Hu Sanwriya": 190,
   "song:Saanjh Ki Aarti": 152,
   "photo:photos/shiv/shiv-18.jpg": 158,
-  "mantra:shiv:शिवोहम्": 158,
+  "mantra:shiv:शिवोहम्": 194,
   "bottom:आँखें बंद करें और बस सुनें": 176,
   "photo:photos/khatushyam/khatushyam-20.jpg": 19,
   "mantra:khatushyam:श्याम बाबा की जय": 136,
@@ -2405,7 +2417,7 @@
   "mantra:khatushyam:लखदातार की जय": 161,
   "song:Rom Rom Mai Radhe": 181,
   "photo:photos/radha/radha-14.jpg": 189,
-  "song:Om Uchharan": 158,
+  "song:Om Uchharan": 194,
   "photo:photos/shiv/shiv-06.jpg": 176,
   "mantra:shiv:ॐ महादेवाय नमः": 171,
   "bottom:मन को शांति दे — अपनों को भेजें": 187,
@@ -2421,7 +2433,7 @@
   "song:Radha Naam Kirtan": 191,
   "photo:photos/radha/radha-03.jpg": 179,
   "song:Kawad Chale": 148,
-  "photo:photos/shiv/shiv-14.jpg": 148,
+  "photo:photos/shiv/shiv-14.jpg": 194,
   "mantra:shiv:जय भोलेनाथ": 178,
   "song:Jhanda Uncha Rahe": 165,
   "photo:photos/shiv/shiv-07.jpg": 174,
@@ -2483,9 +2495,8 @@
   "photo:photos/premanand/premanand-03.jpg": 170,
   "photo:photos/radha/radha-01.jpg": 181
  },
- "counter": 193,
+ "counter": 194,
  "captions": [
-  "बम बम भोले 🔱\n🎵 Saavan Aa Gaya\nपूरा भजन सुनें और अपनों को भेजें 🙏",
   "दो पल रुकिए, आँखें बंद कीजिए और सुनिए 🎧\nAao Radha Ko Pukare\nराधे राधे 🙏",
   "आज सोमवार — कुछ पल महादेव के साथ 🕉️\n🎵 Pahli Chai Shiv Ka Naam\nमन शांत हो तो अपनों को भी भेजें 🙏",
   "श्री राधा रानी का नाम लो, सब काम बनेंगे ✨\n🎵 Radha\nअपनों के साथ ज़रूर शेयर करें 🙏",
@@ -2504,7 +2515,8 @@
   "श्री सांवलिया सेठ का नाम लो, सब काम बनेंगे ✨\n🎵 Milne Aya Hu Sanwriya\nअपनों के साथ ज़रूर शेयर करें 🙏",
   "मन को शांति देने वाला भजन 🎶 Radha Naam Kirtan\nश्री राधा रानी की कृपा आप पर सदा बनी रहे 🙏\nराधे राधे",
   "भक्ति में ही शक्ति है 🙏\n🎵 Radha Naam Tera\nकमेंट में लिखें: राधे राधे",
-  "आज शनिवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radhe Tere Dar Se\nराधे राधे 🙏"
+  "आज शनिवार है — श्री राधा रानी को याद करें 🌼\n🎵 Radhe Tere Dar Se\nराधे राधे 🙏",
+  "ॐ नमः शिवाय 🙏\nआँखें बंद करें, साँस धीमी करें… और बस सुनें 🎧\n🎵 Om Uchharan"
  ],
  "errors": [
   {
